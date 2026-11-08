@@ -1421,3 +1421,248 @@ footer.hub-footer {
     gap: 0.85rem;
   }
 }
+
+
+/* ==========================================================================
+   INTERACTIVE PILOT: KARAOKE, ROLEPLAY, TRANSLATION & SHADOWING
+   ========================================================================== */
+
+/* Active Karaoke Real-time Highlight */
+.turn-card.is-karaoke-active {
+  border-color: var(--cobalt) !important;
+  box-shadow: 0 4px 18px rgba(0, 16, 168, 0.18) !important;
+  background: #FFFFFF !important;
+  transform: translateY(-2px);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.turn-card.is-karaoke-active .speaker-avatar {
+  background: var(--cobalt) !important;
+  color: #FFFFFF !important;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 3px rgba(0, 16, 168, 0.2);
+}
+
+.turn-card.is-karaoke-active .bubble-text {
+  color: var(--cobalt) !important;
+  font-weight: 600;
+}
+
+/* Roleplay Selector Bar */
+.roleplay-bar {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  box-shadow: var(--shadow-sm);
+}
+
+.roleplay-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.roleplay-pills {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.roleplay-pill {
+  background: var(--bg-warm);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.roleplay-pill:hover {
+  border-color: var(--cobalt);
+  color: var(--cobalt);
+}
+
+.roleplay-pill.active {
+  background: var(--cobalt);
+  color: #FFFFFF;
+  border-color: var(--cobalt);
+}
+
+/* Roleplay Waiting Turn */
+.turn-card.is-roleplay-waiting {
+  border-color: #E6B800 !important;
+  background: #FFFDF0 !important;
+  box-shadow: 0 0 0 3px rgba(230, 184, 0, 0.3) !important;
+  animation: pulse-roleplay 1.8s infinite ease-in-out;
+}
+
+@keyframes pulse-roleplay {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(230, 184, 0, 0.3); }
+  50% { box-shadow: 0 0 0 7px rgba(230, 184, 0, 0.1); }
+}
+
+.roleplay-prompt-banner {
+  background: #FFD92E;
+  color: #17152C;
+  font-weight: 800;
+  font-size: 0.78rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-roleplay-continue {
+  background: #17152C;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Turn Actions Bar (Inside Bubble) */
+.turn-actions-bar {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--border-subtle);
+  flex-wrap: wrap;
+}
+
+.btn-bubble-play, .btn-bubble-pt, .btn-bubble-rec {
+  background: var(--bg-warm);
+  border: 1px solid var(--border-subtle);
+  border-radius: 4px;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-main);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all 0.15s ease;
+}
+
+.btn-bubble-play:hover {
+  background: var(--cobalt-light);
+  border-color: var(--cobalt);
+  color: var(--cobalt);
+}
+
+.btn-bubble-pt:hover {
+  background: #E8F5E9;
+  border-color: #2E7D32;
+  color: #2E7D32;
+}
+
+.btn-bubble-rec:hover {
+  background: #FFEBEE;
+  border-color: #C62828;
+  color: #C62828;
+}
+
+.btn-bubble-rec.recording {
+  background: #C62828 !important;
+  color: #FFFFFF !important;
+  border-color: #C62828 !important;
+  animation: pulse-rec 1s infinite alternate;
+}
+
+@keyframes pulse-rec {
+  from { opacity: 1; }
+  to { opacity: 0.6; }
+}
+
+/* Translation Box */
+.turn-translation-box {
+  background: #F1F8F1;
+  border-left: 3px solid #2E7D32;
+  border-radius: 0 4px 4px 0;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: #1B5E20;
+}
+
+.pt-flag {
+  margin-right: 0.3rem;
+}
+
+/* Recording Feedback Box */
+.recording-feedback-box {
+  background: #FAF8F3;
+  border: 1px solid var(--border-subtle);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.6rem;
+}
+
+.rec-status-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #C62828;
+}
+
+.rec-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #C62828;
+  display: inline-block;
+  animation: pulse-rec 0.8s infinite alternate;
+}
+
+.btn-stop-rec {
+  background: #C62828;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.rec-player-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+.rec-label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
+.user-recorded-audio {
+  height: 32px;
+  width: 100%;
+}
