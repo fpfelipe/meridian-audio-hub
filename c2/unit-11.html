@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>MERIDIAN • C2 Unit 11: The Art of the Keynote: Rhetoric, Cadence & Global Presence</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../assets/css/player.css">
 </head>
 <body>
+  <!-- Header -->
   <header class="hub-header">
     <div class="header-inner">
       <a href="../index.html" class="brand-wrap">
@@ -22,135 +23,414 @@
     </div>
   </header>
 
+  <!-- Main Content -->
   <main class="hub-main">
+    <!-- Hero Box -->
     <div class="hero-box">
-      <span class="hero-kicker">Volume 06 • CEFR C2 Mastery • Unit 11</span>
+      <div class="hero-kicker-row">
+        <span class="hero-kicker">Volume 06 • CEFR C2 Mastery</span>
+        <span class="hero-unit-tag">Unit 11</span>
+      </div>
       <h1 class="hero-title">The Art of the Keynote: Rhetoric, Cadence & Global Presence</h1>
       <p class="hero-desc">From the World Economic Forum at Davos to the green marble podium of the United Nations General Assembly, world leaders move nations not through spreadsheets, but through the hypnotic power of classical oratory. Deconstructing rhetorical crescendo, chiasmus, symmetrical antithesis, and sovereign cadence.</p>
+      <div class="hero-meta-row">
+        <span class="hero-pill">🎵 2 Faixas Oficiais</span>
+        <span class="hero-pill">⚡ Pacing: 150–170 WPM</span>
+        <span class="hero-pill">🌍 Dual-Anchor (US/UK)</span>
+        <span class="hero-pill">🎧 Studio Fidelity (128 kbps)</span>
+      </div>
     </div>
 
-    <h2 class="tracks-section-title">Faixas de Áudio Oficiais (2 faixas)</h2>
+    <!-- Segmented Track Tabs Bar -->
+    <div class="track-tabs-container">
+      <nav class="track-tabs-bar" role="tablist" aria-label="Faixas de áudio desta unidade">
+        
+        <button type="button" class="track-tab-btn active" data-track-id="AUDIO_C2_U11_T01" role="tab" aria-selected="true">
+          <span class="tab-badge">Faixa 1</span>
+          <span class="tab-label">The Art of the Keynote: Davos World Economic Forum Plenary Address</span>
+          <span class="tab-meta">167 WPM • 57,2 s</span>
+        </button>
+        
+        
+        <button type="button" class="track-tab-btn " data-track-id="AUDIO_C2_U11_T02" role="tab" aria-selected="false">
+          <span class="tab-badge">Faixa 2</span>
+          <span class="tab-label">Pronunciation Clinic: Rhetorical Crescendo, Chiasmus & Tricolon Timing</span>
+          <span class="tab-meta">139 WPM • 48 s</span>
+        </button>
+        
+      </nav>
+    </div>
 
-    
-    <article class="track-card">
-      <div class="track-header">
-        <div>
-          <span class="track-kicker">AUDIO_C2_U11_T01</span>
-          <h3 class="track-title">Track 1: Listening Comprehension & Accent Lab</h3>
-        </div>
-        <div class="track-meta-pills">
-          <span class="track-pill">150–170 WPM</span>
-          <span class="track-pill">Dual-Anchor (General American & Modern British)</span>
-        </div>
-      </div>
-
-      <div class="player-widget">
-        <audio preload="metadata">
-          <source src="../tracks/c2/AUDIO_C2_U11_T01.mp3" type="audio/mpeg">
-          Seu navegador não suporta a tag de áudio HTML5.
-        </audio>
-
-        <div class="player-controls-row">
-          <button type="button" class="play-pause-btn" aria-label="Play/Pause">▶</button>
-          <div class="scrubber-wrap">
-            <input type="range" class="scrubber-bar" min="0" max="100" value="0" aria-label="Audio scrubber">
-            <div class="time-display">
-              <span class="current-time">00:00</span>
-              <span class="duration-time">--:--</span>
+    <!-- Track Panels Container -->
+    <div class="track-panels-container">
+      
+      <section class="track-panel " id="panel-AUDIO_C2_U11_T01" aria-label="The Art of the Keynote: Davos World Economic Forum Plenary Address">
+        
+        <!-- Modern Player Card -->
+        <article class="player-card">
+          <div class="player-header">
+            <div class="player-title-wrap">
+              <span class="player-track-id">AUDIO_C2_U11_T01</span>
+              <h2 class="player-track-title">The Art of the Keynote: Davos World Economic Forum Plenary Address</h2>
             </div>
+            <div class="player-meta-badges">
+              <span class="player-badge">⚡ 167 WPM</span>
+              <span class="player-badge">⏱️ 57,2 s</span>
+            </div>
+          </div>
+
+          <div class="player-controls-container">
+            <audio preload="metadata">
+              <source src="../tracks/c2/AUDIO_C2_U11_T01.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+
+            <!-- Main Playback Controls -->
+            <div class="main-controls-row">
+              <button type="button" class="btn-skip btn-skip-backward" aria-label="Voltar 5 segundos" title="Voltar 5 segundos">⏪ 5s</button>
+              <button type="button" class="btn-play-pause" aria-label="Reproduzir / Pausar">▶</button>
+              <button type="button" class="btn-skip btn-skip-forward" aria-label="Avançar 5 segundos" title="Avançar 5 segundos">5s ⏩</button>
+            </div>
+
+            <!-- Scrubber Bar -->
+            <div class="scrubber-group">
+              <input type="range" class="scrubber-input" min="0" max="100" value="0" aria-label="Barra de progresso do áudio">
+              <div class="scrubber-time-row">
+                <span class="current-time">00:00</span>
+                <span class="duration-time">--:--</span>
+              </div>
+            </div>
+
+            <!-- Speed Pills Row -->
+            <div class="speed-row">
+              <span class="speed-caption">Velocidade:</span>
+              <div class="speed-pills">
+                <button type="button" class="speed-pill-btn" data-speed="0.8">0.8x</button>
+                <button type="button" class="speed-pill-btn" data-speed="0.9">0.9x</button>
+                <button type="button" class="speed-pill-btn active" data-speed="1.0">1.0x</button>
+                <button type="button" class="speed-pill-btn" data-speed="1.2">1.2x</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Interactive Toolbar: Dual-View & Listening Gym -->
+        <div class="dialogue-toolbar">
+          <div class="toolbar-actions-row">
+            <!-- Dual-View Toggle -->
+            <div class="view-switch" role="tablist">
+              <button type="button" class="view-btn active" data-view="chat" role="tab" aria-selected="true">
+                <span>💬</span> Diálogo Interativo
+              </button>
+              <button type="button" class="view-btn" data-view="dossier" role="tab" aria-selected="false">
+                <span>📋</span> Ficha Técnica & Fonética
+              </button>
+            </div>
+
+            <!-- Listening Gym Controls -->
+            <div class="gym-actions-wrap">
+              <button type="button" class="btn-gym-toggle" title="Oculte o texto para treinar o ouvido antes de ler">
+                <span>🕶️</span> Modo Treino Auditivo
+              </button>
+              <button type="button" class="btn-gym-reveal-all hidden">
+                👁️ Revelar Tudo
+              </button>
+            </div>
+          </div>
+
+          <!-- Listening Gym Active Guidance -->
+          <div class="gym-tip-banner hidden">
+            <span>🎧</span>
+            <div><strong>Modo Treino Auditivo Ativado:</strong> As falas estão desfocadas para exercitar sua escuta ativa. <em>Toque em qualquer balão</em> para revelar a frase linha a linha!</div>
           </div>
         </div>
 
-        <div class="speed-controls">
-          <span class="speed-label">Velocidade:</span>
-          <button type="button" class="speed-btn" data-speed="0.8">0.8x</button>
-          <button type="button" class="speed-btn active" data-speed="1.0">1.0x</button>
-          <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
-        </div>
-      </div>
-
-      <div class="transcript-accordion">
-        <button type="button" class="transcript-toggle" data-target="transcript-AUDIO_C2_U11_T01">
-          👁 Ver Roteiro Textual (Anti-Spoiler)
-        </button>
-        <div class="transcript-body" id="transcript-AUDIO_C2_U11_T01">
-AUDIO_C2_U11_T01 — Masterclass: The Acoustics of Authority and the Rhythmic Climax
-**Duration:** 3 min 50 sec | **Calibration:** 155 WPM
-
-```text
-Mr. Arthur Pendelton: Welcome, colleagues. When people analyze a historic speech—whether Martin Luther King on the Mall or Churchill in the Commons—they often credit mystical 'charisma.' But if you examine the transcripts in the archives, you discover pure mathematics. It is metrical architecture. Elena, what happens acoustically when a speaker lands on a chiasmus?
-Ms. Elena Rostova: It triggers a neurological sense of closure, Arthur. In Western prosody, when an audience hears an AB sequence—'Let us never negotiate out of fear'—the brain instinctively expects the symmetrical BA resolution: 'but let us never fear to negotiate.' When the speaker delivers that inversion with a falling terminal pitch, the audience feels a visceral sense of aesthetic completion. It is like a musical chord resolving to its tonic.
-Mr. Arthur Pendelton: Exactly. And observe the ascending tricolon! In drafting for prime ministers, I never write two parallel clauses; I always write three. Clause one states the premise: 'We have faced economic storms.' Clause two expands the scope: 'We have endured geopolitical tremors.' And clause three delivers the emotional crescendo: 'And we have preserved the sacred covenant of our democracy.'
-Ms. Elena Rostova: But Arthur, the fatal flaw of most executives is tempo. They rush clause three! They fear that if they stop speaking, the audience will tune out. But the master orator does the opposite: they drop their volume, slow down by twenty percent, and insert a four-second pregnant pause before the final clause. That silence commands the room more powerfully than any shout.
-```
-        </div>
-      </div>
-    </article>
-    
-
-    <article class="track-card">
-      <div class="track-header">
-        <div>
-          <span class="track-kicker">AUDIO_C2_U11_T02</span>
-          <h3 class="track-title">Track 2: Pronunciation Clinic & Phonetic Reduction</h3>
-        </div>
-        <div class="track-meta-pills">
-          <span class="track-pill">150–170 WPM</span>
-          <span class="track-pill">Dual-Anchor (General American & Modern British)</span>
-        </div>
-      </div>
-
-      <div class="player-widget">
-        <audio preload="metadata">
-          <source src="../tracks/c2/AUDIO_C2_U11_T02.mp3" type="audio/mpeg">
-          Seu navegador não suporta a tag de áudio HTML5.
-        </audio>
-
-        <div class="player-controls-row">
-          <button type="button" class="play-pause-btn" aria-label="Play/Pause">▶</button>
-          <div class="scrubber-wrap">
-            <input type="range" class="scrubber-bar" min="0" max="100" value="0" aria-label="Audio scrubber">
-            <div class="time-display">
-              <span class="current-time">00:00</span>
-              <span class="duration-time">--:--</span>
+        <!-- VIEW 1: Conversational Speech Bubbles -->
+        <div class="dialogue-view">
+          
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">🎯</span>
+                  <span class="speaker-name">Phonetics Coach</span>
+                  <span class="speaker-role">Instrução & Prática Auditiva</span>
+                </div>
+                <span class="accent-badge">🎯 Fonética Aplicada</span>
+              </div>
+              
+              <div class="bubble-text">
+                Secretary-General Amira Al-Hassan: Prime ministers, chief executives, and delegates of the World Economic Forum. We assemble in Davos not to celebrate our past prosperity, but to confront an existential test of global stewardship. Look beyond these snow-capped mountains: our planetary climate is destabilizing, our technological breakthroughs risk fracturing into rival geopolitical silos, and the bonds of multilateral trust are fraying at the seams. What the world demands of this plenary is not another hollow corporate communique, but courageous, coordinated, and non-negotiable leadership. Let us never negotiate out of fear, but let us never fear to negotiate. We have diagnosed our crises with clarity; we have developed our solutions with precision; and now we shall execute our commitments with unwavering moral courage. Let our legacy be not the wealth we accumulated in isolation, but the civilization we preserved in solidarity. History will judge us not by the promises we made upon this stage, but by the tangible hope we deliver to humanity tomorrow.
+              </div>
             </div>
+        </div>
+
+        <!-- VIEW 2: Ficha Técnica & Fonética Dossier -->
+        <div class="dossier-view">
+          <!-- Setting & Scenario -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📍</span> Contexto & Ambientação Acústica</h3>
+            <p class="dossier-item-value">The Art of the Keynote: Rhetoric, Cadence & Global Presence • Imersão Situacional (Propositional Precision & Idiomatic Depth)</p>
+          </article>
+
+          <!-- Delivery Metrics -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📊</span> Parâmetros Acústicos & Velocidade de Fala</h3>
+            <div class="dossier-grid">
+              <div class="dossier-item">
+                <div class="dossier-item-label">Velocidade Medida</div>
+                <div class="dossier-item-value"><strong>167 WPM</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Duração Efetiva</div>
+                <div class="dossier-item-value"><strong>57,2 s</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Modelo Fonético</div>
+                <div class="dossier-item-value">Dual-Anchor International Standard</div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Padrão de Áudio</div>
+                <div class="dossier-item-value">Master 22.05 kHz • MP3 128 kbps</div>
+              </div>
+            </div>
+          </article>
+
+          
+
+          
+        </div>
+
+      </section>
+      
+      
+      <section class="track-panel is-hidden" id="panel-AUDIO_C2_U11_T02" aria-label="Pronunciation Clinic: Rhetorical Crescendo, Chiasmus & Tricolon Timing">
+        
+        <!-- Modern Player Card -->
+        <article class="player-card">
+          <div class="player-header">
+            <div class="player-title-wrap">
+              <span class="player-track-id">AUDIO_C2_U11_T02</span>
+              <h2 class="player-track-title">Pronunciation Clinic: Rhetorical Crescendo, Chiasmus & Tricolon Timing</h2>
+            </div>
+            <div class="player-meta-badges">
+              <span class="player-badge">⚡ 139 WPM</span>
+              <span class="player-badge">⏱️ 48 s</span>
+            </div>
+          </div>
+
+          <div class="player-controls-container">
+            <audio preload="metadata">
+              <source src="../tracks/c2/AUDIO_C2_U11_T02.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+
+            <!-- Main Playback Controls -->
+            <div class="main-controls-row">
+              <button type="button" class="btn-skip btn-skip-backward" aria-label="Voltar 5 segundos" title="Voltar 5 segundos">⏪ 5s</button>
+              <button type="button" class="btn-play-pause" aria-label="Reproduzir / Pausar">▶</button>
+              <button type="button" class="btn-skip btn-skip-forward" aria-label="Avançar 5 segundos" title="Avançar 5 segundos">5s ⏩</button>
+            </div>
+
+            <!-- Scrubber Bar -->
+            <div class="scrubber-group">
+              <input type="range" class="scrubber-input" min="0" max="100" value="0" aria-label="Barra de progresso do áudio">
+              <div class="scrubber-time-row">
+                <span class="current-time">00:00</span>
+                <span class="duration-time">--:--</span>
+              </div>
+            </div>
+
+            <!-- Speed Pills Row -->
+            <div class="speed-row">
+              <span class="speed-caption">Velocidade:</span>
+              <div class="speed-pills">
+                <button type="button" class="speed-pill-btn" data-speed="0.8">0.8x</button>
+                <button type="button" class="speed-pill-btn" data-speed="0.9">0.9x</button>
+                <button type="button" class="speed-pill-btn active" data-speed="1.0">1.0x</button>
+                <button type="button" class="speed-pill-btn" data-speed="1.2">1.2x</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Interactive Toolbar: Dual-View & Listening Gym -->
+        <div class="dialogue-toolbar">
+          <div class="toolbar-actions-row">
+            <!-- Dual-View Toggle -->
+            <div class="view-switch" role="tablist">
+              <button type="button" class="view-btn active" data-view="chat" role="tab" aria-selected="true">
+                <span>💬</span> Diálogo Interativo
+              </button>
+              <button type="button" class="view-btn" data-view="dossier" role="tab" aria-selected="false">
+                <span>📋</span> Ficha Técnica & Fonética
+              </button>
+            </div>
+
+            <!-- Listening Gym Controls -->
+            <div class="gym-actions-wrap">
+              <button type="button" class="btn-gym-toggle" title="Oculte o texto para treinar o ouvido antes de ler">
+                <span>🕶️</span> Modo Treino Auditivo
+              </button>
+              <button type="button" class="btn-gym-reveal-all hidden">
+                👁️ Revelar Tudo
+              </button>
+            </div>
+          </div>
+
+          <!-- Listening Gym Active Guidance -->
+          <div class="gym-tip-banner hidden">
+            <span>🎧</span>
+            <div><strong>Modo Treino Auditivo Ativado:</strong> As falas estão desfocadas para exercitar sua escuta ativa. <em>Toque em qualquer balão</em> para revelar a frase linha a linha!</div>
           </div>
         </div>
 
-        <div class="speed-controls">
-          <span class="speed-label">Velocidade:</span>
-          <button type="button" class="speed-btn" data-speed="0.8">0.8x</button>
-          <button type="button" class="speed-btn active" data-speed="1.0">1.0x</button>
-          <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
+        <!-- VIEW 1: Conversational Speech Bubbles -->
+        <div class="dialogue-view">
+          
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">🎙️</span>
+                  <span class="speaker-name">Narrator</span>
+                  <span class="speaker-role">Oficina Fonética</span>
+                </div>
+                <span class="accent-badge">🎙️ Áudio Guia • Dual-Anchor</span>
+              </div>
+              
+              <div class="bubble-text">
+                Unit 11 Pronunciation Clinic. High oratorical cadence, rhetorical crescendo, chiasmus, and tricolon timing on global stages.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">🎙️</span>
+                  <span class="speaker-name">Speaker</span>
+                  <span class="speaker-role">Oficina Fonética</span>
+                </div>
+                <span class="accent-badge">🎙️ Áudio Guia • Dual-Anchor</span>
+              </div>
+              
+              <div class="bubble-text">
+                Number one. Chiasmic inversion (AB-BA structure): Let us never negotiate out of fear, but let us never fear to negotiate.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">🎙️</span>
+                  <span class="speaker-name">Speaker</span>
+                  <span class="speaker-role">Oficina Fonética</span>
+                </div>
+                <span class="accent-badge">🎙️ Áudio Guia • Dual-Anchor</span>
+              </div>
+              
+              <div class="bubble-text">
+                Number two. Executive tricolon with escalating pitch and volume: We have diagnosed the crisis with clarity; we have engineered the solution with precision; and we shall execute the transformation with courage.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">🎙️</span>
+                  <span class="speaker-name">Speaker</span>
+                  <span class="speaker-role">Oficina Fonética</span>
+                </div>
+                <span class="accent-badge">🎙️ Áudio Guia • Dual-Anchor</span>
+              </div>
+              
+              <div class="bubble-text">
+                Number three. The formal imperative shall in plenary oratory: The nations shall unite; the treaty shall endure; justice shall prevail.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">🎙️</span>
+                  <span class="speaker-name">Speaker</span>
+                  <span class="speaker-role">Oficina Fonética</span>
+                </div>
+                <span class="accent-badge">🎙️ Áudio Guia • Dual-Anchor</span>
+              </div>
+              
+              <div class="bubble-text">
+                Number four. Master the oratorical pause before a climactic declaration: In the arena of global leadership... silence is not emptiness... silence is sovereign authority.
+              </div>
+            </div>
         </div>
-      </div>
 
-      <div class="transcript-accordion">
-        <button type="button" class="transcript-toggle" data-target="transcript-AUDIO_C2_U11_T02">
-          👁 Ver Roteiro Textual (Anti-Spoiler)
-        </button>
-        <div class="transcript-body" id="transcript-AUDIO_C2_U11_T02">
-AUDIO_C2_U11_T02 — Oratorical Prosody: Orchestrating the Triple Ascending Cadence
-**Calibration:** 150 WPM
+        <!-- VIEW 2: Ficha Técnica & Fonética Dossier -->
+        <div class="dossier-view">
+          <!-- Setting & Scenario -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📍</span> Contexto & Ambientação Acústica</h3>
+            <p class="dossier-item-value">The Art of the Keynote: Rhetoric, Cadence & Global Presence • Imersão Situacional (Propositional Precision & Idiomatic Depth)</p>
+          </article>
 
-```text
-Narrator: In plenary keynote oratory, delivering an ascending tricolon requires escalating vocal volume and expanding metric duration across each clause. Listen to the contrast:
-Rushed / Monotone Delivery: 'We will fight for our jobs, we will fight for our families, we will fight for our future.'
-Master Plenary C2 Delivery: 'We shall fight... for our JOBS. [Micro-pause] We shall mobilize... for our FAMILIES. [Longer pause] And we shall NEVER... surrender... our COMMON FUTURE.'
-Narrator: Notice how the speaker elongates vowels on 'NEVER' and 'SURRENDER', raises vocal projection, and concludes with an authoritative downward pitch fall on 'FUTURE'. Practice this crescendo to electrify thousands.'
-```
+          <!-- Delivery Metrics -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📊</span> Parâmetros Acústicos & Velocidade de Fala</h3>
+            <div class="dossier-grid">
+              <div class="dossier-item">
+                <div class="dossier-item-label">Velocidade Medida</div>
+                <div class="dossier-item-value"><strong>139 WPM</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Duração Efetiva</div>
+                <div class="dossier-item-value"><strong>48 s</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Modelo Fonético</div>
+                <div class="dossier-item-value">Dual-Anchor International Standard</div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Padrão de Áudio</div>
+                <div class="dossier-item-value">Master 22.05 kHz • MP3 128 kbps</div>
+              </div>
+            </div>
+          </article>
+
+          
+
+          
         </div>
-      </div>
-    </article>
-    
 
-    <div style="display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-card);">
-      <a href="unit-10.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem;">← Unidade Anterior</a>
-      <a href="../index.html" style="color: var(--text-muted); font-size: 0.88rem; text-decoration: none;">Hub Principal</a>
-      <a href="unit-12.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem;">Próxima Unidade →</a>
+      </section>
+      
     </div>
+
+    <!-- Lesson Navigation Links -->
+    <nav style="display: flex; justify-content: space-between; align-items: center; margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border-card);">
+      <a href="unit-10.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem; padding: 0.4rem 0.6rem; border-radius: var(--radius-sm); background: var(--bg-card); border: 1px solid var(--border-subtle);">← Unidade Anterior</a>
+      <a href="../index.html" style="color: var(--text-muted); font-size: 0.85rem; font-weight: 700; text-decoration: none;">Índice de Volumes</a>
+      <a href="unit-12.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem; padding: 0.4rem 0.6rem; border-radius: var(--radius-sm); background: var(--bg-card); border: 1px solid var(--border-subtle);">Próxima Unidade →</a>
+    </nav>
   </main>
 
+  <!-- Sticky Floating Mobile Player Dock -->
+  <aside class="sticky-player-dock" id="stickyPlayerDock" aria-label="Controles flutuantes de áudio">
+    <div class="dock-progress-line">
+      <div class="dock-progress-fill" id="dockProgressFill"></div>
+    </div>
+    <div class="dock-content">
+      <div class="dock-track-info">
+        <span class="dock-track-kicker" id="dockTrackKicker">C2 Unit 11</span>
+        <span class="dock-track-title" id="dockTrackTitle">The Art of the Keynote: Davos World Economic Forum Plenary Address</span>
+      </div>
+      <div class="dock-actions">
+        <button type="button" class="dock-btn" id="dockReplayBtn" aria-label="Voltar 5 segundos" title="-5s">⏪ 5s</button>
+        <button type="button" class="dock-btn dock-btn-play" id="dockPlayBtn" aria-label="Reproduzir / Pausar">▶</button>
+        <button type="button" class="dock-btn" id="dockForwardBtn" aria-label="Avançar 5 segundos" title="+5s">5s ⏩</button>
+        <span class="dock-time-pill" id="dockTime">00:00 / --:--</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Footer -->
   <footer class="hub-footer">
     <p><strong>MERIDIAN Learning Collection</strong> • Sistema Internacional de Aprendizagem de Inglês</p>
     <p style="margin-top: 0.4rem; font-size: 0.72rem;">Distribuído via GitHub Pages • Áudios Otimizados 128 kbps • © Direção A Editorial</p>

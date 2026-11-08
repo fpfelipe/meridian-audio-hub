@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>MERIDIAN Audio Hub • Portal Oficial de Áudios e Pronúncia</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,38 +10,73 @@
   <link rel="stylesheet" href="assets/css/player.css">
 </head>
 <body>
+  <!-- Header -->
   <header class="hub-header">
     <div class="header-inner">
       <a href="index.html" class="brand-wrap">
         <span class="brand-title">MERIDIAN</span>
         <span class="brand-badge">Audio Hub</span>
       </a>
-      <div style="font-size: 0.82rem; font-weight: 700; color: var(--cobalt);">
-        66 Lições • 164 Faixas Oficiais
+      <div style="font-size: 0.82rem; font-weight: 700; color: var(--cobalt); white-space: nowrap;">
+        66 Lições • 164 Faixas
       </div>
     </div>
   </header>
 
+  <!-- Main Content -->
   <main class="hub-main">
+    <!-- Hero Box -->
     <div class="hero-box">
       <span class="hero-kicker">Distribuição Digital de Alta Fidelidade</span>
       <h1 class="hero-title">MERIDIAN Audio Hub</h1>
       <p class="hero-desc">
-        Acesse instantaneamente todos os áudios, diálogos situacionais, oficinas de pronúncia e testes práticos da Coleção MERIDIAN (Níveis A1 a C2). Escaneie o QR Code no seu livro impresso ou selecione a lição abaixo.
+        Acesse instantaneamente todos os áudios, diálogos situacionais, oficinas de pronúncia e treinos auditivos da Coleção MERIDIAN (Níveis A1 a C2). Escaneie o QR Code no seu livro ou filtre a lição abaixo.
       </p>
     </div>
 
+    <!-- Mobile Fast Level Filter Bar -->
+    <div class="portal-filter-bar" role="tablist" aria-label="Filtrar por nível CEFR">
+      <button type="button" class="portal-filter-pill active" data-level="all" role="tab" aria-selected="true">
+        Todos os Níveis (66)
+      </button>
+      <button type="button" class="portal-filter-pill" data-level="a1" role="tab" aria-selected="false">
+        A1 Beginner (9)
+      </button>
+      <button type="button" class="portal-filter-pill" data-level="a2" role="tab" aria-selected="false">
+        A2 Elementary (9)
+      </button>
+      <button type="button" class="portal-filter-pill" data-level="b1" role="tab" aria-selected="false">
+        B1 Intermediate (12)
+      </button>
+      <button type="button" class="portal-filter-pill" data-level="b2" role="tab" aria-selected="false">
+        B2 Upper-Int (12)
+      </button>
+      <button type="button" class="portal-filter-pill" data-level="c1" role="tab" aria-selected="false">
+        C1 Advanced (12)
+      </button>
+      <button type="button" class="portal-filter-pill" data-level="c2" role="tab" aria-selected="false">
+        C2 Mastery (12)
+      </button>
+    </div>
+
+    <!-- Instant Search Bar -->
+    <div class="portal-search-wrap">
+      <span class="portal-search-icon">🔍</span>
+      <input type="search" class="portal-search-input" id="portalSearchInput" placeholder="Buscar por tema, cidade, gramática ou lição (ex: Hotel, Tokyo, Passive, Jobs)..." aria-label="Buscar lições de áudio">
+    </div>
+
+    <!-- Volumes Grid -->
     <div class="volumes-grid">
       
-        <article class="volume-card">
+        <article class="volume-card" data-level="a1">
           <div>
             <span class="volume-tag">A1 • 85–95 WPM</span>
             <h2 class="volume-name">Volume 01 • CEFR A1 Beginner</h2>
             <p class="volume-meta">Foundations & Everyday Life • 9 unidades de estudo</p>
           </div>
           <div>
-            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; letter-spacing: 0.08em;">Acessar Lições:</p>
-            <ul class="unit-links-list">
+            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 0.08em;">Acessar Lições:</p>
+            <ul class="unit-links-grid">
               <li><a href="a1/unit-01.html" title="First Coordinates">U01</a></li>
               <li><a href="a1/unit-02.html" title="Everyday Spaces">U02</a></li>
               <li><a href="a1/unit-03.html" title="Daily Rhythms">U03</a></li>
@@ -55,15 +90,15 @@
           </div>
         </article>
       
-        <article class="volume-card">
+        <article class="volume-card" data-level="a2">
           <div>
             <span class="volume-tag">A2 • 100–115 WPM</span>
             <h2 class="volume-name">Volume 02 • CEFR A2 Elementary</h2>
             <p class="volume-meta">Everyday Fluidity & Milestones • 9 unidades de estudo</p>
           </div>
           <div>
-            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; letter-spacing: 0.08em;">Acessar Lições:</p>
-            <ul class="unit-links-list">
+            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 0.08em;">Acessar Lições:</p>
+            <ul class="unit-links-grid">
               <li><a href="a2/unit-01.html" title="Turning Points & Biographies">U01</a></li>
               <li><a href="a2/unit-02.html" title="Moments in Motion">U02</a></li>
               <li><a href="a2/unit-03.html" title="Workplaces, Professions & Career Paths">U03</a></li>
@@ -77,15 +112,15 @@
           </div>
         </article>
       
-        <article class="volume-card">
+        <article class="volume-card" data-level="b1">
           <div>
             <span class="volume-tag">B1 • 125–140 WPM</span>
             <h2 class="volume-name">Volume 03 • CEFR B1 Intermediate</h2>
             <p class="volume-meta">Autonomy, Culture & Travel • 12 unidades de estudo</p>
           </div>
           <div>
-            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; letter-spacing: 0.08em;">Acessar Lições:</p>
-            <ul class="unit-links-list">
+            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 0.08em;">Acessar Lições:</p>
+            <ul class="unit-links-grid">
               <li><a href="b1/unit-01.html" title="Unfinished Journeys: Language, Migration & Identity">U01</a></li>
               <li><a href="b1/unit-02.html" title="How Brands Communicate: Voice, Reputation & Storytelling">U02</a></li>
               <li><a href="b1/unit-03.html" title="Architecture of Memory: Places, Spaces & Preservation">U03</a></li>
@@ -95,22 +130,22 @@
               <li><a href="b1/unit-07.html" title="The Verification Desk: Truth in the Digital Age">U07</a></li>
               <li><a href="b1/unit-08.html" title="The Stoic Compass: Emotional Agility at Work">U08</a></li>
               <li><a href="b1/unit-09.html" title="Seeds of Heritage: Terroir, Culture & Food Memory">U09</a></li>
-              <li><a href="b1/unit-10.html" title="Unit 10">U10</a></li>
-              <li><a href="b1/unit-11.html" title="Unit 11">U11</a></li>
-              <li><a href="b1/unit-12.html" title="Unit 12">U12</a></li>
+              <li><a href="b1/unit-10.html" title="The Automated Desk: Navigating the Hybrid Shift">U10</a></li>
+              <li><a href="b1/unit-11.html" title="The Anatomy of the Polite 'No': Cross-Cultural Pragmatics">U11</a></li>
+              <li><a href="b1/unit-12.html" title="Voices in the Agora: Civic Deliberation & Rhetoric">U12</a></li>
             </ul>
           </div>
         </article>
       
-        <article class="volume-card">
+        <article class="volume-card" data-level="b2">
           <div>
-            <span class="volume-tag">B2 • 125–140 WPM</span>
+            <span class="volume-tag">B2 • 130–145 WPM</span>
             <h2 class="volume-name">Volume 04 • CEFR B2 Upper-Intermediate</h2>
             <p class="volume-meta">Complex Global Discourse • 12 unidades de estudo</p>
           </div>
           <div>
-            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; letter-spacing: 0.08em;">Acessar Lições:</p>
-            <ul class="unit-links-list">
+            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 0.08em;">Acessar Lições:</p>
+            <ul class="unit-links-grid">
               <li><a href="b2/unit-01.html" title="The Business of Global Sports: Governance, Economics & Legacy">U01</a></li>
               <li><a href="b2/unit-02.html" title="Hindsight & Counterfactuals: History, Regret & Turning Points">U02</a></li>
               <li><a href="b2/unit-03.html" title="Algorithms & Clinical Precision: The Future of Medicine">U03</a></li>
@@ -127,15 +162,15 @@
           </div>
         </article>
       
-        <article class="volume-card">
+        <article class="volume-card" data-level="c1">
           <div>
-            <span class="volume-tag">C1 • 150–170 WPM</span>
+            <span class="volume-tag">C1 • 145–160 WPM</span>
             <h2 class="volume-name">Volume 05 • CEFR C1 Advanced</h2>
             <p class="volume-meta">Nuanced Professional & Academic Rhetoric • 12 unidades de estudo</p>
           </div>
           <div>
-            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; letter-spacing: 0.08em;">Acessar Lições:</p>
-            <ul class="unit-links-list">
+            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 0.08em;">Acessar Lições:</p>
+            <ul class="unit-links-grid">
               <li><a href="c1/unit-01.html" title="Cognitive Bias, Intuition & Rationality: How Experts Decide">U01</a></li>
               <li><a href="c1/unit-02.html" title="Constitutional & Ethical Dilemmas: Rights, Duty & The State">U02</a></li>
               <li><a href="c1/unit-03.html" title="The Interior Life: Memory, Solitude & Classical Wisdom">U03</a></li>
@@ -152,15 +187,15 @@
           </div>
         </article>
       
-        <article class="volume-card">
+        <article class="volume-card" data-level="c2">
           <div>
             <span class="volume-tag">C2 • 150–170 WPM</span>
             <h2 class="volume-name">Volume 06 • CEFR C2 Mastery</h2>
             <p class="volume-meta">Propositional Precision & Idiomatic Depth • 12 unidades de estudo</p>
           </div>
           <div>
-            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; letter-spacing: 0.08em;">Acessar Lições:</p>
-            <ul class="unit-links-list">
+            <p style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem; letter-spacing: 0.08em;">Acessar Lições:</p>
+            <ul class="unit-links-grid">
               <li><a href="c2/unit-01.html" title="Epistemology & The Limits of Language: What Can Be Said">U01</a></li>
               <li><a href="c2/unit-02.html" title="High-Stakes Diplomacy: Treaties, Statecraft & International Peace">U02</a></li>
               <li><a href="c2/unit-03.html" title="The City of God & Human History: Theology, Empire & Decay">U03</a></li>
@@ -179,9 +214,12 @@
     </div>
   </main>
 
+  <!-- Footer -->
   <footer class="hub-footer">
     <p><strong>MERIDIAN Learning Collection</strong> • Sistema Internacional de Aprendizagem de Inglês</p>
     <p style="margin-top: 0.4rem; font-size: 0.72rem;">Distribuído via GitHub Pages • Repositório Satélite Público • © Direção A Editorial</p>
   </footer>
+
+  <script src="assets/js/player.js"></script>
 </body>
 </html>

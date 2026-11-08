@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>MERIDIAN • A1 Unit 02: Everyday Spaces</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../assets/css/player.css">
 </head>
 <body>
+  <!-- Header -->
   <header class="hub-header">
     <div class="header-inner">
       <a href="../index.html" class="brand-wrap">
@@ -22,293 +23,968 @@
     </div>
   </header>
 
+  <!-- Main Content -->
   <main class="hub-main">
+    <!-- Hero Box -->
     <div class="hero-box">
-      <span class="hero-kicker">Volume 01 • CEFR A1 Beginner • Unit 02</span>
+      <div class="hero-kicker-row">
+        <span class="hero-kicker">Volume 01 • CEFR A1 Beginner</span>
+        <span class="hero-unit-tag">Unit 02</span>
+      </div>
       <h1 class="hero-title">Everyday Spaces</h1>
       <p class="hero-desc">Home, office, and the things we use. The geometry of shared workstations, compact city studios, and the language of spatial presence.</p>
+      <div class="hero-meta-row">
+        <span class="hero-pill">🎵 3 Faixas Oficiais</span>
+        <span class="hero-pill">⚡ Pacing: 85–95 WPM</span>
+        <span class="hero-pill">🌍 Dual-Anchor (US/UK)</span>
+        <span class="hero-pill">🎧 Studio Fidelity (128 kbps)</span>
+      </div>
     </div>
 
-    <h2 class="tracks-section-title">Faixas de Áudio Oficiais (3 faixas)</h2>
+    <!-- Segmented Track Tabs Bar -->
+    <div class="track-tabs-container">
+      <nav class="track-tabs-bar" role="tablist" aria-label="Faixas de áudio desta unidade">
+        
+        <button type="button" class="track-tab-btn active" data-track-id="AUDIO_A1_U02_T01" role="tab" aria-selected="true">
+          <span class="tab-badge">Faixa 1</span>
+          <span class="tab-label">Welcome to My Workspace</span>
+          <span class="tab-meta">83 WPM • 69.8 s</span>
+        </button>
+        
+        
+        <button type="button" class="track-tab-btn " data-track-id="AUDIO_A1_U02_T02" role="tab" aria-selected="false">
+          <span class="tab-badge">Faixa 2</span>
+          <span class="tab-label">Where Are My Keys?</span>
+          <span class="tab-meta">84 WPM • 66.7 s</span>
+        </button>
+        
+        
+        <button type="button" class="track-tab-btn " data-track-id="AUDIO_A1_U02_T03" role="tab" aria-selected="false">
+          <span class="tab-badge">Faixa 3</span>
+          <span class="tab-label">Checking Into a Co-Working Studio</span>
+          <span class="tab-meta">69 WPM • 72.7 s</span>
+        </button>
+        
+      </nav>
+    </div>
 
-    
-    <article class="track-card">
-      <div class="track-header">
-        <div>
-          <span class="track-kicker">AUDIO_A1_U02_T01</span>
-          <h3 class="track-title">Track 1: Listening Comprehension & Accent Lab</h3>
-        </div>
-        <div class="track-meta-pills">
-          <span class="track-pill">85–95 WPM</span>
-          <span class="track-pill">Dual-Anchor (General American & Modern British)</span>
-        </div>
-      </div>
-
-      <div class="player-widget">
-        <audio preload="metadata">
-          <source src="../tracks/a1/AUDIO_A1_U02_T01.mp3" type="audio/mpeg">
-          Seu navegador não suporta a tag de áudio HTML5.
-        </audio>
-
-        <div class="player-controls-row">
-          <button type="button" class="play-pause-btn" aria-label="Play/Pause">▶</button>
-          <div class="scrubber-wrap">
-            <input type="range" class="scrubber-bar" min="0" max="100" value="0" aria-label="Audio scrubber">
-            <div class="time-display">
-              <span class="current-time">00:00</span>
-              <span class="duration-time">--:--</span>
+    <!-- Track Panels Container -->
+    <div class="track-panels-container">
+      
+      <section class="track-panel " id="panel-AUDIO_A1_U02_T01" aria-label="Welcome to My Workspace">
+        
+        <!-- Modern Player Card -->
+        <article class="player-card">
+          <div class="player-header">
+            <div class="player-title-wrap">
+              <span class="player-track-id">AUDIO_A1_U02_T01</span>
+              <h2 class="player-track-title">Welcome to My Workspace</h2>
             </div>
+            <div class="player-meta-badges">
+              <span class="player-badge">⚡ 83 WPM</span>
+              <span class="player-badge">⏱️ 69.8 s</span>
+            </div>
+          </div>
+
+          <div class="player-controls-container">
+            <audio preload="metadata">
+              <source src="../tracks/a1/AUDIO_A1_U02_T01.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+
+            <!-- Main Playback Controls -->
+            <div class="main-controls-row">
+              <button type="button" class="btn-skip btn-skip-backward" aria-label="Voltar 5 segundos" title="Voltar 5 segundos">⏪ 5s</button>
+              <button type="button" class="btn-play-pause" aria-label="Reproduzir / Pausar">▶</button>
+              <button type="button" class="btn-skip btn-skip-forward" aria-label="Avançar 5 segundos" title="Avançar 5 segundos">5s ⏩</button>
+            </div>
+
+            <!-- Scrubber Bar -->
+            <div class="scrubber-group">
+              <input type="range" class="scrubber-input" min="0" max="100" value="0" aria-label="Barra de progresso do áudio">
+              <div class="scrubber-time-row">
+                <span class="current-time">00:00</span>
+                <span class="duration-time">--:--</span>
+              </div>
+            </div>
+
+            <!-- Speed Pills Row -->
+            <div class="speed-row">
+              <span class="speed-caption">Velocidade:</span>
+              <div class="speed-pills">
+                <button type="button" class="speed-pill-btn" data-speed="0.8">0.8x</button>
+                <button type="button" class="speed-pill-btn" data-speed="0.9">0.9x</button>
+                <button type="button" class="speed-pill-btn active" data-speed="1.0">1.0x</button>
+                <button type="button" class="speed-pill-btn" data-speed="1.2">1.2x</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Interactive Toolbar: Dual-View & Listening Gym -->
+        <div class="dialogue-toolbar">
+          <div class="toolbar-actions-row">
+            <!-- Dual-View Toggle -->
+            <div class="view-switch" role="tablist">
+              <button type="button" class="view-btn active" data-view="chat" role="tab" aria-selected="true">
+                <span>💬</span> Diálogo Interativo
+              </button>
+              <button type="button" class="view-btn" data-view="dossier" role="tab" aria-selected="false">
+                <span>📋</span> Ficha Técnica & Fonética
+              </button>
+            </div>
+
+            <!-- Listening Gym Controls -->
+            <div class="gym-actions-wrap">
+              <button type="button" class="btn-gym-toggle" title="Oculte o texto para treinar o ouvido antes de ler">
+                <span>🕶️</span> Modo Treino Auditivo
+              </button>
+              <button type="button" class="btn-gym-reveal-all hidden">
+                👁️ Revelar Tudo
+              </button>
+            </div>
+          </div>
+
+          <!-- Listening Gym Active Guidance -->
+          <div class="gym-tip-banner hidden">
+            <span>🎧</span>
+            <div><strong>Modo Treino Auditivo Ativado:</strong> As falas estão desfocadas para exercitar sua escuta ativa. <em>Toque em qualquer balão</em> para revelar a frase linha a linha!</div>
           </div>
         </div>
 
-        <div class="speed-controls">
-          <span class="speed-label">Velocidade:</span>
-          <button type="button" class="speed-btn" data-speed="0.8">0.8x</button>
-          <button type="button" class="speed-btn active" data-speed="1.0">1.0x</button>
-          <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
-        </div>
-      </div>
-
-      <div class="transcript-accordion">
-        <button type="button" class="transcript-toggle" data-target="transcript-AUDIO_A1_U02_T01">
-          👁 Ver Roteiro Textual (Anti-Spoiler)
-        </button>
-        <div class="transcript-body" id="transcript-AUDIO_A1_U02_T01">
-AUDIO_A1_U02_T01`
-- **Duration (Estimated):** 1 minute 10 seconds · **Pacing:** 114 WPM
-- **Setting:** Coworking open-plan floor in Berlin-Kreuzberg. Keyboard clicks and quiet ambient coffee machine.
-- **Characters:**
-  - **Lukas (Community Manager):** Male, 32, German English accent (clear, European international cadence).
-  - **Marina (Brazilian Developer):** Female, 29, Brazilian English accent (clear, polite).
-
-#### Audio Production Metadata & IPA Guide
-- *Outlet:* /ˈaʊtlet/
-- *Adapter:* /əˈdæptər/
-- *Monitor:* /ˈmɒnɪtər/
-- *Cable:* /ˈkeɪbəl/
-- *Under:* /ˈʌndər/
-
-```text
-[SFX: Ambient open-plan coworking room, faint keyboard typing in distance]
-
-MARINA: 
-Excuse me, Lukas? Is this desk free for today?
-
-LUKAS: 
-Good morning, Marina! Yes, it is. Have a seat. This is your hot desk for the whole week.
-
-MARINA: 
-Thank you! Where are the electrical power outlets?
-
-LUKAS: 
-There is a power strip right under the desk, near the wall. And these are two HDMI cables for your external screen.
-
-MARINA: 
-Great. And what about that glass room over there?
-
-LUKAS: 
-That is the phone booth for private audio calls. You don't need a reservation for that one.
-
-MARINA: 
-Wonderful. Thank you for your help, Lukas!
-
-LUKAS: 
-You're welcome, Marina. Enjoy your workday!
-
-[SFX: Fade out]
-```
-        </div>
-      </div>
-    </article>
-    
-
-    <article class="track-card">
-      <div class="track-header">
-        <div>
-          <span class="track-kicker">AUDIO_A1_U02_T02</span>
-          <h3 class="track-title">Track 2: Listening Comprehension & Accent Lab</h3>
-        </div>
-        <div class="track-meta-pills">
-          <span class="track-pill">85–95 WPM</span>
-          <span class="track-pill">Dual-Anchor (General American & Modern British)</span>
-        </div>
-      </div>
-
-      <div class="player-widget">
-        <audio preload="metadata">
-          <source src="../tracks/a1/AUDIO_A1_U02_T02.mp3" type="audio/mpeg">
-          Seu navegador não suporta a tag de áudio HTML5.
-        </audio>
-
-        <div class="player-controls-row">
-          <button type="button" class="play-pause-btn" aria-label="Play/Pause">▶</button>
-          <div class="scrubber-wrap">
-            <input type="range" class="scrubber-bar" min="0" max="100" value="0" aria-label="Audio scrubber">
-            <div class="time-display">
-              <span class="current-time">00:00</span>
-              <span class="duration-time">--:--</span>
+        <!-- VIEW 1: Conversational Speech Bubbles -->
+        <div class="dialogue-view">
+          
+              <div class="sfx-banner">
+                <span class="sfx-icon">🎧</span>
+                <span class="sfx-text">SFX: Ambient open-plan coworking room, faint keyboard typing in distance</span>
+              </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">M</span>
+                  <span class="speaker-name">MARINA</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Excuse me, Lukas? Is this desk free for today?
+              </div>
             </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">L</span>
+                  <span class="speaker-name">LUKAS</span>
+                  <span class="speaker-role">Community Manager / Gestor</span>
+                </div>
+                <span class="accent-badge">🇩🇪 German English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Good morning, Marina! Yes, it is. Have a seat. This is your hot desk for the whole week.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="3" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">M</span>
+                  <span class="speaker-name">MARINA</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Thank you! Where are the electrical power outlets?
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="4" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">L</span>
+                  <span class="speaker-name">LUKAS</span>
+                  <span class="speaker-role">Community Manager / Gestor</span>
+                </div>
+                <span class="accent-badge">🇩🇪 German English</span>
+              </div>
+              
+              <div class="bubble-text">
+                There is a power strip right under the desk, near the wall. And these are two HDMI cables for your external screen.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="5" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">M</span>
+                  <span class="speaker-name">MARINA</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Great. And what about that glass room over there?
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="6" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">L</span>
+                  <span class="speaker-name">LUKAS</span>
+                  <span class="speaker-role">Community Manager / Gestor</span>
+                </div>
+                <span class="accent-badge">🇩🇪 German English</span>
+              </div>
+              
+              <div class="bubble-text">
+                That is the phone booth for private audio calls. You don't need a reservation for that one.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="7" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">M</span>
+                  <span class="speaker-name">MARINA</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Wonderful. Thank you for your help, Lukas!
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="8" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">L</span>
+                  <span class="speaker-name">LUKAS</span>
+                  <span class="speaker-role">Community Manager / Gestor</span>
+                </div>
+                <span class="accent-badge">🇩🇪 German English</span>
+              </div>
+              
+              <div class="bubble-text">
+                You're welcome, Marina. Enjoy your workday!<br><br><span class="sfx-inline-chip">🎧 Fade out</span>
+              </div>
+            </div>
+        </div>
+
+        <!-- VIEW 2: Ficha Técnica & Fonética Dossier -->
+        <div class="dossier-view">
+          <!-- Setting & Scenario -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📍</span> Contexto & Ambientação Acústica</h3>
+            <p class="dossier-item-value">Coworking open-plan floor in Berlin-Kreuzberg. Keyboard clicks and quiet ambient coffee machine.</p>
+          </article>
+
+          <!-- Delivery Metrics -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📊</span> Parâmetros Acústicos & Velocidade de Fala</h3>
+            <div class="dossier-grid">
+              <div class="dossier-item">
+                <div class="dossier-item-label">Velocidade Medida</div>
+                <div class="dossier-item-value"><strong>83 WPM</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Duração Efetiva</div>
+                <div class="dossier-item-value"><strong>69.8 s</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Modelo Fonético</div>
+                <div class="dossier-item-value">Dual-Anchor International Standard</div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Padrão de Áudio</div>
+                <div class="dossier-item-value">Master 22.05 kHz • MP3 128 kbps</div>
+              </div>
+            </div>
+          </article>
+
+          
+          <!-- Characters Dossier -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>👥</span> Dossiê de Interlocutores & Sotaques</h3>
+            <div class="dossier-grid">
+              
+              <div class="dossier-item">
+                <div class="dossier-item-label">- Lukas (Community Manager)</div>
+                <div class="dossier-item-value">Male, 32, German English accent (clear, European international cadence).</div>
+              </div>
+              
+              
+              <div class="dossier-item">
+                <div class="dossier-item-label">- Marina (Brazilian Developer)</div>
+                <div class="dossier-item-value">Female, 29, Brazilian English accent (clear, polite).</div>
+              </div>
+              
+            </div>
+          </article>
+
+          
+          <!-- IPA Pronunciation Bank -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>🗣️</span> Guia de Transcrição Fonética (IPA)</h3>
+            <div class="ipa-pills-list">
+              
+                <div class="ipa-pill">
+                  <strong>Outlet:</strong>
+                  <span> /ˈaʊtlet/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Adapter:</strong>
+                  <span> /əˈdæptər/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Monitor:</strong>
+                  <span> /ˈmɒnɪtər/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Cable:</strong>
+                  <span> /ˈkeɪbəl/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Under:</strong>
+                  <span> /ˈʌndər/</span>
+                </div>
+            </div>
+          </article>
+        </div>
+
+      </section>
+      
+      
+      <section class="track-panel is-hidden" id="panel-AUDIO_A1_U02_T02" aria-label="Where Are My Keys?">
+        
+        <!-- Modern Player Card -->
+        <article class="player-card">
+          <div class="player-header">
+            <div class="player-title-wrap">
+              <span class="player-track-id">AUDIO_A1_U02_T02</span>
+              <h2 class="player-track-title">Where Are My Keys?</h2>
+            </div>
+            <div class="player-meta-badges">
+              <span class="player-badge">⚡ 84 WPM</span>
+              <span class="player-badge">⏱️ 66.7 s</span>
+            </div>
+          </div>
+
+          <div class="player-controls-container">
+            <audio preload="metadata">
+              <source src="../tracks/a1/AUDIO_A1_U02_T02.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+
+            <!-- Main Playback Controls -->
+            <div class="main-controls-row">
+              <button type="button" class="btn-skip btn-skip-backward" aria-label="Voltar 5 segundos" title="Voltar 5 segundos">⏪ 5s</button>
+              <button type="button" class="btn-play-pause" aria-label="Reproduzir / Pausar">▶</button>
+              <button type="button" class="btn-skip btn-skip-forward" aria-label="Avançar 5 segundos" title="Avançar 5 segundos">5s ⏩</button>
+            </div>
+
+            <!-- Scrubber Bar -->
+            <div class="scrubber-group">
+              <input type="range" class="scrubber-input" min="0" max="100" value="0" aria-label="Barra de progresso do áudio">
+              <div class="scrubber-time-row">
+                <span class="current-time">00:00</span>
+                <span class="duration-time">--:--</span>
+              </div>
+            </div>
+
+            <!-- Speed Pills Row -->
+            <div class="speed-row">
+              <span class="speed-caption">Velocidade:</span>
+              <div class="speed-pills">
+                <button type="button" class="speed-pill-btn" data-speed="0.8">0.8x</button>
+                <button type="button" class="speed-pill-btn" data-speed="0.9">0.9x</button>
+                <button type="button" class="speed-pill-btn active" data-speed="1.0">1.0x</button>
+                <button type="button" class="speed-pill-btn" data-speed="1.2">1.2x</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Interactive Toolbar: Dual-View & Listening Gym -->
+        <div class="dialogue-toolbar">
+          <div class="toolbar-actions-row">
+            <!-- Dual-View Toggle -->
+            <div class="view-switch" role="tablist">
+              <button type="button" class="view-btn active" data-view="chat" role="tab" aria-selected="true">
+                <span>💬</span> Diálogo Interativo
+              </button>
+              <button type="button" class="view-btn" data-view="dossier" role="tab" aria-selected="false">
+                <span>📋</span> Ficha Técnica & Fonética
+              </button>
+            </div>
+
+            <!-- Listening Gym Controls -->
+            <div class="gym-actions-wrap">
+              <button type="button" class="btn-gym-toggle" title="Oculte o texto para treinar o ouvido antes de ler">
+                <span>🕶️</span> Modo Treino Auditivo
+              </button>
+              <button type="button" class="btn-gym-reveal-all hidden">
+                👁️ Revelar Tudo
+              </button>
+            </div>
+          </div>
+
+          <!-- Listening Gym Active Guidance -->
+          <div class="gym-tip-banner hidden">
+            <span>🎧</span>
+            <div><strong>Modo Treino Auditivo Ativado:</strong> As falas estão desfocadas para exercitar sua escuta ativa. <em>Toque em qualquer balão</em> para revelar a frase linha a linha!</div>
           </div>
         </div>
 
-        <div class="speed-controls">
-          <span class="speed-label">Velocidade:</span>
-          <button type="button" class="speed-btn" data-speed="0.8">0.8x</button>
-          <button type="button" class="speed-btn active" data-speed="1.0">1.0x</button>
-          <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
-        </div>
-      </div>
-
-      <div class="transcript-accordion">
-        <button type="button" class="transcript-toggle" data-target="transcript-AUDIO_A1_U02_T02">
-          👁 Ver Roteiro Textual (Anti-Spoiler)
-        </button>
-        <div class="transcript-body" id="transcript-AUDIO_A1_U02_T02">
-AUDIO_A1_U02_T02`
-- **Duration (Estimated):** 1 minute 05 seconds · **Pacing:** 115 WPM
-- **Setting:** Architecture and design studio, Curitiba.
-- **Characters:**
-  - **Rodrigo (Senior Architect):** Male, 38, Brazilian English (fluent, neutral).
-  - **Ji-hoon (Visiting Korean Designer):** Male, 30, Korean English accent (clear, precise).
-
-#### Audio Production Metadata & IPA Guide
-- *These:* /ðiːz/
-- *Those:* /ðəʊz/
-- *Drawer:* /drɔːr/
-- *Ergonomic:* /ˌɜːrɡəˈnɒmɪk/
-
-```text
-[SFX: Creative studio ambiance, sound of paper rustling and architectural models being adjusted]
-
-RODRIGO: 
-Welcome to our studio, Ji-hoon! Come, let me show you the workspace. 
-
-JI-HOON: 
-Thank you, Rodrigo. The space is beautiful and very bright.
-
-RODRIGO: 
-Thanks! This large oak table is our shared drawing area. There are four ergonomic chairs here. And these black notebooks on the shelf are for project sketches.
-
-JI-HOON: 
-Are those markers in the glass container for everyone?
-
-RODRIGO: 
-Yes, they are! Help yourself. In this drawer, there are extra charging adapters and paper tape.
-
-JI-HOON: 
-Excellent. Everything is so well-organized.
-
-RODRIGO: 
-We try our best! Let's get started on the master plan.
-
-[SFX: Fade out]
-```
-        </div>
-      </div>
-    </article>
-    
-
-    <article class="track-card">
-      <div class="track-header">
-        <div>
-          <span class="track-kicker">AUDIO_A1_U02_T03</span>
-          <h3 class="track-title">Track 3: Situational Interaction & Fluency</h3>
-        </div>
-        <div class="track-meta-pills">
-          <span class="track-pill">85–95 WPM</span>
-          <span class="track-pill">Dual-Anchor (General American & Modern British)</span>
-        </div>
-      </div>
-
-      <div class="player-widget">
-        <audio preload="metadata">
-          <source src="../tracks/a1/AUDIO_A1_U02_T03.mp3" type="audio/mpeg">
-          Seu navegador não suporta a tag de áudio HTML5.
-        </audio>
-
-        <div class="player-controls-row">
-          <button type="button" class="play-pause-btn" aria-label="Play/Pause">▶</button>
-          <div class="scrubber-wrap">
-            <input type="range" class="scrubber-bar" min="0" max="100" value="0" aria-label="Audio scrubber">
-            <div class="time-display">
-              <span class="current-time">00:00</span>
-              <span class="duration-time">--:--</span>
+        <!-- VIEW 1: Conversational Speech Bubbles -->
+        <div class="dialogue-view">
+          
+              <div class="sfx-banner">
+                <span class="sfx-icon">🎧</span>
+                <span class="sfx-text">SFX: Creative studio ambiance, sound of paper rustling and architectural models being adjusted</span>
+              </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">R</span>
+                  <span class="speaker-name">RODRIGO</span>
+                  <span class="speaker-role">Interlocutor</span>
+                </div>
+                <span class="accent-badge">🌐 International English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Welcome to our studio, Ji-hoon! Come, let me show you the workspace.
+              </div>
             </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">J</span>
+                  <span class="speaker-name">JI-HOON</span>
+                  <span class="speaker-role">Interlocutor</span>
+                </div>
+                <span class="accent-badge">🌐 International English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Thank you, Rodrigo. The space is beautiful and very bright.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="3" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">R</span>
+                  <span class="speaker-name">RODRIGO</span>
+                  <span class="speaker-role">Interlocutor</span>
+                </div>
+                <span class="accent-badge">🌐 International English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Thanks! This large oak table is our shared drawing area. There are four ergonomic chairs here. And these black notebooks on the shelf are for project sketches.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="4" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">J</span>
+                  <span class="speaker-name">JI-HOON</span>
+                  <span class="speaker-role">Interlocutor</span>
+                </div>
+                <span class="accent-badge">🌐 International English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Are those markers in the glass container for everyone?
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="5" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">R</span>
+                  <span class="speaker-name">RODRIGO</span>
+                  <span class="speaker-role">Interlocutor</span>
+                </div>
+                <span class="accent-badge">🌐 International English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Yes, they are! Help yourself. In this drawer, there are extra charging adapters and paper tape.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="6" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">J</span>
+                  <span class="speaker-name">JI-HOON</span>
+                  <span class="speaker-role">Interlocutor</span>
+                </div>
+                <span class="accent-badge">🌐 International English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Excellent. Everything is so well-organized.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="7" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">R</span>
+                  <span class="speaker-name">RODRIGO</span>
+                  <span class="speaker-role">Interlocutor</span>
+                </div>
+                <span class="accent-badge">🌐 International English</span>
+              </div>
+              
+              <div class="bubble-text">
+                We try our best! Let's get started on the master plan.<br><br><span class="sfx-inline-chip">🎧 Fade out</span>
+              </div>
+            </div>
+        </div>
+
+        <!-- VIEW 2: Ficha Técnica & Fonética Dossier -->
+        <div class="dossier-view">
+          <!-- Setting & Scenario -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📍</span> Contexto & Ambientação Acústica</h3>
+            <p class="dossier-item-value">Architecture and design studio, Curitiba.</p>
+          </article>
+
+          <!-- Delivery Metrics -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📊</span> Parâmetros Acústicos & Velocidade de Fala</h3>
+            <div class="dossier-grid">
+              <div class="dossier-item">
+                <div class="dossier-item-label">Velocidade Medida</div>
+                <div class="dossier-item-value"><strong>84 WPM</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Duração Efetiva</div>
+                <div class="dossier-item-value"><strong>66.7 s</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Modelo Fonético</div>
+                <div class="dossier-item-value">Dual-Anchor International Standard</div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Padrão de Áudio</div>
+                <div class="dossier-item-value">Master 22.05 kHz • MP3 128 kbps</div>
+              </div>
+            </div>
+          </article>
+
+          
+          <!-- Characters Dossier -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>👥</span> Dossiê de Interlocutores & Sotaques</h3>
+            <div class="dossier-grid">
+              
+              <div class="dossier-item">
+                <div class="dossier-item-label">- Rodrigo (Senior Architect)</div>
+                <div class="dossier-item-value">Male, 38, Brazilian English (fluent, neutral).</div>
+              </div>
+              
+              
+              <div class="dossier-item">
+                <div class="dossier-item-label">- Ji-hoon (Visiting Korean Designer)</div>
+                <div class="dossier-item-value">Male, 30, Korean English accent (clear, precise).</div>
+              </div>
+              
+            </div>
+          </article>
+
+          
+          <!-- IPA Pronunciation Bank -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>🗣️</span> Guia de Transcrição Fonética (IPA)</h3>
+            <div class="ipa-pills-list">
+              
+                <div class="ipa-pill">
+                  <strong>These:</strong>
+                  <span> /ðiːz/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Those:</strong>
+                  <span> /ðəʊz/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Drawer:</strong>
+                  <span> /drɔːr/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Ergonomic:</strong>
+                  <span> /ˌɜːrɡəˈnɒmɪk/</span>
+                </div>
+            </div>
+          </article>
+        </div>
+
+      </section>
+      
+      
+      <section class="track-panel is-hidden" id="panel-AUDIO_A1_U02_T03" aria-label="Checking Into a Co-Working Studio">
+        
+        <!-- Modern Player Card -->
+        <article class="player-card">
+          <div class="player-header">
+            <div class="player-title-wrap">
+              <span class="player-track-id">AUDIO_A1_U02_T03</span>
+              <h2 class="player-track-title">Checking Into a Co-Working Studio</h2>
+            </div>
+            <div class="player-meta-badges">
+              <span class="player-badge">⚡ 69 WPM</span>
+              <span class="player-badge">⏱️ 72.7 s</span>
+            </div>
+          </div>
+
+          <div class="player-controls-container">
+            <audio preload="metadata">
+              <source src="../tracks/a1/AUDIO_A1_U02_T03.mp3" type="audio/mpeg">
+              Seu navegador não suporta áudio HTML5.
+            </audio>
+
+            <!-- Main Playback Controls -->
+            <div class="main-controls-row">
+              <button type="button" class="btn-skip btn-skip-backward" aria-label="Voltar 5 segundos" title="Voltar 5 segundos">⏪ 5s</button>
+              <button type="button" class="btn-play-pause" aria-label="Reproduzir / Pausar">▶</button>
+              <button type="button" class="btn-skip btn-skip-forward" aria-label="Avançar 5 segundos" title="Avançar 5 segundos">5s ⏩</button>
+            </div>
+
+            <!-- Scrubber Bar -->
+            <div class="scrubber-group">
+              <input type="range" class="scrubber-input" min="0" max="100" value="0" aria-label="Barra de progresso do áudio">
+              <div class="scrubber-time-row">
+                <span class="current-time">00:00</span>
+                <span class="duration-time">--:--</span>
+              </div>
+            </div>
+
+            <!-- Speed Pills Row -->
+            <div class="speed-row">
+              <span class="speed-caption">Velocidade:</span>
+              <div class="speed-pills">
+                <button type="button" class="speed-pill-btn" data-speed="0.8">0.8x</button>
+                <button type="button" class="speed-pill-btn" data-speed="0.9">0.9x</button>
+                <button type="button" class="speed-pill-btn active" data-speed="1.0">1.0x</button>
+                <button type="button" class="speed-pill-btn" data-speed="1.2">1.2x</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Interactive Toolbar: Dual-View & Listening Gym -->
+        <div class="dialogue-toolbar">
+          <div class="toolbar-actions-row">
+            <!-- Dual-View Toggle -->
+            <div class="view-switch" role="tablist">
+              <button type="button" class="view-btn active" data-view="chat" role="tab" aria-selected="true">
+                <span>💬</span> Diálogo Interativo
+              </button>
+              <button type="button" class="view-btn" data-view="dossier" role="tab" aria-selected="false">
+                <span>📋</span> Ficha Técnica & Fonética
+              </button>
+            </div>
+
+            <!-- Listening Gym Controls -->
+            <div class="gym-actions-wrap">
+              <button type="button" class="btn-gym-toggle" title="Oculte o texto para treinar o ouvido antes de ler">
+                <span>🕶️</span> Modo Treino Auditivo
+              </button>
+              <button type="button" class="btn-gym-reveal-all hidden">
+                👁️ Revelar Tudo
+              </button>
+            </div>
+          </div>
+
+          <!-- Listening Gym Active Guidance -->
+          <div class="gym-tip-banner hidden">
+            <span>🎧</span>
+            <div><strong>Modo Treino Auditivo Ativado:</strong> As falas estão desfocadas para exercitar sua escuta ativa. <em>Toque em qualquer balão</em> para revelar a frase linha a linha!</div>
           </div>
         </div>
 
-        <div class="speed-controls">
-          <span class="speed-label">Velocidade:</span>
-          <button type="button" class="speed-btn" data-speed="0.8">0.8x</button>
-          <button type="button" class="speed-btn active" data-speed="1.0">1.0x</button>
-          <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
-        </div>
-      </div>
-
-      <div class="transcript-accordion">
-        <button type="button" class="transcript-toggle" data-target="transcript-AUDIO_A1_U02_T03">
-          👁 Ver Roteiro Textual (Anti-Spoiler)
-        </button>
-        <div class="transcript-body" id="transcript-AUDIO_A1_U02_T03">
-AUDIO_A1_U02_T03`
-- **Duration (Estimated):** 1 minute 15 seconds · **Pacing:** 118 WPM
-- **Setting:** Convention security and information counter, London.
-- **Characters:**
-  - **Officer Davies:** Female, 45, British RP accent (crisp, professional).
-  - **Carlos (Colombian Delegate):** Male, 35, Latin American English accent (concerned).
-
-#### Audio Production Metadata & IPA Guide
-- *Glasses:* /ˈɡlɑːsɪz/
-- *Leather:* /ˈleðər/
-- *Case:* /keɪs/
-- *Passport:* /ˈpɑːspɔːt/
-
-```text
-[SFX: Security office counter, phone rings once in background]
-
-OFFICER DAVIES: 
-Good afternoon, sir. Can I help you?
-
-CARLOS: 
-Good afternoon. I think I left my glasses in Meeting Room B.
-
-OFFICER DAVIES: 
-Right. Let me check the lost property box. What kind of glasses are they?
-
-CARLOS: 
-They are black reading glasses in a brown leather case.
-
-OFFICER DAVIES: 
-[SFX: Drawer opens, items shuffle gently] 
+        <!-- VIEW 1: Conversational Speech Bubbles -->
+        <div class="dialogue-view">
+          
+              <div class="sfx-banner">
+                <span class="sfx-icon">🎧</span>
+                <span class="sfx-text">SFX: Security office counter, phone rings once in background</span>
+              </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">O</span>
+                  <span class="speaker-name">OFFICER DAVIES</span>
+                  <span class="speaker-role">Anfitrião / Especialista</span>
+                </div>
+                <span class="accent-badge">🇬🇧 British RP</span>
+              </div>
+              
+              <div class="bubble-text">
+                Good afternoon, sir. Can I help you?
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">C</span>
+                  <span class="speaker-name">CARLOS</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Good afternoon. I think I left my glasses in Meeting Room B.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">O</span>
+                  <span class="speaker-name">OFFICER DAVIES</span>
+                  <span class="speaker-role">Anfitrião / Especialista</span>
+                </div>
+                <span class="accent-badge">🇬🇧 British RP</span>
+              </div>
+              
+              <div class="bubble-text">
+                Right. Let me check the lost property box. What kind of glasses are they?
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">C</span>
+                  <span class="speaker-name">CARLOS</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              
+              <div class="bubble-text">
+                They are black reading glasses in a brown leather case.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="5" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">O</span>
+                  <span class="speaker-name">OFFICER DAVIES</span>
+                  <span class="speaker-role">Anfitrião / Especialista</span>
+                </div>
+                <span class="accent-badge">🇬🇧 British RP</span>
+              </div>
+              
+              <div class="bubble-text">
+                <span class="sfx-inline-chip">🎧 Drawer opens, items shuffle gently</span> 
 Let's see... Are these your glasses, sir?
-
-CARLOS: 
-[Relieved] 
-Oh, yes! Those are my glasses! Thank you so much.
-
-OFFICER DAVIES: 
-Splendid. Please sign your name on this collection form. 
-
-CARLOS: 
-Certainly. Here is my signature. Have a lovely day!
-
-OFFICER DAVIES: 
-And you, sir. Mind your belongings!
-
-[SFX: Fade out]
-```
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="6" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">C</span>
+                  <span class="speaker-name">CARLOS</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              <div class="stage-direction"><span class="direction-icon">🎭</span> Relieved</div>
+              <div class="bubble-text">
+                Oh, yes! Those are my glasses! Thank you so much.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="7" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">O</span>
+                  <span class="speaker-name">OFFICER DAVIES</span>
+                  <span class="speaker-role">Anfitrião / Especialista</span>
+                </div>
+                <span class="accent-badge">🇬🇧 British RP</span>
+              </div>
+              
+              <div class="bubble-text">
+                Splendid. Please sign your name on this collection form.
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-1" data-turn-idx="8" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">C</span>
+                  <span class="speaker-name">CARLOS</span>
+                  <span class="speaker-role">Profissional Convidado</span>
+                </div>
+                <span class="accent-badge">🇧🇷 Brazilian English</span>
+              </div>
+              
+              <div class="bubble-text">
+                Certainly. Here is my signature. Have a lovely day!
+              </div>
+            </div>
+          
+            <div class="turn-card speaker-theme-2" data-turn-idx="9" tabindex="0">
+              <div class="turn-header">
+                <div class="speaker-meta">
+                  <span class="speaker-avatar">O</span>
+                  <span class="speaker-name">OFFICER DAVIES</span>
+                  <span class="speaker-role">Anfitrião / Especialista</span>
+                </div>
+                <span class="accent-badge">🇬🇧 British RP</span>
+              </div>
+              
+              <div class="bubble-text">
+                And you, sir. Mind your belongings!<br><br><span class="sfx-inline-chip">🎧 Fade out</span>
+              </div>
+            </div>
         </div>
-      </div>
-    </article>
-    
 
-    <div style="display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-card);">
-      <a href="unit-01.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem;">← Unidade Anterior</a>
-      <a href="../index.html" style="color: var(--text-muted); font-size: 0.88rem; text-decoration: none;">Hub Principal</a>
-      <a href="unit-03.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem;">Próxima Unidade →</a>
+        <!-- VIEW 2: Ficha Técnica & Fonética Dossier -->
+        <div class="dossier-view">
+          <!-- Setting & Scenario -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📍</span> Contexto & Ambientação Acústica</h3>
+            <p class="dossier-item-value">Convention security and information counter, London.</p>
+          </article>
+
+          <!-- Delivery Metrics -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>📊</span> Parâmetros Acústicos & Velocidade de Fala</h3>
+            <div class="dossier-grid">
+              <div class="dossier-item">
+                <div class="dossier-item-label">Velocidade Medida</div>
+                <div class="dossier-item-value"><strong>69 WPM</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Duração Efetiva</div>
+                <div class="dossier-item-value"><strong>72.7 s</strong></div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Modelo Fonético</div>
+                <div class="dossier-item-value">Dual-Anchor International Standard</div>
+              </div>
+              <div class="dossier-item">
+                <div class="dossier-item-label">Padrão de Áudio</div>
+                <div class="dossier-item-value">Master 22.05 kHz • MP3 128 kbps</div>
+              </div>
+            </div>
+          </article>
+
+          
+          <!-- Characters Dossier -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>👥</span> Dossiê de Interlocutores & Sotaques</h3>
+            <div class="dossier-grid">
+              
+              <div class="dossier-item">
+                <div class="dossier-item-label">- Officer Davies</div>
+                <div class="dossier-item-value">Female, 45, British RP accent (crisp, professional).</div>
+              </div>
+              
+              
+              <div class="dossier-item">
+                <div class="dossier-item-label">- Carlos (Colombian Delegate)</div>
+                <div class="dossier-item-value">Male, 35, Latin American English accent (concerned).</div>
+              </div>
+              
+            </div>
+          </article>
+
+          
+          <!-- IPA Pronunciation Bank -->
+          <article class="dossier-card">
+            <h3 class="dossier-heading"><span>🗣️</span> Guia de Transcrição Fonética (IPA)</h3>
+            <div class="ipa-pills-list">
+              
+                <div class="ipa-pill">
+                  <strong>Glasses:</strong>
+                  <span> /ˈɡlɑːsɪz/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Leather:</strong>
+                  <span> /ˈleðər/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Case:</strong>
+                  <span> /keɪs/</span>
+                </div>
+              
+                <div class="ipa-pill">
+                  <strong>Passport:</strong>
+                  <span> /ˈpɑːspɔːt/</span>
+                </div>
+            </div>
+          </article>
+        </div>
+
+      </section>
+      
     </div>
+
+    <!-- Lesson Navigation Links -->
+    <nav style="display: flex; justify-content: space-between; align-items: center; margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border-card);">
+      <a href="unit-01.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem; padding: 0.4rem 0.6rem; border-radius: var(--radius-sm); background: var(--bg-card); border: 1px solid var(--border-subtle);">← Unidade Anterior</a>
+      <a href="../index.html" style="color: var(--text-muted); font-size: 0.85rem; font-weight: 700; text-decoration: none;">Índice de Volumes</a>
+      <a href="unit-03.html" style="color: var(--cobalt); font-weight: 700; text-decoration: none; font-size: 0.88rem; padding: 0.4rem 0.6rem; border-radius: var(--radius-sm); background: var(--bg-card); border: 1px solid var(--border-subtle);">Próxima Unidade →</a>
+    </nav>
   </main>
 
+  <!-- Sticky Floating Mobile Player Dock -->
+  <aside class="sticky-player-dock" id="stickyPlayerDock" aria-label="Controles flutuantes de áudio">
+    <div class="dock-progress-line">
+      <div class="dock-progress-fill" id="dockProgressFill"></div>
+    </div>
+    <div class="dock-content">
+      <div class="dock-track-info">
+        <span class="dock-track-kicker" id="dockTrackKicker">A1 Unit 02</span>
+        <span class="dock-track-title" id="dockTrackTitle">Welcome to My Workspace</span>
+      </div>
+      <div class="dock-actions">
+        <button type="button" class="dock-btn" id="dockReplayBtn" aria-label="Voltar 5 segundos" title="-5s">⏪ 5s</button>
+        <button type="button" class="dock-btn dock-btn-play" id="dockPlayBtn" aria-label="Reproduzir / Pausar">▶</button>
+        <button type="button" class="dock-btn" id="dockForwardBtn" aria-label="Avançar 5 segundos" title="+5s">5s ⏩</button>
+        <span class="dock-time-pill" id="dockTime">00:00 / --:--</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Footer -->
   <footer class="hub-footer">
     <p><strong>MERIDIAN Learning Collection</strong> • Sistema Internacional de Aprendizagem de Inglês</p>
     <p style="margin-top: 0.4rem; font-size: 0.72rem;">Distribuído via GitHub Pages • Áudios Otimizados 128 kbps • © Direção A Editorial</p>
