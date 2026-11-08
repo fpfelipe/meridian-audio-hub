@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_B2_U10_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Amina">Amina</button><button type="button" class="roleplay-pill" data-role="Kwame">Kwame</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="0" data-start="0.50" data-end="2.71" data-speaker="Amina" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Jambo and welcome to the Nairobi Human-Centered Design Studio. Over the past three weeks, our multidisciplinary team has been conducting immersive field ethnography with community health workers across Kibera and Machakos.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.71" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Jambo e bem-vindo ao Estúdio de Design Centrado no Ser Humano de Nairobi. Nas últimas três semanas, a nossa equipa multidisciplinar tem conduzido uma etnografia de campo imersiva com agentes comunitários de saúde em Kibera e Machakos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="1" data-start="3.31" data-end="5.11" data-speaker="Kwame" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">K</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 Amina, the fieldwork interviews revealed fascinating behavioral insights. Before our research commenced, software engineers had designed a complex biometric registration app requiring high-bandwidth satellite connections.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="3.31" data-end="5.11" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Amina, as entrevistas de campo revelaram insights comportamentais fascinantes. Antes do início da nossa pesquisa, os engenheiros de software desenvolveram um aplicativo complexo de registro biométrico que exigia conexões via satélite de alta largura de banda.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="2" data-start="5.71" data-end="8.07" data-speaker="Amina" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 Which completely disregarded the reality of daily clinic operations. Community health promoters do not need cumbersome, cloud-dependent desktop dashboards; they require lightweight, offline-first mobile transaction protocols that work seamlessly on entry-level Android devices.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.71" data-end="8.07" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> O que desconsiderou completamente a realidade das operações diárias da clínica. Os promotores comunitários de saúde não precisam de painéis de controle de desktop pesados ​​e dependentes da nuvem; eles exigem protocolos de transação móvel leves e off-line que funcionem perfeitamente em dispositivos Android básicos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="3" data-start="8.67" data-end="10.47" data-speaker="Kwame" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">K</span>
@@ -206,10 +294,36 @@
               
               <div class="bubble-text">
                 Exactly. By engaging in rapid physical prototyping with paper forms and participatory wireframe cards, the health workers themselves restructured the diagnostic flow.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.67" data-end="10.47" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Exatamente. Ao envolverem-se na prototipagem física rápida com formulários em papel e cartões participativos, os próprios profissionais de saúde reestruturaram o fluxo de diagnóstico.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="4" data-start="11.07" data-end="13.14" data-speaker="Amina" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -221,6 +335,32 @@
               
               <div class="bubble-text">
                 That is the essence of authentic design thinking. True innovation emerges not from imposing Silicon Valley assumptions, but from listening with humility to the human beings on the frontlines.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.07" data-end="13.14" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Essa é a essência do design thinking autêntico. A verdadeira inovação emerge não da imposição de pressupostos do Vale do Silício, mas da escuta com humildade dos seres humanos na linha de frente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -346,10 +486,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.42" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Unit 10 Pronunciation Clinic. Stress patterns in complex noun phrases and multi-word nominal compounds.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.42" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 10 Clínica de Pronúncia. Padrões de ênfase em sintagmas nominais complexos e compostos nominais com várias palavras.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="3.02" data-end="5.62" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number one. Primary compound stress on the first element: mobile health application, clinical decision support system, user research protocol.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="3.02" data-end="5.62" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Ênfase composta primária no primeiro elemento: aplicativo móvel de saúde, sistema de apoio à decisão clínica, protocolo de pesquisa do usuário.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="6.22" data-end="8.02" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +586,36 @@
               
               <div class="bubble-text">
                 Number two. Pre-modified nominal strings: lightweight offline-first diagnostic interfaces.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.22" data-end="8.02" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Strings nominais pré-modificadas: interfaces leves de diagnóstico off-line.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="8.62" data-end="10.67" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,10 +627,36 @@
               
               <div class="bubble-text">
                 Number three. Pitch drop across post-modifying prepositional phrases: rapid iterative prototyping with frontline healthcare practitioners.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.62" data-end="10.67" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Queda de tom em frases preposicionais pós-modificação: prototipagem iterativa rápida com profissionais de saúde da linha de frente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="11.27" data-end="13.46" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -421,6 +668,32 @@
               
               <div class="bubble-text">
                 Number four. Practice complex nominal rhythm: The team developed an intuitive, cloud-synchronized community health monitoring platform.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.27" data-end="13.46" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U10_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Pratique ritmo nominal complexo: a equipe desenvolveu uma plataforma de monitoramento de saúde comunitária intuitiva e sincronizada na nuvem.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U10_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

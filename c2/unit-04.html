@@ -146,10 +146,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -161,10 +164,36 @@
               
               <div class="bubble-text">
                 The hearing of the International Bioethics Directorate is convened. Today we examine Application 402 submitted by the Cambridge Genomic Institute, requesting clinical authorization for germline base editing in pre-implantation embryos carrying homozygous Huntington’s mutations. Dr. Sterling, you have the floor.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> É convocada a audiência da Diretoria Internacional de Bioética. Hoje examinamos o Pedido 402 apresentado pelo Cambridge Genomic Institute, solicitando autorização clínica para edição de bases germinativas em embriões pré-implantacionais portadores de mutações homozigóticas de Huntington. Dr. Sterling, tem a palavra.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="2.90" data-end="6.11" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -176,10 +205,36 @@
               
               <div class="bubble-text">
                 Thank you, Madam Chair. What our clinical team proposes is not vanity enhancement, but the definitive eradication of an agonizing, fatal neurodegenerative pathology. For three generations, the applicant family has watched its members succumb to chorea and dementia. In vitro base editing allows us to correct the CAG triplet expansion with ninety-nine percent efficiency, guaranteeing that their offspring will be born free of this devastating inheritance. The preservation of human well-being is all that our protocol seeks to achieve.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="6.11" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Obrigado, senhora presidente. O que a nossa equipa clínica propõe não é a valorização da vaidade, mas a erradicação definitiva de uma patologia neurodegenerativa agonizante e fatal. Durante três gerações, a família requerente viu os seus membros sucumbirem à coreia e à demência. A edição de base in vitro permite-nos corrigir a expansão tripla CAG com noventa e nove por cento de eficiência, garantindo que os seus descendentes nascerão livres desta herança devastadora. A preservação do bem-estar humano é tudo o que o nosso protocolo procura alcançar.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="6.71" data-end="9.23" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -191,10 +246,36 @@
               
               <div class="bubble-text">
                 Dr. Sterling, what this tribunal must interrogate is not your compassionate motive, but the irreversible technological precedent. It is precisely the heritability of your intervention that demands extreme regulatory restraint. While somatic therapies affect only the consenting adult, a germline modification becomes an indelible feature of the collective human genome. What happens if an off-target cleavage induces oncogenic cascades in future generations?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.71" data-end="9.23" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Dr. Sterling, o que este tribunal deve interrogar não é o seu motivo compassivo, mas o precedente tecnológico irreversível. É precisamente a herdabilidade da sua intervenção que exige extrema restrição regulamentar. Embora as terapias somáticas afetem apenas o adulto consentido, uma modificação da linha germinativa torna-se uma característica indelével do genoma humano coletivo. O que acontecerá se uma clivagem fora do alvo induzir cascatas oncogênicas nas gerações futuras?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="9.83" data-end="11.63" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -206,10 +287,36 @@
               
               <div class="bubble-text">
                 Our dual-deaminase base editors demonstrate zero detectable off-target activity across three hundred non-human primate blastocysts. Refusing to license this therapy under the guise of the precautionary principle is a moral abdication.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="9.83" data-end="11.63" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Nossos editores de base dupla desaminase demonstram zero atividade fora do alvo detectável em trezentos blastocistos de primatas não humanos. Recusar-se a licenciar esta terapia sob o pretexto do princípio da precaução é uma abdicação moral.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="12.23" data-end="14.03" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -221,6 +328,32 @@
               
               <div class="bubble-text">
                 It is precisely because the unborn cannot grant informed consent that the international community mandated an absolute moratorium. Until epigenetic stability is proven across full mammalian lifetimes, this tribunal will not authorize germline trials.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="12.23" data-end="14.03" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> É precisamente porque os nascituros não podem conceder consentimento informado que a comunidade internacional determinou uma moratória absoluta. Até que a estabilidade epigenética seja comprovada ao longo da vida completa dos mamíferos, este tribunal não autorizará ensaios de linhagem germinativa.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -346,10 +479,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +497,36 @@
               
               <div class="bubble-text">
                 Unit 4 Pronunciation Clinic. Definitive nominalization, restrictive cleft structures, and focus prosody in bioethical argument.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 4 Clínica de Pronúncia. Nominalização definitiva, estruturas fissuradas restritivas e prosódia focal na argumentação bioética.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="4.88" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +538,36 @@
               
               <div class="bubble-text">
                 Number one. It-cleft with tonic focus: It is precisely the heritability of the genomic alteration that warrants an absolute moratorium.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="4.88" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Fissura com foco tônico: É precisamente a herdabilidade da alteração genômica que justifica uma moratória absoluta.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.48" data-end="7.56" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +579,36 @@
               
               <div class="bubble-text">
                 Number two. Wh-cleft with nominal compression: What this international regulatory tribunal cannot countenance is the commercial commodification of the human germline.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.48" data-end="7.56" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Fenda com compressão nominal: O que este tribunal regulador internacional não pode tolerar é a mercantilização comercial da linhagem germinativa humana.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="8.16" data-end="10.14" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,10 +620,36 @@
               
               <div class="bubble-text">
                 Number three. Reversed all-cleft: The definitive eradication of hereditary neurodegenerative pathology is all that our clinical trial seeks to accomplish.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.16" data-end="10.14" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Fissura total invertida: A erradicação definitiva da patologia neurodegenerativa hereditária é tudo o que nosso ensaio clínico busca realizar.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="10.74" data-end="13.22" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -421,6 +661,32 @@
               
               <div class="bubble-text">
                 Number four. Practice authoritative bioethical cadence: It was the discovery of unintended epigenetic cascade effects that compelled the supervisory board to halt the trial immediately.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="10.74" data-end="13.22" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U04_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Pratique a cadência bioética autorizada: Foi a descoberta de efeitos epigenéticos em cascata não intencionais que obrigou o conselho de supervisão a suspender o ensaio imediatamente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U04_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

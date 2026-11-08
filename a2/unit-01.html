@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_A2_U01_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Beatriz">Beatriz</button><button type="button" class="roleplay-pill" data-role="Gabriel">Gabriel</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="0" data-start="0.50" data-end="10.61" data-speaker="Beatriz" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">B</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Gabriel, looking back at our university graduation, I never imagined I would transition from civil engineering to digital product design.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="10.61" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A2_U01_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Gabriel, relembrando nossa formatura universitária, nunca imaginei que faria a transição da engenharia civil para o design de produtos digitais.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A2_U01_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" data-start="11.21" data-end="15.25" data-speaker="Gabriel" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">G</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 What was the definitive turning point for you?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.21" data-end="15.25" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A2_U01_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Qual foi o ponto de viragem definitivo para você?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A2_U01_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="15.85" data-end="36.07" data-speaker="Beatriz" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">B</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 In 2021, I managed a municipal transit app project. While collaborating with the software engineers, I realized that user experience was my authentic calling. I quit my corporate role, enrolled in an intensive design bootcamp, and founded our current studio.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="15.85" data-end="36.07" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A2_U01_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Em 2021, gerenciei um projeto de aplicativo de transporte municipal. Ao colaborar com os engenheiros de software, percebi que a experiência do usuário era minha autêntica vocação. Saí da minha função corporativa, inscrevi-me em um bootcamp intensivo de design e fundei nosso estúdio atual.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A2_U01_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="3" data-start="36.67" data-end="43.24" data-speaker="Gabriel" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">G</span>
@@ -206,10 +294,36 @@
               
               <div class="bubble-text">
                 That was a brave decision. Most professionals hesitate to change careers after thirty.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="36.67" data-end="43.24" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A2_U01_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Essa foi uma decisão corajosa. A maioria dos profissionais hesita em mudar de carreira depois dos trinta.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A2_U01_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="43.84" data-end="48.89" data-speaker="Beatriz" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">B</span>
@@ -221,6 +335,32 @@
               
               <div class="bubble-text">
                 It was challenging initially, but it completely transformed my life.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="43.84" data-end="48.89" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A2_U01_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Foi desafiador no início, mas transformou completamente minha vida.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A2_U01_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -346,10 +486,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="26.90" data-speaker="Phonetics" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎯</span>
@@ -361,6 +504,32 @@
               
               <div class="bubble-text">
                 Listen and repeat the three distinct pronunciations of the regular past ending. First, unvoiced ending in T: worked, asked, stepped, laughed. Second, voiced ending in D: changed, lived, managed, opened. Third, extra syllable ending in ID after T and D: decided, graduated, started, founded.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="26.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A2_U01_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Ouça e repita as três pronúncias distintas da terminação regular do passado. Primeiro, surdo terminando em T: trabalhou, perguntou, pisou, riu. Segundo, dublado terminando em D: mudado, vivido, gerenciado, aberto. Terceiro, sílaba extra terminada em ID depois de T e D: decidiu, formou-se, começou, fundou.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A2_U01_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

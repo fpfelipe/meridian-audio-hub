@@ -153,10 +153,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_A1_U04_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="TOURIST">TOURIST</button><button type="button" class="roleplay-pill" data-role="CLERK">CLERK</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="0" data-start="0.50" data-end="9.93" data-speaker="TOURIST" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">T</span>
@@ -168,10 +178,36 @@
               
               <div class="bubble-text">
                 Excuse me, good morning. Can you help me buy a subway ticket to Tokyo Station?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="9.93" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Com licença, bom dia. Você pode me ajudar a comprar uma passagem de metrô para a estação de Tóquio?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="10.53" data-end="21.22" data-speaker="CLERK" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -183,10 +219,36 @@
               
               <div class="bubble-text">
                 Good morning! Certainly. You can use this multi-lingual ticket machine. Touch the English button on the screen.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="10.53" data-end="21.22" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Bom dia! Certamente. Você pode usar esta máquina de bilhetes multilíngue. Toque no botão Inglês na tela.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="21.82" data-end="25.59" data-speaker="TOURIST" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">T</span>
@@ -198,10 +260,36 @@
               
               <div class="bubble-text">
                 Great. How much is the fare?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="21.82" data-end="25.59" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Ótimo. Quanto é a tarifa?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="26.19" data-end="35.00" data-speaker="CLERK" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -213,10 +301,36 @@
               
               <div class="bubble-text">
                 It is two hundred yen. Insert your cash here, or tap your IC card.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="26.19" data-end="35.00" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> São duzentos ienes. Insira seu dinheiro aqui ou toque em seu cartão IC.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="35.60" data-end="41.26" data-speaker="TOURIST" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">T</span>
@@ -228,10 +342,36 @@
               
               <div class="bubble-text">
                 Excellent. Here is the ticket. Which platform is it?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="35.60" data-end="41.26" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Excelente. Aqui está o ingresso. Qual plataforma é?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="5" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="5" data-start="41.86" data-end="46.89" data-speaker="CLERK" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -243,6 +383,32 @@
               
               <div class="bubble-text">
                 Go straight ahead. Platform two, on the left.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="41.86" data-end="46.89" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T01_5" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Siga em frente. Plataforma dois, à esquerda.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T01_5">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -368,10 +534,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_A1_U04_T02">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="VISITOR">VISITOR</button><button type="button" class="roleplay-pill" data-role="LOCAL">LOCAL</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="0" data-start="0.50" data-end="6.50" data-speaker="VISITOR" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">V</span>
@@ -383,10 +559,36 @@
               
               <div class="bubble-text">
                 Excuse me, sir. Is there a post office near here?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="6.50" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Com licença, senhor. Tem correio perto daqui?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="7.10" data-end="16.10" data-speaker="LOCAL" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">L</span>
@@ -398,10 +600,36 @@
               
               <div class="bubble-text">
                 Yes, there is. Go straight ahead for two blocks. Turn left at the traffic lights.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.10" data-end="16.10" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Sim, existe. Siga em frente por dois quarteirões. Vire à esquerda nos semáforos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="16.70" data-end="19.70" data-speaker="VISITOR" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">V</span>
@@ -413,10 +641,36 @@
               
               <div class="bubble-text">
                 Turn left at the lights?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="16.70" data-end="19.70" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Vire à esquerda no semáforo?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="20.30" data-end="30.50" data-speaker="LOCAL" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">L</span>
@@ -428,10 +682,36 @@
               
               <div class="bubble-text">
                 Yes. The post office is on the right, next to the pharmacy, opposite the red brick hotel.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="20.30" data-end="30.50" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Sim. Os correios ficam à direita, ao lado da farmácia, em frente ao hotel de tijolos vermelhos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="31.10" data-end="33.50" data-speaker="VISITOR" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">V</span>
@@ -443,10 +723,36 @@
               
               <div class="bubble-text">
                 Thank you very much!
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="31.10" data-end="33.50" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Muito obrigado!
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="5" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="5" data-start="34.10" data-end="38.90" data-speaker="LOCAL" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">L</span>
@@ -458,6 +764,32 @@
               
               <div class="bubble-text">
                 No trouble at all. Have a good day!
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="34.10" data-end="38.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T02_5" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Nenhum problema. Tenha um bom dia!
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T02_5">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -583,10 +915,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_A1_U04_T03">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="PASSENGER">PASSENGER</button><button type="button" class="roleplay-pill" data-role="ASSISTANT">ASSISTANT</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="0" data-start="0.50" data-end="7.00" data-speaker="PASSENGER" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -598,10 +940,36 @@
               
               <div class="bubble-text">
                 Good afternoon. Where can I catch the bus to Pelourinho?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="7.00" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T03_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Boa tarde. Onde posso pegar o ônibus para Pelourinho?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T03_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="7.60" data-end="21.90" data-speaker="ASSISTANT" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -613,10 +981,36 @@
               
               <div class="bubble-text">
                 Good afternoon! The bus terminal is just outside the station. Take the escalator down. The Pelourinho bus is at Bay Number Four.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.60" data-end="21.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T03_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Boa tarde! O terminal de ônibus fica do lado de fora da estação. Desça a escada rolante. O ônibus do Pelourinho fica na Baía Número Quatro.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T03_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="22.50" data-end="26.40" data-speaker="PASSENGER" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -628,10 +1022,36 @@
               
               <div class="bubble-text">
                 Bay four. Thank you so much!
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="22.50" data-end="26.40" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T03_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Baía quatro. Muito obrigado!
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T03_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="27.00" data-end="30.90" data-speaker="ASSISTANT" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -643,6 +1063,32 @@
               
               <div class="bubble-text">
                 You're welcome! Enjoy the historic center!
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="27.00" data-end="30.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U04_T03_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> De nada! Aproveite o centro histórico!
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U04_T03_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

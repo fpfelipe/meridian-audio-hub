@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_B2_U07_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Ambassador">Ambassador</button><button type="button" class="roleplay-pill" data-role="Minister">Minister</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="0" data-start="0.50" data-end="2.91" data-speaker="Ambassador" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Good morning, delegates. We have reached a critical juncture in our negotiations regarding digital service tariffs and intellectual property licensing. It is high time we resolved the stalemate regarding cross-border cloud storage rights.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.91" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Bom dia, delegados. Chegamos a um momento crítico em nossas negociações relativas às tarifas de serviços digitais e ao licenciamento de propriedade intelectual. Já é tempo de resolvermos o impasse relativo aos direitos transfronteiriços de armazenamento na nuvem.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="3.51" data-end="5.85" data-speaker="Minister" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">M</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 Ambassador Silva, our delegation would rather you presented a more balanced reciprocal framework. Were we to accept your current quota restrictions without tariff offsets, domestic tech providers would suffer severe competitive disadvantages.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="3.51" data-end="5.85" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Embaixador Silva, a nossa delegação preferiria que apresentasse um quadro recíproco mais equilibrado. Se aceitássemos as actuais restrições de quotas sem compensações tarifárias, os fornecedores de tecnologia nacionais sofreriam graves desvantagens competitivas.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="6.45" data-end="8.93" data-speaker="Ambassador" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 Not only did our draft proposal grant full access to financial data processing, but it also offered a five-year transitional grace period for emerging startups. Seldom have commercial partners received such generous structural guarantees.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.45" data-end="8.93" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> A nossa proposta preliminar não só concedeu acesso total ao processamento de dados financeiros, mas também ofereceu um período de carência transitório de cinco anos para startups emergentes. Raramente os parceiros comerciais receberam garantias estruturais tão generosas.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="9.53" data-end="11.33" data-speaker="Minister" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">M</span>
@@ -206,10 +294,36 @@
               
               <div class="bubble-text">
                 While we acknowledge that concession, I would rather we established binding arbitration mechanisms for algorithmic disputes before signing the protocol.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="9.53" data-end="11.33" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Embora reconheçamos essa concessão, prefiro que estabeleçamos mecanismos de arbitragem vinculativos para disputas algorítmicas antes de assinar o protocolo.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="11.93" data-end="13.73" data-speaker="Ambassador" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">A</span>
@@ -221,6 +335,32 @@
               
               <div class="bubble-text">
                 Fair enough. Let us instruct our technical working groups to formulate draft dispute resolution clauses by tomorrow morning.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.93" data-end="13.73" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Justo. Vamos instruir os nossos grupos de trabalho técnicos para formularem projectos de cláusulas de resolução de litígios até amanhã de manhã.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -346,10 +486,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.45" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Unit 7 Pronunciation Clinic. Subjunctive unreal past forms (it's time, would rather) and emphatic negative inversions.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.45" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 7 Clínica de Pronúncia. Formas passadas irreais subjuntivas (é hora, prefiro) e inversões negativas enfáticas.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="3.05" data-end="4.85" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number one. Unreal past with it's time: It's time we finalized the contractual terms.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="3.05" data-end="4.85" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Passado irreal com sua hora: É hora de finalizarmos os termos contratuais.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.45" data-end="7.28" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +586,36 @@
               
               <div class="bubble-text">
                 Number two. Would rather with past subjunctive: I'd rather you consulted legal counsel before signing.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.45" data-end="7.28" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Preferiria com passado do subjuntivo: Prefiro que você consulte um advogado antes de assinar.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="7.88" data-end="10.44" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,10 +627,36 @@
               
               <div class="bubble-text">
                 Number three. Emphatic negative inversion with not only: Not only did they sign the agreement, but they also expanded trade corridors.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.88" data-end="10.44" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Inversão negativa enfática não só: não só assinaram o acordo, mas também expandiram os corredores comerciais.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="11.04" data-end="12.99" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -421,6 +668,32 @@
               
               <div class="bubble-text">
                 Number four. Emphatic negative inversion with seldom: Seldom have international negotiators faced such complex regulatory hurdles.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.04" data-end="12.99" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U07_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Inversão negativa enfática com raramente: Raramente os negociadores internacionais enfrentaram obstáculos regulamentares tão complexos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U07_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

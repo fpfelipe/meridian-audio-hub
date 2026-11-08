@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_C1_U11_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Chairman">Chairman</button><button type="button" class="roleplay-pill" data-role="Director">Director</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="4.83" data-speaker="Chairman" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Fellow shareholders and members of the board. Today, we stand at an inflection point in the eighty-year history of this corporation. The restructuring plan before you is neither modest in ambition nor painless in execution. It shall demand rigorous operational discipline; it shall require sacrificial reallocation of capital; but it shall guarantee the long-term solvency and moral integrity of our enterprise.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="4.83" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Colegas acionistas e membros do conselho. Hoje, estamos num ponto de inflexão nos oitenta anos de história desta corporação. O plano de reestruturação que temos diante de vós não é modesto em termos de ambição nem indolor na sua execução. Exigirá rigorosa disciplina operacional; exigirá uma realocação sacrificial de capital; mas garantirá a solvência a longo prazo e a integridade moral da nossa empresa.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="1" data-start="5.43" data-end="7.23" data-speaker="Director" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 Chairman, certain institutional investors contend that divestiture of our legacy fossil fuel assets will depress dividend yields over the next three fiscal quarters.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.43" data-end="7.23" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Presidente, alguns investidores institucionais afirmam que o desinvestimento dos nossos antigos activos de combustíveis fósseis diminuirá os rendimentos de dividendos ao longo dos próximos três trimestres fiscais.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" data-start="7.83" data-end="11.87" data-speaker="Chairman" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -191,6 +253,32 @@
               
               <div class="bubble-text">
                 Short-term dividend optimization that mortgages our technological relevance is not stewardship; it is institutional suicide. We must choose: do we cling to sunset assets for transient quarterly gains, or do we lead the technological transition that will define the next half-century of industrial excellence? The board shall not waver. We urge your decisive endorsement of the future.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.83" data-end="11.87" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> A otimização de dividendos a curto prazo que hipoteca a nossa relevância tecnológica não é administração; é suicídio institucional. Temos de escolher: agarramo-nos a activos em declínio para obter ganhos trimestrais transitórios, ou lideramos a transição tecnológica que definirá o próximo meio século de excelência industrial? A diretoria não vacilará. Pedimos o seu apoio decisivo ao futuro.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -316,10 +404,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -331,10 +422,36 @@
               
               <div class="bubble-text">
                 Unit 11 Pronunciation Clinic. High executive oratory: rhetorical tricolon, chiasmus, and the formal imperative shall.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 11 Clínica de Pronúncia. Oratória do alto executivo: tricolon retórico, quiasma e o imperativo formal deve.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="5.08" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -346,10 +463,36 @@
               
               <div class="bubble-text">
                 Number one. The formal imperative shall in governance documents: The board shall hold directors accountable; management shall execute the strategy; the company shall prevail.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="5.08" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. O imperativo formal será nos documentos de governança: O conselho responsabilizará os diretores; a administração executará a estratégia; a empresa prevalecerá.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.68" data-end="7.50" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Number two. Rhetorical chiasmus (AB-BA structure): Let us never negotiate out of fear, but let us never fear to negotiate.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.68" data-end="7.50" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Quiasmo retórico (estrutura AB-BA): Nunca negociemos por medo, mas nunca tenhamos medo de negociar.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="8.10" data-end="10.74" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number three. Executive tricolon with escalating cadence: We have diagnosed the problem with clarity; we have developed the solution with precision; and we shall execute the turnaround with courage.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.10" data-end="10.74" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Tricolon executivo com cadência crescente: Diagnosticamos o problema com clareza; desenvolvemos a solução com precisão; e executaremos a reviravolta com coragem.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="11.34" data-end="13.34" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,6 +586,32 @@
               
               <div class="bubble-text">
                 Number four. Master high executive delivery: Our strategy is sound, our governance is transparent, and our commitment to shareholder value remains uncompromising.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.34" data-end="13.34" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U11_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Domine a entrega de altos executivos: Nossa estratégia é sólida, nossa governança é transparente e nosso compromisso com o valor para os acionistas permanece intransigente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U11_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

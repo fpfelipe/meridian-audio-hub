@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_B2_U06_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Prof">Prof</button><button type="button" class="roleplay-pill" data-role="Dr">Dr</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="3.12" data-speaker="Prof" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 In Book Ten of his Confessions, Augustine marveled at the vast palaces of memory, describing it as an inner sanctuary where past impressions are mysteriously stored and revived. Dr. Mercer, how does contemporary cognitive neuroscience view this ancient metaphor?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="3.12" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> No livro dez das suas Confissões, Agostinho maravilhou-se com os vastos palácios da memória, descrevendo-os como um santuário interior onde as impressões passadas são misteriosamente armazenadas e revividas. Dr. Mercer, como a neurociência cognitiva contemporânea vê essa antiga metáfora?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="3.72" data-end="6.07" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 Augustine was remarkably prescient, Professor Rossi. When we recall past experiences, our neural networks do not simply replay a fixed recording. Instead, the hippocampus reconstructs the event dynamically, integrating present emotional states with fragmented traces.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="3.72" data-end="6.07" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Agostinho foi notavelmente presciente, professor Rossi. Quando recordamos experiências passadas, as nossas redes neurais não reproduzem simplesmente uma gravação fixa. Em vez disso, o hipocampo reconstrói o evento de forma dinâmica, integrando estados emocionais presentes com traços fragmentados.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" data-start="6.67" data-end="8.47" data-speaker="Prof" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 Which explains why Augustine dreaded misremembering his own spiritual motives. The more deeply we investigate our past decisions, the more complex their moral ambiguity appears.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.67" data-end="8.47" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> O que explica por que Agostinho temia lembrar-se mal de seus próprios motivos espirituais. Quanto mais profundamente investigamos as nossas decisões passadas, mais complexa parece a sua ambiguidade moral.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="9.07" data-end="10.87" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -206,10 +294,36 @@
               
               <div class="bubble-text">
                 Exactly. Many patients dread confronting traumatic recollections because the act of retrieval alters the synaptic trace. Remembering is fundamentally an act of creative reconstruction.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="9.07" data-end="10.87" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Exatamente. Muitos pacientes temem confrontar lembranças traumáticas porque o ato de recuperação altera o traço sináptico. Lembrar é fundamentalmente um ato de reconstrução criativa.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="4" data-start="11.47" data-end="13.27" data-speaker="Prof" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -221,6 +335,32 @@
               
               <div class="bubble-text">
                 In that sense, our personal identity is not a static museum, but an ongoing narrative dialogue between the person who acted and the self who remembers.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.47" data-end="13.27" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Nesse sentido, a nossa identidade pessoal não é um museu estático, mas um diálogo narrativo contínuo entre a pessoa que agiu e o eu que se lembra.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -346,10 +486,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Unit 6 Pronunciation Clinic. Gerund vs infinitive patterns with verbs of memory and the intonation of proportional correlatives.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 6 Clínica de Pronúncia. Padrões de gerúndio versus infinitivo com verbos de memória e entonação de correlativos proporcionais.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="5.23" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number one. Contrast remember to do and remember doing: Remember to verify the sources before submitting. I remember visiting the archive five years ago.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="5.23" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Compare lembre-se de fazer e lembre-se de fazer: Lembre-se de verificar as fontes antes de enviar. Lembro-me de visitar o arquivo há cinco anos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.83" data-end="7.87" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +586,36 @@
               
               <div class="bubble-text">
                 Number two. Regret patterns: We regret to inform you of the delay. She regretted speaking so harshly during the committee debate.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.83" data-end="7.87" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Padrões de arrependimento: Lamentamos informar sobre o atraso. Ela se arrependeu de ter falado tão duramente durante o debate da comissão.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="8.47" data-end="10.41" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,10 +627,36 @@
               
               <div class="bubble-text">
                 Number three. Proportional correlatives (the more... the more...): The deeper the investigation went, the more elusive the objective truth became.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.47" data-end="10.41" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Correlativos proporcionais (quanto mais... mais...): Quanto mais profunda era a investigação, mais evasiva se tornava a verdade objetiva.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="11.01" data-end="12.95" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -421,6 +668,32 @@
               
               <div class="bubble-text">
                 Number four. Practice the balanced cadence: The more we scrutinize our memories, the more conscious of cognitive bias we become.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.01" data-end="12.95" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U06_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Pratique a cadência equilibrada: quanto mais examinamos nossas memórias, mais conscientes do preconceito cognitivo nos tornamos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U06_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

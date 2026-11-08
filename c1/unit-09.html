@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_C1_U09_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Chief">Chief</button><button type="button" class="roleplay-pill" data-role="Novak">Novak</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="3.91" data-speaker="Chief" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 When designing ultra-large-scale distributed artificial intelligence pipelines spanning tens of thousands of accelerated compute nodes, the primary engineering challenge is not raw floating-point throughput, but rather network interconnect latency, data serialization overhead, and Byzantine fault tolerance. Lead Engineer Novak, how do we guarantee deterministic reproducibility?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="3.91" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Ao projetar pipelines de inteligência artificial distribuída em escala ultralarga, abrangendo dezenas de milhares de nós de computação acelerados, o principal desafio de engenharia não é a taxa de transferência bruta de ponto flutuante, mas sim a latência de interconexão de rede, a sobrecarga de serialização de dados e a tolerância a falhas bizantinas. Engenheiro-chefe Novak, como podemos garantir a reprodutibilidade determinística?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="4.51" data-end="7.31" data-speaker="Novak" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">N</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 Architect Keller, deterministic model convergence mandates that every parameter gradient be synchronized across tensor-parallel pipelines with nanosecond precision. Were a single network switch to drop packets under heavy all-reduce operations, the entire multi-million-dollar training cluster would stall.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="4.51" data-end="7.31" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Arquiteto Keller, a convergência do modelo determinístico exige que cada gradiente de parâmetro seja sincronizado em pipelines paralelos a tensores com precisão de nanossegundos. Se um único switch de rede descartasse pacotes sob operações pesadas de redução total, todo o cluster de treinamento multimilionário paralisaria.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" data-start="7.91" data-end="9.80" data-speaker="Chief" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 Which is why relying on informal operational heuristics is unacceptable. Every mission-critical service must undergo formal TLA-plus verification of its consensus protocol before production deployment.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.91" data-end="9.80" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> É por isso que confiar em heurísticas operacionais informais é inaceitável. Todo serviço de missão crítica deve passar pela verificação formal TLA-plus de seu protocolo de consenso antes da implantação em produção.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="10.40" data-end="12.29" data-speaker="Novak" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">N</span>
@@ -206,6 +294,32 @@
               
               <div class="bubble-text">
                 Precisely. Formal mathematical verification of distributed state machines eliminates entire classes of catastrophic race conditions that unit tests and stress simulations inevitably fail to uncover.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="10.40" data-end="12.29" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Precisamente. A verificação matemática formal de máquinas de estado distribuídas elimina classes inteiras de condições de corrida catastróficas que os testes unitários e as simulações de estresse inevitavelmente não conseguem descobrir.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -331,10 +445,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="5.73" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -346,10 +463,36 @@
               
               <div class="bubble-text">
                 Unit 9 Pronunciation Clinic. Logical scope operators, syntactic precision, and technical compound intonation.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="5.73" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 9 Clínica de Pronúncia. Operadores de escopo lógico, precisão sintática e entonação técnica composta.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="6.33" data-end="14.37" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Number one. Scope precision with exclusively vs respectively: The authentication token applies exclusively to microservices operating within the secure enclave.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.33" data-end="14.37" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Precisão do escopo exclusivamente versus respectivamente: O token de autenticação se aplica exclusivamente a microsserviços operando dentro do enclave seguro.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="14.97" data-end="21.00" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number two. Compound technical stress: distributed consensus protocol, Byzantine fault tolerance, asynchronous remote procedure call.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="14.97" data-end="21.00" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Estresse técnico composto: protocolo de consenso distribuído, tolerância a falhas bizantinas, chamada de procedimento remoto assíncrono.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="21.60" data-end="30.05" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +586,36 @@
               
               <div class="bubble-text">
                 Number three. Conditional assertions with provided that: The transaction commits provided that a quorum of validator nodes acknowledge the state transition.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="21.60" data-end="30.05" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Asserções condicionais desde que: A transação seja confirmada desde que um quorum de nós validadores reconheça a transição de estado.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="30.65" data-end="39.90" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,6 +627,32 @@
               
               <div class="bubble-text">
                 Number four. Master technical cadence: The distributed storage cluster guarantees linearizable read operations provided that network partitioning does not exceed the consensus threshold.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="30.65" data-end="39.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U09_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Cadência técnica mestre: O cluster de armazenamento distribuído garante operações de leitura linearizáveis, desde que o particionamento da rede não exceda o limite de consenso.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U09_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

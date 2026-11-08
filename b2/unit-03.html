@@ -146,10 +146,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="0" data-start="0.50" data-end="3.02" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -161,10 +164,36 @@
               
               <div class="bubble-text">
                 Good afternoon, everyone. As head of emergency radiology at Massachusetts General, I want to review our preliminary validation data on multimodal deep learning models for stroke and trauma screening. Dr. Alvarez, what do the triage numbers show?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="3.02" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Boa tarde a todos. Como chefe de radiologia de emergência do Massachusetts General, quero revisar nossos dados preliminares de validação sobre modelos multimodais de aprendizagem profunda para triagem de AVC e trauma. Dr. Alvarez, o que mostram os números da triagem?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" data-start="3.62" data-end="6.07" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -176,10 +205,36 @@
               
               <div class="bubble-text">
                 Dr. Chen, the results are compelling. If our clinical network had not deployed the algorithmic triage tool six months ago, hundreds of critical intracranial hemorrhage cases wouldn't have received surgical consultation within the golden thirty-minute window.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="3.62" data-end="6.07" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Dr. Chen, os resultados são convincentes. Se nossa rede clínica não tivesse implantado a ferramenta de triagem algorítmica há seis meses, centenas de casos críticos de hemorragia intracraniana não teriam recebido consulta cirúrgica dentro da janela dourada de trinta minutos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="6.67" data-end="8.64" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -191,10 +246,36 @@
               
               <div class="bubble-text">
                 That is a life-saving improvement. However, we must address the risk of automation complacency. Were less experienced residents to accept diagnostic bounding boxes uncritically, atypical pathologies might be overlooked.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.67" data-end="8.64" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Essa é uma melhoria que salva vidas. No entanto, devemos enfrentar o risco de complacência com a automação. Se os residentes menos experientes aceitassem as caixas delimitadoras de diagnóstico de forma acrítica, as patologias atípicas poderiam ser negligenciadas.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="3" data-start="9.24" data-end="11.48" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -206,10 +287,36 @@
               
               <div class="bubble-text">
                 Precisely. That is why our clinical governance charter mandates that every algorithm remain strictly assistive. Had prospective trials not demonstrated algorithmic drift under changing scanner calibrations, we might have expanded autonomous screening prematurely.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="9.24" data-end="11.48" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Precisamente. É por isso que a nossa carta de governação clínica exige que cada algoritmo permaneça estritamente assistencial. Se os ensaios prospectivos não tivessem demonstrado desvio algorítmico sob alterações nas calibrações do scanner, poderíamos ter expandido a triagem autônoma prematuramente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="12.08" data-end="13.88" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -221,6 +328,32 @@
               
               <div class="bubble-text">
                 An essential precaution. High algorithmic accuracy never absolves physicians of diagnostic responsibility.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="12.08" data-end="13.88" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Uma precaução essencial. A alta precisão algorítmica nunca isenta os médicos da responsabilidade diagnóstica.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -346,10 +479,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="5.73" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +497,36 @@
               
               <div class="bubble-text">
                 Unit 3 Pronunciation Clinic. Mixed conditionals and formal conditional inversion in technical discourse.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="5.73" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 3 Clínica de Pronúncia. Condicionais mistas e inversão condicional formal no discurso técnico.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="6.33" data-end="13.97" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +538,36 @@
               
               <div class="bubble-text">
                 Number one. Mixed conditional type three to two: If trials had been monitored properly, patients wouldn't face risks today.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.33" data-end="13.97" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Condicional mista tipo três a dois: Se os ensaios tivessem sido monitorados adequadamente, os pacientes não enfrentariam riscos hoje.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="14.57" data-end="22.61" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +579,36 @@
               
               <div class="bubble-text">
                 Number two. Formal conditional inversion with had: Had we known the algorithm exhibited demographic drift, we would have halted deployment.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="14.57" data-end="22.61" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Inversão condicional formal com had: Se soubéssemos que o algoritmo exibia desvio demográfico, teríamos interrompido a implantação.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="23.21" data-end="30.85" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,10 +620,36 @@
               
               <div class="bubble-text">
                 Number three. Formal conditional inversion with were: Were the regulatory agency to mandate dual verification, hospitals would adapt immediately.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="23.21" data-end="30.85" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. A inversão condicional formal foi: Se a agência reguladora determinasse a verificação dupla, os hospitais se adaptariam imediatamente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="31.45" data-end="39.90" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -421,6 +661,32 @@
               
               <div class="bubble-text">
                 Number four. Practice sentence stress on contrasting condition and consequence: Had the calibration succeeded, the diagnostic pipeline would now be operational.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="31.45" data-end="39.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_B2_U03_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Pratique a ênfase da frase em condições e consequências contrastantes: Se a calibração tivesse sido bem-sucedida, o pipeline de diagnóstico estaria agora operacional.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_B2_U03_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_C1_U06_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Curator">Curator</button><button type="button" class="roleplay-pill" data-role="Maestro">Maestro</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="4.10" data-speaker="Curator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Hans Scharoun's visionary architecture for the Berlin Philharmonie placed the orchestra at the absolute center of a terraced amphitheater, demolishing the traditional hierarchical division between the performer on an elevated proscenium and a passive audience in darkened stalls. Maestro Sato, how does this spatial configuration alter the acoustic experience?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="4.10" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> A arquitectura visionária de Hans Scharoun para a Filarmónica de Berlim colocou a orquestra no centro absoluto de um anfiteatro com terraço, demolindo a tradicional divisão hierárquica entre o intérprete num proscénio elevado e um público passivo em cabines escuras. Maestro Sato, como essa configuração espacial altera a experiência acústica?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="1" data-start="4.70" data-end="7.35" data-speaker="Maestro" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">M</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 The acoustic space becomes a living, reciprocal instrument. In conventional shoe-box halls, sound propagates along a rigid linear trajectory. In Scharoun's vineyard terraces, by contrast, orchestral resonance envelops the listener in multidirectional waves, dissolving psychological detachment.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="4.70" data-end="7.35" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> O espaço acústico torna-se um instrumento vivo e recíproco. Nas salas convencionais de caixa de sapatos, o som se propaga ao longo de uma trajetória linear rígida. Nos terraços das vinhas de Scharoun, pelo contrário, a ressonância orquestral envolve o ouvinte em ondas multidirecionais, dissolvendo o distanciamento psicológico.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" data-start="7.95" data-end="9.75" data-speaker="Curator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 The physical curves of the Douglas fir paneling reflect high frequencies with crystalline warmth, balancing monumental volume with chamber-music intimacy.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.95" data-end="9.75" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> As curvas físicas dos painéis de abeto Douglas refletem altas frequências com calor cristalino, equilibrando o volume monumental com a intimidade da música de câmara.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-3" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-3" data-turn-idx="3" data-start="10.35" data-end="12.63" data-speaker="Maestro" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">M</span>
@@ -206,6 +294,32 @@
               
               <div class="bubble-text">
                 Exactly. Architecture is frozen music, and sound is liquid space. When physical structure and acoustic physics achieve perfect alignment, listening ceases to be an intellectual exercise and becomes a transcendent encounter.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="10.35" data-end="12.63" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Exatamente. A arquitetura é música congelada e o som é espaço líquido. Quando a estrutura física e a física acústica alcançam o alinhamento perfeito, a escuta deixa de ser um exercício intelectual e se torna um encontro transcendente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -331,10 +445,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -346,10 +463,36 @@
               
               <div class="bubble-text">
                 Unit 6 Pronunciation Clinic. Cinematographic syntax, parataxis, and informational end-weight in aesthetic prose.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 6 Clínica de Pronúncia. Sintaxe cinematográfica, parataxe e peso final informativo na prosa estética.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="5.80" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Number one. End-weight principle: Short subject, followed by elaborate acoustic description: The strings entered, carrying a shimmering veil of harmonic dissonance that settled gently across the hall.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="5.80" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Princípio do peso final: Tema curto, seguido por uma descrição acústica elaborada: As cordas entraram, carregando um véu cintilante de dissonância harmônica que se instalou suavemente pela sala.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="6.40" data-end="8.20" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number two. Parataxis without coordinating conjunctions: The baton dropped. The auditorium fell silent. Resonance exploded.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.40" data-end="8.20" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Parataxe sem conjunções coordenativas: O bastão caiu. O auditório ficou em silêncio. A ressonância explodiu.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="8.80" data-end="10.63" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +586,36 @@
               
               <div class="bubble-text">
                 Number three. Rhythmic cadence in artistic critique: Elegant, uncompromising, intensely personal, the performance redefined modern symphonic interpretation.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.80" data-end="10.63" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Cadência rítmica na crítica artística: Elegante, intransigente, intensamente pessoal, a performance redefiniu a interpretação sinfónica moderna.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="11.23" data-end="13.49" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,6 +627,32 @@
               
               <div class="bubble-text">
                 Number four. Practice balanced aesthetic cadence: Sound swept upward into the timbered canopy, reverberating through terraced tiers with luminous acoustic purity.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.23" data-end="13.49" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C1_U06_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Pratique uma cadência estética equilibrada: o som é elevado para a cobertura de madeira, reverberando através dos terraços com pureza acústica luminosa.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C1_U06_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_C2_U08_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Chairperson">Chairperson</button><button type="button" class="roleplay-pill" data-role="Mr">Mr</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="2.69" data-speaker="Chairperson" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Good afternoon. The Federal Open Market Committee has decided to maintain the target range for the federal funds rate at 5.25 to 5.50 percent. While headline inflation has moderated significantly, core services remain stubborn. In all likelihood, restoring price stability will require maintaining a restrictive policy stance for a sustained duration. Let us turn to questions.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.69" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Boa tarde. O Comité Federal de Mercado Aberto decidiu manter o intervalo alvo para a taxa dos fundos federais entre 5,25 e 5,50 por cento. Embora a inflação global tenha registado uma moderação significativa, os serviços básicos continuam teimosos. Muito provavelmente, a restauração da estabilidade de preços exigirá a manutenção de uma orientação política restritiva durante um período sustentado. Passemos às perguntas.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="3.29" data-end="5.40" data-speaker="Mr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">M</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 Julian Vance, Financial Times. Mr. Chairman, the futures market is currently pricing in three rate cuts before the end of the year. Given that the yield curve has been inverted for twenty-two consecutive months, are you concerned that maintaining this restrictive stance is liable to trigger a sovereign credit crunch or regional banking insolvencies?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="3.29" data-end="5.40" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Julian Vance, Financial Times. Senhor Presidente, o mercado de futuros está actualmente a prever três reduções nas taxas antes do final do ano. Dado que a curva de rendimentos se inverteu durante vinte e dois meses consecutivos, teme que a manutenção desta posição restritiva possa desencadear uma crise de crédito soberano ou insolvências bancárias regionais?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" data-start="6.00" data-end="8.54" data-speaker="Chairperson" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 Julian, the Committee does not target market futures; we target statutory macroeconomic mandates: maximum employment and price stability. Were we to ease prematurely, inflation expectations would stand an acute risk of becoming un-anchored, which would ultimately compel even more draconian tightening later. While regional lenders are liable to experience margin compression as depositors seek higher yields, our stress tests confirm that capital adequacy remains robust.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.00" data-end="8.54" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Julian, o Comitê não tem como alvo o futuro do mercado; visamos mandatos macroeconómicos estatutários: emprego máximo e estabilidade de preços. Se abrandássemos prematuramente, as expectativas de inflação correriam um risco agudo de se tornarem desancoradas, o que acabaria por obrigar a um aperto ainda mais draconiano mais tarde. Embora os credores regionais possam sofrer uma compressão das margens à medida que os depositantes procuram rendimentos mais elevados, os nossos testes de esforço confirmam que a adequação do capital permanece robusta.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="9.14" data-end="10.94" data-speaker="Mr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">M</span>
@@ -206,10 +294,36 @@
               
               <div class="bubble-text">
                 And what about the sovereign debt trajectory, Mr. Chairman? With national debt exceeding thirty-five trillion dollars, rising debt service costs are crowding out private investment. Does the Fed stand ready to engage in yield curve control if Treasury auctions fail?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="9.14" data-end="10.94" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> E quanto à trajetória da dívida soberana, Senhor Presidente? Com a dívida nacional a exceder os trinta e cinco biliões de dólares, os custos crescentes do serviço da dívida estão a excluir o investimento privado. Estará a Fed preparada para exercer o controlo da curva de rendimentos se os leilões do Tesouro fracassarem?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="4" data-start="11.54" data-end="13.34" data-speaker="Chairperson" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -221,6 +335,32 @@
               
               <div class="bubble-text">
                 Under no circumstances will the Federal Reserve subordinate its monetary mandate to fiscal dominance. The data would appear to portend that economic growth is moderating toward potential, and we will calibrate our policy path meeting by meeting based upon incoming telemetry.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.54" data-end="13.34" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Em nenhuma circunstância a Reserva Federal subordinará o seu mandato monetário ao domínio fiscal. Os dados parecem pressagiar que o crescimento económico está a moderar-se em direcção ao potencial, e calibraremos a nossa trajectória política reunião a reunião com base na telemetria recebida.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -346,10 +486,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Unit 8 Pronunciation Clinic. Probabilistic verbal modeling, stochastic economic forecasting, and central bank prosody.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 8 Clínica de Pronúncia. Modelagem verbal probabilística, previsão econômica estocástica e prosódia do banco central.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="4.97" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number one. Modal periphrastic is liable to: Leveraged emerging market sovereigns are liable to suffer severe capital flight should interest rate differentials widen.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="4.97" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. O perifrástico modal é susceptível de: Os governos soberanos alavancados dos mercados emergentes são susceptíveis de sofrer uma grave fuga de capitais caso os diferenciais das taxas de juro aumentem.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.57" data-end="7.37" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +586,36 @@
               
               <div class="bubble-text">
                 Number two. Odds-on probability: The supervisory committee is odds-on to implement counter-cyclical capital buffers before the fiscal quarter concludes.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.57" data-end="7.37" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Probabilidade de probabilidade: O comité de supervisão tem probabilidades de implementar reservas de capital anticíclicas antes da conclusão do trimestre fiscal.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="7.97" data-end="10.31" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,10 +627,36 @@
               
               <div class="bubble-text">
                 Number three. Stochastic hedging with would appear to portend: The inversion of the sovereign yield curve would appear to portend an asymptotic slowdown in manufacturing output.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.97" data-end="10.31" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. A cobertura estocástica parece pressagiar: A inversão da curva de rendimentos soberanos parece pressagiar um abrandamento assintótico na produção industrial.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="10.91" data-end="13.52" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -421,6 +668,32 @@
               
               <div class="bubble-text">
                 Number four. Master central bank forward guidance cadence: In all likelihood, policy rates will remain in restrictive territory until empirical telemetry demonstrates durable convergence toward the two percent target.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="10.91" data-end="13.52" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U08_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Dominar a cadência das orientações futuras do banco central: É muito provável que as taxas diretoras permaneçam em território restritivo até que a telemetria empírica demonstre uma convergência duradoura em direção à meta de 2%.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U08_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_C2_U09_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Professor">Professor</button><button type="button" class="roleplay-pill" data-role="Julian">Julian</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="3.82" data-speaker="Professor" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Welcome to our masterclass on the English literary essay. When we read George Orwell's 'Politics and the English Language', Virginia Woolf's 'The Common Reader', or Joan Didion's 'Slouching Towards Bethlehem', what strikes us immediately is that their prose never shouts. It whispers with devastating moral authority. Julian, how does Joan Didion deploy deadpan irony and syntactic ellipsis to dismantle cultural illusions?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="3.82" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Bem-vindo à nossa masterclass sobre ensaio literário inglês. Quando lemos “A Política e a Língua Inglesa” de George Orwell, “O Leitor Comum” de Virginia Woolf ou “Slouching Towards Bethlehem” de Joan Didion, o que nos impressiona imediatamente é que a sua prosa nunca grita. Sussurra com autoridade moral devastadora. Julian, como Joan Didion utiliza a ironia inexpressiva e as elipses sintáticas para desmantelar as ilusões culturais?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="1" data-start="4.42" data-end="7.46" data-speaker="Julian" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">J</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 Professor Sterling, Didion never lectures the reader. Instead, she juxtaposes disparate sensory fragments—a burning shopping mall, an abandoned child's toy, a recorded telephone monologue—and allows the moral vacuum of modern consumerism to announce itself through pregnant syntactic silence. The prose is clinically detached, almost surgical, yet beneath that laconic surface vibrates a profound, uncompromising ethical grief.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="4.42" data-end="7.46" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Professor Sterling, Didion nunca dá sermões ao leitor. Em vez disso, ela justapõe fragmentos sensoriais díspares – um centro comercial em chamas, um brinquedo de criança abandonado, um monólogo telefónico gravado – e permite que o vácuo moral do consumismo moderno se anuncie através de um silêncio sintático significativo. A prosa é clinicamente imparcial, quase cirúrgica, mas sob essa superfície lacônica vibra uma dor ética profunda e intransigente.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" data-start="8.06" data-end="10.40" data-speaker="Professor" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -191,10 +253,36 @@
               
               <div class="bubble-text">
                 Exactly. And Orwell recognized that the first casualty of totalitarian ideology is linguistic clarity. When political language resorts to prefabricated euphemisms, pacification becomes synonymous with bombardment, and tyranny masks itself as democratic necessity. The essayist's vocation is to reclaim language from bureaucratic sedation.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.06" data-end="10.40" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Exatamente. E Orwell reconheceu que a primeira vítima da ideologia totalitária é a clareza linguística. Quando a linguagem política recorre a eufemismos pré-fabricados, a pacificação torna-se sinónimo de bombardeamento e a tirania mascara-se como necessidade democrática. A vocação do ensaísta é resgatar a linguagem da sedação burocrática.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="3" data-start="11.00" data-end="12.80" data-speaker="Julian" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">J</span>
@@ -206,6 +294,32 @@
               
               <div class="bubble-text">
                 Woolf achieved that very reclamation through fluid syntactic modulation, proving that the personal voice, when rigorously honed, is the ultimate bulwark against institutional dogma.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.00" data-end="12.80" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Woolf conseguiu essa mesma recuperação através da modulação sintática fluida, provando que a voz pessoal, quando rigorosamente afiada, é o derradeiro baluarte contra o dogma institucional.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -331,10 +445,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -346,10 +463,36 @@
               
               <div class="bubble-text">
                 Unit 9 Pronunciation Clinic. Deadpan irony, syntactic ellipsis, understatement, and tonal modulation in literary criticism.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 9 Clínica de Pronúncia. Ironia inexpressiva, elipse sintática, eufemismo e modulação tonal na crítica literária.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="4.86" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Number one. Deadpan irony with flat intonation: The corporate board announced another record restructuring loss—an achievement they celebrated with customary bonuses.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="4.86" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Ironia inexpressiva com entonação plana: o conselho corporativo anunciou outra perda recorde de reestruturação – uma conquista que eles celebraram com bônus habituais.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.46" data-end="7.26" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number two. Syntactic ellipsis with evocative pausing: She surveyed the devastated gallery. No masterpieces. Only price tags.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.46" data-end="7.26" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Elipse sintática com pausa evocativa: Ela examinou a galeria devastada. Nenhuma obra-prima. Apenas etiquetas de preços.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="7.86" data-end="10.10" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,10 +586,36 @@
               
               <div class="bubble-text">
                 Number three. Sardonic litotes and understatement: Describing the catastrophic diplomatic summit as 'somewhat less than entirely harmonious' conveys far sharper critique than furious denunciation.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="7.86" data-end="10.10" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Litotes sarcásticos e eufemismo: Descrever a cimeira diplomática catastrófica como “um pouco menos do que inteiramente harmoniosa” transmite uma crítica muito mais contundente do que uma denúncia furiosa.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="10.70" data-end="13.50" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -406,6 +627,32 @@
               
               <div class="bubble-text">
                 Number four. Master tonal modulation from cool detachment to moral gravity: In an age of prefabricated sentiment, the writer who refuses to embellish truth offers the only genuine intellectual solace.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="10.70" data-end="13.50" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U09_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Domine a modulação tonal do distanciamento frio à gravidade moral: Em uma época de sentimentos pré-fabricados, o escritor que se recusa a embelezar a verdade oferece o único consolo intelectual genuíno.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U09_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

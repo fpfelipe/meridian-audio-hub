@@ -530,25 +530,25 @@ document.addEventListener('DOMContentLoaded', () => {
       applyFilters();
     });
   }
+
+  // --------------------------------------------------------------------------
+  // 7. Interactive Controls: Karaoke, Roleplay, Translation & Shadowing
+  // --------------------------------------------------------------------------
+  initInteractiveFeatures();
 });
 
-
-// ============================================================================
-// 7. INTERACTIVE PILOT: KARAOKE, ROLEPLAY, TRANSLATION & SHADOWING RECORDER
-// ============================================================================
-(function initInteractivePilot() {
+function initInteractiveFeatures() {
   const panels = document.querySelectorAll('.track-panel');
 
   panels.forEach(panel => {
     const audio = panel.querySelector('audio');
     if (!audio) return;
 
-    const turnCards = panel.querySelectorAll('.turn-card[data-start]');
-    const roleplayPills = panel.querySelectorAll('.roleplay-pill');
-    let activeRole = 'none'; // 'none' or speaker name like 'MARK', 'CAMILA'
+    let activeRole = 'none';
     let waitingForRoleplay = false;
 
     // Roleplay selection
+    const roleplayPills = panel.querySelectorAll('.roleplay-pill');
     roleplayPills.forEach(pill => {
       pill.addEventListener('click', () => {
         roleplayPills.forEach(p => p.classList.remove('active'));
@@ -556,30 +556,32 @@ document.addEventListener('DOMContentLoaded', () => {
         activeRole = pill.dataset.role || 'none';
         waitingForRoleplay = false;
 
-        // Clear any previous roleplay prompts
+        // Clear prompts
         panel.querySelectorAll('.roleplay-prompt-banner').forEach(el => el.remove());
         panel.querySelectorAll('.turn-card').forEach(c => c.classList.remove('is-roleplay-waiting'));
       });
     });
 
-    // Real-time Karaoke Sync & Roleplay Trigger on audio timeupdate
+    // Real-time Karaoke Sync & Roleplay Pauses
     audio.addEventListener('timeupdate', () => {
-      const curTime = audio.currentTime;
+      const cur = audio.currentTime;
+      const turnCards = panel.querySelectorAll('.turn-card[data-start]');
 
       turnCards.forEach(card => {
         const start = parseFloat(card.dataset.start);
         const end = parseFloat(card.dataset.end);
         const speaker = (card.dataset.speaker || '').toUpperCase();
-        const isCurrent = curTime >= start && curTime <= end;
+        if (isNaN(start) || isNaN(end)) return;
+
+        const isCurrent = cur >= start && cur <= end;
 
         if (isCurrent) {
           if (!card.classList.contains('is-karaoke-active')) {
             turnCards.forEach(c => c.classList.remove('is-karaoke-active'));
             card.classList.add('is-karaoke-active');
 
-            // Check if this turn is the user's roleplay character
+            // Roleplay check
             if (activeRole !== 'none' && speaker.startsWith(activeRole.toUpperCase()) && !waitingForRoleplay) {
-              // Pause audio to let the user speak
               audio.pause();
               waitingForRoleplay = true;
               card.classList.add('is-roleplay-waiting');
@@ -604,113 +606,125 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }
         } else {
-          if (curTime > end || curTime < start) {
+          if (cur > end || cur < start) {
             card.classList.remove('is-karaoke-active');
           }
         }
       });
     });
+  });
 
-    // Play Individual Turn Button
-    panel.querySelectorAll('.btn-bubble-play').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const start = parseFloat(btn.dataset.start);
-        const end = parseFloat(btn.dataset.end);
-
-        audio.currentTime = start;
-        audio.play().catch(() => {});
-
-        // Optional single-turn stop
-        const checkTurnEnd = () => {
-          if (audio.currentTime >= end) {
-            audio.pause();
-            audio.removeEventListener('timeupdate', checkTurnEnd);
-          }
-        };
-        audio.addEventListener('timeupdate', checkTurnEnd);
-      });
-    });
-
-    // Translation Toggle Button
-    panel.querySelectorAll('.btn-bubble-pt').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const card = btn.closest('.turn-card');
+  // Global Event Delegation for Translation Toggle (Rock-Solid across all units)
+  document.addEventListener('click', (e) => {
+    const ptBtn = e.target.closest('.btn-bubble-pt');
+    if (ptBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+      const card = ptBtn.closest('.turn-card');
+      if (card) {
         const transBox = card.querySelector('.turn-translation-box');
         if (transBox) {
-          transBox.classList.toggle('hidden');
-          btn.classList.toggle('active', !transBox.classList.contains('hidden'));
-        }
-      });
-    });
-
-    // Shadowing Voice Recording using Native MediaRecorder
-    panel.querySelectorAll('.btn-bubble-rec').forEach(btn => {
-      let mediaRecorder = null;
-      let audioChunks = [];
-      let isRecording = false;
-
-      btn.addEventListener('click', async (e) => {
-        e.stopPropagation();
-        const turnId = btn.dataset.turnId;
-        const feedbackBox = document.getElementById(`rec-box-${turnId}`);
-        if (!feedbackBox) return;
-
-        const statusRow = feedbackBox.querySelector('.rec-status-row');
-        const playerRow = feedbackBox.querySelector('.rec-player-row');
-        const userAudio = feedbackBox.querySelector('.user-recorded-audio');
-        const stopBtn = feedbackBox.querySelector('.btn-stop-rec');
-
-        if (!isRecording) {
-          try {
-            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-            mediaRecorder = new MediaRecorder(stream);
-            audioChunks = [];
-
-            mediaRecorder.ondataavailable = event => {
-              if (event.data.size > 0) audioChunks.push(event.data);
-            };
-
-            mediaRecorder.onstop = () => {
-              const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
-              const audioUrl = URL.createObjectURL(audioBlob);
-              if (userAudio) userAudio.src = audioUrl;
-              if (statusRow) statusRow.classList.add('hidden');
-              if (playerRow) playerRow.classList.remove('hidden');
-              btn.classList.remove('recording');
-              btn.innerHTML = '<span class="btn-icon">🎙️</span> Regravar';
-              isRecording = false;
-
-              // Stop all mic tracks
-              stream.getTracks().forEach(track => track.stop());
-            };
-
-            mediaRecorder.start();
-            isRecording = true;
-            feedbackBox.classList.remove('hidden');
-            if (statusRow) statusRow.classList.remove('hidden');
-            if (playerRow) playerRow.classList.add('hidden');
-            btn.classList.add('recording');
-            btn.innerHTML = '<span class="btn-icon">⏹</span> Gravando...';
-
-            if (stopBtn) {
-              stopBtn.onclick = () => {
-                if (mediaRecorder && mediaRecorder.state !== 'inactive') {
-                  mediaRecorder.stop();
-                }
-              };
-            }
-          } catch (err) {
-            alert('Permissão de microfone necessária para o modo shadowing.');
-            console.error('Microphone error:', err);
-          }
-        } else {
-          if (mediaRecorder && mediaRecorder.state !== 'inactive') {
-            mediaRecorder.stop();
+          const isHidden = transBox.classList.contains('hidden') || transBox.style.display === 'none';
+          if (isHidden) {
+            transBox.classList.remove('hidden');
+            transBox.style.display = 'block';
+            ptBtn.classList.add('active');
+          } else {
+            transBox.classList.add('hidden');
+            transBox.style.display = 'none';
+            ptBtn.classList.remove('active');
           }
         }
-      });
+      }
+      return;
+    }
+
+    // Global Event Delegation for Play Single Turn
+    const playBtn = e.target.closest('.btn-bubble-play');
+    if (playBtn) {
+      e.preventDefault();
+      e.stopPropagation();
+      const panel = playBtn.closest('.track-panel');
+      const audio = panel ? panel.querySelector('audio') : null;
+      if (audio) {
+        const start = parseFloat(playBtn.dataset.start);
+        const end = parseFloat(playBtn.dataset.end);
+        if (!isNaN(start)) {
+          // Pause other audios
+          document.querySelectorAll('audio').forEach(a => { if (a !== audio && !a.paused) a.pause(); });
+          audio.currentTime = start;
+          audio.play().catch(() => {});
+        }
+      }
+      return;
+    }
+  });
+
+  // Shadowing Microphone Recording Setup
+  document.querySelectorAll('.btn-bubble-rec').forEach(btn => {
+    let mediaRecorder = null;
+    let audioChunks = [];
+    let isRecording = false;
+
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      const turnId = btn.dataset.turnId;
+      const feedbackBox = document.getElementById(`rec-box-${turnId}`);
+      if (!feedbackBox) return;
+
+      const statusRow = feedbackBox.querySelector('.rec-status-row');
+      const playerRow = feedbackBox.querySelector('.rec-player-row');
+      const userAudio = feedbackBox.querySelector('.user-recorded-audio');
+      const stopBtn = feedbackBox.querySelector('.btn-stop-rec');
+
+      if (!isRecording) {
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          mediaRecorder = new MediaRecorder(stream);
+          audioChunks = [];
+
+          mediaRecorder.ondataavailable = event => {
+            if (event.data.size > 0) audioChunks.push(event.data);
+          };
+
+          mediaRecorder.onstop = () => {
+            const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+            const audioUrl = URL.createObjectURL(audioBlob);
+            if (userAudio) userAudio.src = audioUrl;
+            if (statusRow) statusRow.classList.add('hidden');
+            if (playerRow) playerRow.classList.remove('hidden');
+            btn.classList.remove('recording');
+            btn.innerHTML = '<span class="btn-icon">🎙️</span> Regravar';
+            isRecording = false;
+
+            stream.getTracks().forEach(track => track.stop());
+          };
+
+          mediaRecorder.start();
+          isRecording = true;
+          feedbackBox.classList.remove('hidden');
+          if (statusRow) statusRow.classList.remove('hidden');
+          if (playerRow) playerRow.classList.add('hidden');
+          btn.classList.add('recording');
+          btn.innerHTML = '<span class="btn-icon">⏹</span> Gravando...';
+
+          if (stopBtn) {
+            stopBtn.onclick = () => {
+              if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                mediaRecorder.stop();
+              }
+            };
+          }
+        } catch (err) {
+          alert('Permissão de microfone necessária para o modo shadowing no celular.');
+          console.error('Microphone error:', err);
+        }
+      } else {
+        if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+          mediaRecorder.stop();
+        }
+      }
     });
   });
-})();
+}
+

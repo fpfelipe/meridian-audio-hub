@@ -146,10 +146,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="10.50" data-speaker="Chancellor" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -161,6 +164,32 @@
               
               <div class="bubble-text">
                 Colleagues, fellows, and graduates of the MERIDIAN Global Leadership Institute. When you began this journey across the coordinates of language, English may have felt like an external garment—a foreign code to be cautiously deciphered and imitated. Today, standing upon this summit of C2 Mastery, language has ceased to be an obstacle; it has become your sovereign instrument of thought, influence, and human connection. You have learned that true eloquence is not baroque ornamentation, but clarity of purpose, surgical precision of thought, and empathy across civilizational divides. Whether drafting complex international treaties in Geneva, arbitrating multibillion-dollar disputes in London, or articulating bold moral visions on the plenary stage, you carry a voice that is cosmopolitan, authentic, and undeniably your own. The world is hungry for leaders who can harmonize technical rigor with humanistic wisdom. Go forward into the global arena: speak with authority, listen with humility, and shape the destiny of our interconnected world.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="10.50" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U12_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Colegas, bolsistas e graduados do MERIDIAN Global Leadership Institute. Quando você começou esta jornada através das coordenadas da língua, o inglês pode ter parecido uma vestimenta externa – um código estrangeiro a ser cuidadosamente decifrado e imitado. Hoje, estando neste cume do Domínio C2, a linguagem deixou de ser um obstáculo; tornou-se seu instrumento soberano de pensamento, influência e conexão humana. Você aprendeu que a verdadeira eloquência não é ornamentação barroca, mas clareza de propósito, precisão cirúrgica de pensamento e empatia através das divisões civilizacionais. Seja redigindo tratados internacionais complexos em Genebra, arbitrando disputas multibilionárias em Londres ou articulando visões morais ousadas no palco plenário, você carrega uma voz que é cosmopolita, autêntica e inegavelmente sua. O mundo está ávido por líderes que consigam harmonizar o rigor técnico com a sabedoria humanística. Avance na arena global: fale com autoridade, ouça com humildade e molde o destino do nosso mundo interligado.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U12_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -286,10 +315,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -301,10 +333,36 @@
               
               <div class="bubble-text">
                 Unit 12 Pronunciation Clinic. Polyphonic register synthesis, architectural rhythmic balance, and stylistic sovereignty.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U12_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 12 Clínica de Pronúncia. Síntese de registro polifônico, equilíbrio rítmico arquitetônico e soberania estilística.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U12_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="5.07" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -316,10 +374,36 @@
               
               <div class="bubble-text">
                 Number one. Seamless transition from technical precision to philosophical gravitas: While algorithmic telemetry indicates stochastic convergence, human wisdom must arbitrate the ultimate purpose of our civilization.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="5.07" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U12_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Transição perfeita da precisão técnica para a seriedade filosófica: Embora a telemetria algorítmica indique convergência estocástica, a sabedoria humana deve arbitrar o propósito final da nossa civilização.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U12_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.67" data-end="7.59" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -331,10 +415,36 @@
               
               <div class="bubble-text">
                 Number two. Harmonic pitch descent in valedictory cadence: In the enduring quiet of historical reflection, human eloquence finds its true and timeless measure.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.67" data-end="7.59" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U12_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Descida harmônica em cadência de despedida: Na quietude duradoura da reflexão histórica, a eloqüência humana encontra sua medida verdadeira e atemporal.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U12_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="8.19" data-end="10.27" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -346,10 +456,36 @@
               
               <div class="bubble-text">
                 Number three. Syntactic balance and rhythmic closure: We speak not for the transient applause of the moment, but for the lasting integrity of human reason.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.19" data-end="10.27" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U12_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Equilíbrio sintático e fechamento rítmico: não falamos pelos aplausos transitórios do momento, mas pela integridade duradoura da razão humana.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U12_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="10.87" data-end="13.62" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,6 +497,32 @@
               
               <div class="bubble-text">
                 Number four. Master the sovereign voice: With lucidity of mind, with mastery of language, and with profound respect for the human condition, we claim our place as architects of a shared global future.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="10.87" data-end="13.62" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U12_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Dominar a voz soberana: Com lucidez mental, domínio da linguagem e profundo respeito pela condição humana, reivindicamos o nosso lugar como arquitetos de um futuro global partilhado.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U12_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

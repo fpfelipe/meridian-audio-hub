@@ -146,10 +146,20 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_C2_U03_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="Prof">Prof</button><button type="button" class="roleplay-pill" data-role="Dr">Dr</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="0" data-start="0.50" data-end="4.57" data-speaker="Prof" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -161,10 +171,36 @@
               
               <div class="bubble-text">
                 Welcome, colleagues. When Edward Gibbon published his monumental Decline and Fall in the late eighteenth century, he famously blamed the triumph of barbarism and religion for Rome's demise. Yet, if one returns to Augustine’s De Civitate Dei, written in the very eye of the catastrophe, one discovers a far more profound diagnostic. Augustine recognized that Rome was not assassinated from without; it had decayed from within. Having elevated conquest into an absolute idol, the empire found itself consumed by its own insatiable lust for mastery.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="4.57" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T01_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Bem-vindos, colegas. Quando Edward Gibbon publicou o seu monumental Declínio e Queda, no final do século XVIII, culpou o triunfo da barbárie e da religião pelo desaparecimento de Roma. No entanto, se voltarmos ao De Civitate Dei de Agostinho, escrito no próprio olho da catástrofe, descobriremos um diagnóstico muito mais profundo. Agostinho reconheceu que Roma não foi assassinada externamente; ele havia decaído por dentro. Tendo elevado a conquista a um ídolo absoluto, o império viu-se consumido pelo seu próprio desejo insaciável de domínio.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T01_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" data-start="5.17" data-end="8.90" data-speaker="Dr" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -176,10 +212,36 @@
               
               <div class="bubble-text">
                 While Augustine’s moral critique is breathtaking in its psychological depth, Marcus, we must be cautious not to substitute theological drama for material historiography. When we examine fifth-century tax papyri, the reality is starkly economic. Having debased the silver denarius to less than five percent purity, and possessing an agrarian economy crippled by recurrent plagues, the Western empire could simply no longer pay its federate legions. The Visigoths did not sack a proud colossus; they plundered a bankrupt shell.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.17" data-end="8.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Embora a crítica moral de Agostinho seja de tirar o fôlego em sua profundidade psicológica, Marcus, devemos ser cautelosos para não substituir a historiografia material pelo drama teológico. Quando examinamos os papiros fiscais do século V, a realidade é claramente económica. Tendo degradado o denário de prata para menos de cinco por cento de pureza, e possuindo uma economia agrária prejudicada por pragas recorrentes, o império ocidental simplesmente não podia mais pagar às suas legiões federadas. Os visigodos não saquearam um colosso orgulhoso; eles saquearam uma concha falida.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-2" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-2" data-turn-idx="2" data-start="9.50" data-end="11.70" data-speaker="Prof" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">P</span>
@@ -191,6 +253,32 @@
               
               <div class="bubble-text">
                 But that fiscal depletion was itself the consequence of institutional hubris! When an administrative elite ceases to believe in the transcendent moral purpose of the state, corruption becomes systemic and civic duty evaporates. Not until civic virtue had been thoroughly liquidated did the military ramparts collapse.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="9.50" data-end="11.70" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Mas esse esgotamento fiscal foi em si consequência da arrogância institucional! Quando uma elite administrativa deixa de acreditar no propósito moral transcendente do Estado, a corrupção torna-se sistémica e o dever cívico evapora-se. Só depois de a virtude cívica ter sido completamente liquidada é que as muralhas militares ruíram.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -316,10 +404,13 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="0" data-start="0.50" data-end="2.30" data-speaker="Narrator" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -331,10 +422,36 @@
               
               <div class="bubble-text">
                 Unit 3 Pronunciation Clinic. Classical periodic cadence, multi-tiered subordination, and suspended pitch contours.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="2.30" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T02_0" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Unidade 3 Clínica de Pronúncia. Cadência periódica clássica, subordinação em vários níveis e contornos de afinação suspensos.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T02_0">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="1" data-start="2.90" data-end="5.31" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -346,10 +463,36 @@
               
               <div class="bubble-text">
                 Number one. Suspended participial opening: The treasury having been depleted by reckless extravagance, and the border legions having mutinied along the Rhine, Rome surrendered to her conquerors.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="2.90" data-end="5.31" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número um. Abertura participativa suspensa: Tendo o tesouro sido esgotado por extravagâncias imprudentes e as legiões fronteiriças se amotinando ao longo do Reno, Roma rendeu-se aos seus conquistadores.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="2" data-start="5.91" data-end="7.96" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -361,10 +504,36 @@
               
               <div class="bubble-text">
                 Number two. Negative restrictive inversion with delayed subject: Not until civic virtue had been thoroughly extinguished did the imperial ramparts crumble into ruin.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="5.91" data-end="7.96" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número dois. Inversão restritiva negativa com sujeito retardado: Só depois que a virtude cívica foi completamente extinta é que as muralhas imperiais desmoronaram em ruínas.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="3" data-start="8.56" data-end="10.79" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -376,10 +545,36 @@
               
               <div class="bubble-text">
                 Number three. Balanced antithesis with Latinate diction: All earthly imperium is temporal; all geopolitical hegemony carries within its foundations the seeds of its own dissolution.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="8.56" data-end="10.79" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número três. Antítese equilibrada com dicção latina: Todo império terrestre é temporal; toda hegemonia geopolítica carrega em seus alicerces as sementes da sua própria dissolução.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-narrator" data-turn-idx="4" data-start="11.39" data-end="13.53" data-speaker="Speaker" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">🎙️</span>
@@ -391,6 +586,32 @@
               
               <div class="bubble-text">
                 Number four. Master periodic sentence cadence: Having elevated worldly ambition above moral duty, the civilization discovered that monumental splendor could not avert internal decay.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="11.39" data-end="13.53" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_C2_U03_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Número quatro. Domine a cadência das sentenças periódicas: Tendo elevado a ambição mundana acima do dever moral, a civilização descobriu que o esplendor monumental não poderia evitar a decadência interna.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_C2_U03_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>

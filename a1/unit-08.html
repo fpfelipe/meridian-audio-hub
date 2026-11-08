@@ -153,6 +153,16 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_A1_U08_T01">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="LIAM">LIAM</button><button type="button" class="roleplay-pill" data-role="BEATRIZ">BEATRIZ</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
@@ -161,7 +171,7 @@
                 <span class="sfx-text">SFX: Gentle ambient murmur of tea cups, light rainfall outside</span>
               </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" data-start="0.50" data-end="6.32" data-speaker="LIAM" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">L</span>
@@ -173,10 +183,36 @@
               
               <div class="bubble-text">
                 Beatriz, how was your weekend? Did you go to Glastonbury?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="6.32" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Beatriz, como foi seu fim de semana? Você foi para Glastonbury?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="6.92" data-end="19.73" data-speaker="BEATRIZ" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">B</span>
@@ -188,10 +224,36 @@
               
               <div class="bubble-text">
                 Yes, I did, Liam! It was completely unforgettable. I went on Friday with my two housemates. We camped near the acoustic field.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.92" data-end="19.73" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Sim, eu fiz, Liam! Foi completamente inesquecível. Fui na sexta-feira com meus dois colegas de casa. Acampamos perto do campo acústico.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="3" data-start="20.33" data-end="24.99" data-speaker="LIAM" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">L</span>
@@ -203,10 +265,36 @@
               
               <div class="bubble-text">
                 Did it rain a lot on Worthy Farm?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="20.33" data-end="24.99" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Choveu muito em Worthy Farm?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="25.59" data-end="42.48" data-speaker="BEATRIZ" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">B</span>
@@ -218,10 +306,36 @@
               
               <div class="bubble-text">
                 Oh, it poured down on Saturday afternoon! The entire field was covered in thick mud. But we bought strong rubber boots in advance, so we danced all day anyway!
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="25.59" data-end="42.48" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Oh, choveu na tarde de sábado! Todo o campo estava coberto de lama espessa. Mas compramos botas de borracha resistentes com antecedência, então dançamos o dia todo mesmo assim!
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="5" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="5" data-start="43.08" data-end="49.49" data-speaker="LIAM" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">L</span>
@@ -233,10 +347,36 @@
               
               <div class="bubble-text">
                 Brilliant! And what headliner did you see on the Pyramid Stage?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="43.08" data-end="49.49" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_5" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Brilhante! E qual atração principal você viu no Pyramid Stage?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_5">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="6" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="6" data-start="50.09" data-end="69.31" data-speaker="BEATRIZ" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">B</span>
@@ -248,10 +388,36 @@
               
               <div class="bubble-text">
                 We saw Coldplay on Saturday night. Over one hundred thousand people sang every lyric together under the night sky. I also heard a phenomenal soul singer from West Africa on the smaller stage.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="50.09" data-end="69.31" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_6" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Vimos Coldplay no sábado à noite. Mais de cem mil pessoas cantaram todas as letras juntas sob o céu noturno. Também ouvi um cantor de soul fenomenal da África Ocidental no palco menor.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_6">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="7" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="7" data-start="69.91" data-end="72.82" data-speaker="LIAM" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">L</span>
@@ -263,10 +429,36 @@
               
               <div class="bubble-text">
                 Did you buy any souvenirs?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="69.91" data-end="72.82" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_7" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Você comprou alguma lembrança?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_7">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="8" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="8" data-start="73.42" data-end="83.90" data-speaker="BEATRIZ" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">B</span>
@@ -278,6 +470,32 @@
               
               <div class="bubble-text">
                 Yes, I bought the official festival poster and a warm hoodie. We had the time of our lives!
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="73.42" data-end="83.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T01_8" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Sim, comprei o pôster oficial do festival e um moletom quentinho. Tivemos o melhor momento de nossas vidas!
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T01_8">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -452,6 +670,16 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+          <div class="roleplay-bar">
+            <span class="roleplay-label">🎭 Modo Roleplay:</span>
+            <div class="roleplay-pills" data-track-id="AUDIO_A1_U08_T02">
+              <button type="button" class="roleplay-pill active" data-role="none">Ouvir Todos</button>
+              <button type="button" class="roleplay-pill" data-role="CHLOE">CHLOE</button><button type="button" class="roleplay-pill" data-role="GUSTAVO">GUSTAVO</button>
+            </div>
+          </div>
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
@@ -460,7 +688,7 @@
                 <span class="sfx-text">SFX: Distant street sounds, coffee machine hiss, gentle ocean breeze</span>
               </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" data-start="0.50" data-end="5.41" data-speaker="CHLOE" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -472,10 +700,36 @@
               
               <div class="bubble-text">
                 Gustavo, did you watch the derby match yesterday?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="5.41" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Gustavo, você assistiu ao clássico de ontem?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="6.01" data-end="17.66" data-speaker="GUSTAVO" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">G</span>
@@ -487,10 +741,36 @@
               
               <div class="bubble-text">
                 Watch it on television? No, Chloe, I was at the Maracanã Stadium! I bought my ticket two weeks ago.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="6.01" data-end="17.66" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Assistir na televisão? Não, Chloe, eu estava no Estádio do Maracanã! Comprei minha passagem há duas semanas.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="3" data-start="18.26" data-end="26.23" data-speaker="CHLOE" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -502,10 +782,36 @@
               
               <div class="bubble-text">
                 Really? How did you travel there? The traffic in Rio was terrible yesterday.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="18.26" data-end="26.23" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Realmente? Como você viajou para lá? O trânsito no Rio estava terrível ontem.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="4" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="4" data-start="26.83" data-end="39.09" data-speaker="GUSTAVO" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">G</span>
@@ -517,10 +823,36 @@
               
               <div class="bubble-text">
                 I went by metro! The train was packed with singing supporters wearing team jerseys. It was completely safe and direct.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="26.83" data-end="39.09" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_4" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Fui de metrô! O trem estava lotado de torcedores cantando e vestindo camisetas do time. Foi completamente seguro e direto.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_4">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="5" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="5" data-start="39.69" data-end="42.76" data-speaker="CHLOE" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -532,10 +864,36 @@
               
               <div class="bubble-text">
                 And did your team win?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="39.69" data-end="42.76" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_5" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> E seu time venceu?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_5">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="6" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="6" data-start="43.36" data-end="60.53" data-speaker="GUSTAVO" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">G</span>
@@ -547,10 +905,36 @@
               
               <div class="bubble-text">
                 Yes, they won two to one in the eighty-eighth minute! When our striker scored the winning goal, seventy thousand fans jumped and shouted together. The stadium literally vibrated.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="43.36" data-end="60.53" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_6" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Sim, venceram por dois a um aos oitenta e oito minutos! Quando nosso atacante marcou o gol da vitória, setenta mil torcedores pularam e gritaram juntos. O estádio literalmente vibrou.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_6">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="7" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="7" data-start="61.13" data-end="69.72" data-speaker="CHLOE" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">C</span>
@@ -562,10 +946,36 @@
               
               <div class="bubble-text">
                 The atmosphere in South American football is incredible. You took some great photos, right?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="61.13" data-end="69.72" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_7" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> A atmosfera do futebol sul-americano é incrível. Você tirou ótimas fotos, certo?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_7">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="8" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="8" data-start="70.32" data-end="78.91" data-speaker="GUSTAVO" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">G</span>
@@ -577,6 +987,32 @@
               
               <div class="bubble-text">
                 Yes, I took dozens of short videos on my phone. Look at this one!
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="70.32" data-end="78.91" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T02_8" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Sim, gravei dezenas de vídeos curtos no meu telefone. Olhe para este!
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T02_8">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -746,6 +1182,9 @@
           </div>
         </div>
 
+        <!-- Roleplay Bar (for multi-character dialogues) -->
+        
+
         <!-- VIEW 1: Conversational Speech Bubbles -->
         <div class="dialogue-view">
           
@@ -757,7 +1196,7 @@
 Hello! Did you enjoy the open-air performances this evening?</span>
               </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="1" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="1" data-start="0.50" data-end="24.04" data-speaker="DAVID" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -770,10 +1209,39 @@ Hello! Did you enjoy the open-air performances this evening?</span>
               <div class="bubble-text">
                 I really did. This is my first time in Montreal. Yesterday afternoon, I walked down Sainte-Catherine Street, and the entire avenue was pedestrian-only.<br><br>ÉLISE:
 Yes, the festival closes the main streets for ten days! Which concerts did you hear?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="0.50" data-end="24.04" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T03_1" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Eu realmente fiz. Esta é a minha primeira vez em Montreal. Ontem à tarde caminhei pela rua Sainte-Catherine e toda a avenida era exclusiva para pedestres.
+
+ÉLISE:
+Sim, o festival fecha as ruas principais durante dez dias! Quais shows você ouviu?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T03_1">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="2" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="2" data-start="24.64" data-end="54.21" data-speaker="DAVID" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -786,10 +1254,39 @@ Yes, the festival closes the main streets for ten days! Which concerts did you h
               <div class="bubble-text">
                 I heard a brass band from New Orleans at four o'clock, and then I saw an incredible Japanese pianist at eight. But my favorite moment was a street musician playing the saxophone on the corner.<br><br>ÉLISE:
 That's the true spirit of Montreal Jazz! Did you eat any local food?
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="24.64" data-end="54.21" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T03_2" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Ouvi uma banda de metais de Nova Orleans às quatro horas e depois vi um incrível pianista japonês às oito. Mas meu momento favorito foi um músico de rua tocando saxofone na esquina.
+
+ÉLISE:
+Esse é o verdadeiro espírito do Montreal Jazz! Você comeu alguma comida local?
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T03_2">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
           
-            <div class="turn-card speaker-theme-1" data-turn-idx="3" tabindex="0">
+            <div class="turn-card speaker-theme-1" data-turn-idx="3" data-start="54.81" data-end="69.90" data-speaker="DAVID" tabindex="0">
               <div class="turn-header">
                 <div class="speaker-meta">
                   <span class="speaker-avatar">D</span>
@@ -801,6 +1298,32 @@ That's the true spirit of Montreal Jazz! Did you eat any local food?
               
               <div class="bubble-text">
                 Yes, I ate delicious poutine at a food stall. I met travelers from France and Mexico at the shared table. It was a wonderful night.
+
+                <div class="turn-actions-bar">
+                  <button type="button" class="btn-bubble-play" data-start="54.81" data-end="69.90" title="Tocar esta frase">
+                    <span class="btn-icon">▶</span> Ouvir
+                  </button>
+                  <button type="button" class="btn-bubble-pt" title="Ver tradução em português">
+                    <span class="btn-icon">🇧🇷</span> Tradução
+                  </button>
+                  <button type="button" class="btn-bubble-rec" data-turn-id="AUDIO_A1_U08_T03_3" title="Gravar sua voz e comparar">
+                    <span class="btn-icon">🎙️</span> Gravar
+                  </button>
+                </div>
+
+                <div class="turn-translation-box hidden">
+                  <span class="pt-flag">🇧🇷</span> Sim, comi um delicioso poutine em uma barraca de comida. Conheci viajantes da França e do México na mesa compartilhada. Foi uma noite maravilhosa.
+                </div>
+
+                <div class="recording-feedback-box hidden" id="rec-box-AUDIO_A1_U08_T03_3">
+                  <div class="rec-status-row">
+                    <span class="rec-dot"></span> Gravando... <button type="button" class="btn-stop-rec">⏹ Parar</button>
+                  </div>
+                  <div class="rec-player-row hidden">
+                    <span class="rec-label">Sua voz:</span>
+                    <audio controls class="user-recorded-audio"></audio>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
