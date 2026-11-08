@@ -40,11 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (audio) {
           activeAudio = audio;
           updateStickyDockInfo(panel);
+          syncDockState(false);
+          syncDockProgress();
         }
       }
     });
 
-    // Update observer for sticky dock
+    // Re-setup observer for sticky dock to watch new player card
     setupIntersectionObserver();
   }
 
@@ -124,13 +126,14 @@ document.addEventListener('DOMContentLoaded', () => {
       if (scrubber) scrubber.value = 0;
       if (curTimeSpan) curTimeSpan.textContent = '00:00';
       syncDockState(false);
+      syncDockProgress();
     });
 
     audio.addEventListener('loadedmetadata', () => {
-      if (scrubber && audio.duration) {
+      if (scrubber && audio.duration && !isNaN(audio.duration)) {
         scrubber.max = Math.floor(audio.duration);
       }
-      if (durSpan) {
+      if (durSpan && audio.duration && !isNaN(audio.duration)) {
         durSpan.textContent = formatTime(audio.duration);
       }
       syncDockProgress();
@@ -144,17 +147,24 @@ document.addEventListener('DOMContentLoaded', () => {
       syncDockProgress();
     });
 
-    // Scrubber seeking
+    // Scrubber seeking with robust mobile touch support
     if (scrubber) {
       scrubber.addEventListener('input', () => {
         scrubber.dragging = true;
         if (curTimeSpan) curTimeSpan.textContent = formatTime(scrubber.value);
       });
 
-      scrubber.addEventListener('change', () => {
-        scrubber.dragging = false;
-        audio.currentTime = parseFloat(scrubber.value);
-      });
+      const finishScrub = () => {
+        if (scrubber.dragging) {
+          scrubber.dragging = false;
+          audio.currentTime = parseFloat(scrubber.value);
+          syncDockProgress();
+        }
+      };
+
+      scrubber.addEventListener('change', finishScrub);
+      scrubber.addEventListener('touchend', finishScrub);
+      scrubber.addEventListener('mouseup', finishScrub);
     }
 
     // Speed pills
@@ -175,6 +185,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const dockKicker = document.getElementById('dockTrackKicker');
   const dockTitle = document.getElementById('dockTrackTitle');
   const dockFill = document.getElementById('dockProgressFill');
+  const dockProgressLine = document.querySelector('.dock-progress-line');
+  const dockTrackInfo = document.querySelector('.dock-track-info');
   const dockPlayBtn = document.getElementById('dockPlayBtn');
   const dockReplayBtn = document.getElementById('dockReplayBtn');
   const dockForwardBtn = document.getElementById('dockForwardBtn');
@@ -196,18 +208,60 @@ document.addEventListener('DOMContentLoaded', () => {
   function syncDockProgress() {
     if (!activeAudio || !dockFill) return;
     const cur = activeAudio.currentTime || 0;
-    const dur = activeAudio.duration || 1;
-    const pct = Math.min(100, Math.max(0, (cur / dur) * 100));
+    const dur = (activeAudio.duration && !isNaN(activeAudio.duration)) ? activeAudio.duration : 0;
+    const pct = dur > 0 ? Math.min(100, Math.max(0, (cur / dur) * 100)) : 0;
     dockFill.style.width = pct + '%';
     if (dockTime) {
-      dockTime.textContent = `${formatTime(cur)} / ${formatTime(dur)}`;
+      dockTime.textContent = dur > 0
+        ? `${formatTime(cur)} / ${formatTime(dur)}`
+        : `${formatTime(cur)} / --:--`;
     }
+  }
+
+  // Interactive scrubbing on sticky dock's progress line
+  function seekFromDock(e) {
+    if (!activeAudio || !dockProgressLine) return;
+    const rect = dockProgressLine.getBoundingClientRect();
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const clickX = Math.max(0, Math.min(rect.width, clientX - rect.left));
+    const pct = clickX / rect.width;
+    const dur = activeAudio.duration;
+    if (dur && !isNaN(dur) && dur > 0) {
+      activeAudio.currentTime = pct * dur;
+      syncDockProgress();
+    }
+  }
+
+  if (dockProgressLine) {
+    dockProgressLine.addEventListener('click', seekFromDock);
+    dockProgressLine.addEventListener('touchstart', (e) => {
+      seekFromDock(e);
+    }, { passive: true });
+    dockProgressLine.addEventListener('touchmove', (e) => {
+      seekFromDock(e);
+    }, { passive: true });
+  }
+
+  // Tap track title in sticky dock to smoothly scroll back up to main player card
+  if (dockTrackInfo) {
+    dockTrackInfo.addEventListener('click', () => {
+      const activePanel = document.querySelector('.track-panel:not(.is-hidden)');
+      if (activePanel) {
+        const playerCard = activePanel.querySelector('.player-card');
+        if (playerCard) {
+          playerCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    });
   }
 
   if (dockPlayBtn) {
     dockPlayBtn.addEventListener('click', () => {
       if (!activeAudio) return;
       if (activeAudio.paused) {
+        document.querySelectorAll('audio').forEach(a => {
+          if (a !== activeAudio && !a.paused) a.pause();
+        });
         activeAudio.play().catch(() => {});
       } else {
         activeAudio.pause();
@@ -347,7 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Tap individual turn card or blurred bubble to reveal & focus
   document.querySelectorAll('.turn-card').forEach(card => {
-    card.addEventListener('click', (e) => {
+    card.addEventListener('click', () => {
       const bubble = card.querySelector('.bubble-text');
       if (bubble && bubble.classList.contains('is-blurred')) {
         bubble.classList.remove('is-blurred');
@@ -369,21 +423,82 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterPills = document.querySelectorAll('.portal-filter-pill');
   const volumeCards = document.querySelectorAll('.volume-card');
   const searchInput = document.getElementById('portalSearchInput');
+  const searchClearBtn = document.getElementById('portalSearchClear');
+  const portalCounter = document.getElementById('portalCounter');
+  const portalEmptyState = document.getElementById('portalEmptyState');
+  const volumesGrid = document.getElementById('volumesGrid');
+  const btnClearSearch = document.getElementById('btnClearSearch');
 
   function applyFilters() {
     const activePill = document.querySelector('.portal-filter-pill.active');
     const selectedLevel = activePill ? activePill.dataset.level : 'all';
     const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
 
+    if (searchClearBtn) {
+      searchClearBtn.style.display = query ? 'flex' : 'none';
+    }
+
+    let visibleCardsCount = 0;
+    let visibleUnitsCount = 0;
+
     volumeCards.forEach(card => {
       const cardLevel = card.dataset.level || '';
-      const text = card.textContent.toLowerCase();
+      const searchData = (card.dataset.search || card.textContent || '').toLowerCase();
 
       const matchesLevel = (selectedLevel === 'all' || cardLevel === selectedLevel);
-      const matchesSearch = (!query || text.includes(query));
+      const matchesSearch = (!query || searchData.includes(query));
+      const isVisible = matchesLevel && matchesSearch;
 
-      card.classList.toggle('is-filtered-out', !(matchesLevel && matchesSearch));
+      card.classList.toggle('is-filtered-out', !isVisible);
+
+      if (isVisible) {
+        visibleCardsCount++;
+        // Count visible unit badges inside this volume card
+        const unitLinks = card.querySelectorAll('.unit-links-grid a');
+        if (query) {
+          unitLinks.forEach(link => {
+            const linkText = (link.dataset.unitText || link.title || '').toLowerCase();
+            const linkMatched = linkText.includes(query) || link.textContent.toLowerCase().includes(query);
+            link.style.opacity = linkMatched ? '1' : '0.4';
+            link.style.transform = linkMatched ? 'scale(1.08)' : 'scale(1)';
+            link.style.borderColor = linkMatched ? 'var(--cobalt)' : '';
+            if (linkMatched) visibleUnitsCount++;
+          });
+        } else {
+          unitLinks.forEach(link => {
+            link.style.opacity = '1';
+            link.style.transform = '';
+            link.style.borderColor = '';
+            visibleUnitsCount++;
+          });
+        }
+      }
     });
+
+    // Update Counter Text
+    if (portalCounter) {
+      if (visibleCardsCount === 0) {
+        portalCounter.textContent = '0 lições encontradas';
+      } else if (query) {
+        portalCounter.textContent = `Encontradas ${visibleUnitsCount} lições em ${visibleCardsCount} volume(s) para "${query}"`;
+      } else if (selectedLevel !== 'all') {
+        const levelName = activePill ? activePill.textContent.trim() : selectedLevel.toUpperCase();
+        portalCounter.textContent = `Exibindo ${visibleUnitsCount} lições em ${levelName}`;
+      } else {
+        portalCounter.textContent = 'Exibindo todas as 66 lições';
+      }
+    }
+
+    // Toggle Empty State
+    if (portalEmptyState && volumesGrid) {
+      if (visibleCardsCount === 0) {
+        portalEmptyState.style.display = 'block';
+        volumesGrid.style.display = 'none';
+      } else {
+        portalEmptyState.style.display = 'none';
+        volumesGrid.style.display = 'grid';
+      }
+    }
   }
 
   filterPills.forEach(pill => {
@@ -396,5 +511,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (searchInput) {
     searchInput.addEventListener('input', applyFilters);
+  }
+
+  if (searchClearBtn) {
+    searchClearBtn.addEventListener('click', () => {
+      if (searchInput) {
+        searchInput.value = '';
+        searchInput.focus();
+      }
+      applyFilters();
+    });
+  }
+
+  if (btnClearSearch) {
+    btnClearSearch.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      filterPills.forEach(p => p.classList.toggle('active', p.dataset.level === 'all'));
+      applyFilters();
+    });
   }
 });

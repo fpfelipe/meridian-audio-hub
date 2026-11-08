@@ -190,7 +190,7 @@
             "type": "speech",
             "speaker": "AMARI",
             "role": "Desk Officer",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -210,7 +210,7 @@
             "type": "speech",
             "speaker": "AMARI",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -230,7 +230,7 @@
             "type": "speech",
             "speaker": "AMARI",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -250,7 +250,7 @@
             "type": "speech",
             "speaker": "AMARI",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -270,7 +270,7 @@
             "type": "speech",
             "speaker": "AMARI",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -290,7 +290,7 @@
             "type": "speech",
             "speaker": "AMARI",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -344,7 +344,7 @@
             "type": "speech",
             "speaker": "AMARA",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -364,7 +364,7 @@
             "type": "speech",
             "speaker": "AMARA",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -384,7 +384,7 @@
             "type": "speech",
             "speaker": "AMARA",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -404,7 +404,7 @@
             "type": "speech",
             "speaker": "AMARA",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -424,7 +424,7 @@
             "type": "speech",
             "speaker": "AMARA",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -444,7 +444,7 @@
             "type": "speech",
             "speaker": "AMARA",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "A",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -613,8 +613,8 @@
           {
             "type": "speech",
             "speaker": "RODRIGO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "R",
             "theme": "speaker-theme-1",
             "stageDirection": "",
@@ -623,18 +623,18 @@
           {
             "type": "speech",
             "speaker": "JI-HOON",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Especialista em Comunicação",
+            "accent": "🇰🇷 Korean English",
             "avatar": "J",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Thank you, Rodrigo. The space is beautiful and very bright."
           },
           {
             "type": "speech",
             "speaker": "RODRIGO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "R",
             "theme": "speaker-theme-1",
             "stageDirection": "",
@@ -643,18 +643,18 @@
           {
             "type": "speech",
             "speaker": "JI-HOON",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Especialista em Comunicação",
+            "accent": "🇰🇷 Korean English",
             "avatar": "J",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Are those markers in the glass container for everyone?"
           },
           {
             "type": "speech",
             "speaker": "RODRIGO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "R",
             "theme": "speaker-theme-1",
             "stageDirection": "",
@@ -663,18 +663,18 @@
           {
             "type": "speech",
             "speaker": "JI-HOON",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Especialista em Comunicação",
+            "accent": "🇰🇷 Korean English",
             "avatar": "J",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Excellent. Everything is so well-organized."
           },
           {
             "type": "speech",
             "speaker": "RODRIGO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "R",
             "theme": "speaker-theme-1",
             "stageDirection": "",
@@ -1086,70 +1086,70 @@
           {
             "type": "speech",
             "speaker": "LERATO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Oficial",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "L",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Sipho, you always arrive at the office so early! What time do you wake up?"
           },
           {
             "type": "speech",
             "speaker": "SIPHO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Oficial",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "S",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "I wake up at five o'clock every morning, Lerato. The traffic on the M1 highway is terrible after six!"
           },
           {
             "type": "speech",
             "speaker": "LERATO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Oficial",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "L",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Five o'clock! That is very early. Do you go to bed early too?"
           },
           {
             "type": "speech",
             "speaker": "SIPHO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Oficial",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "S",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Yes, I usually go to bed around ten o'clock. But on Thursday evenings, I go to a running club in the park."
           },
           {
             "type": "speech",
             "speaker": "LERATO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Oficial",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "L",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Do you run every Thursday?"
           },
           {
             "type": "speech",
             "speaker": "SIPHO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Oficial",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "S",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Yes, always. It helps me relax after a long week of urban planning meetings."
           },
           {
             "type": "speech",
             "speaker": "LERATO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Oficial",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "L",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "That makes complete sense. We all need balance in this city!\n\n[SFX: Music and cafe ambiance fades]"
           }
@@ -1727,70 +1727,70 @@
           {
             "type": "speech",
             "speaker": "OMAR",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "O",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "Friendly, welcoming tone",
             "text": "Good morning, Ms. Silveira. Welcome to the Bibliotheca Alexandrina! Was your journey from Cairo comfortable?"
           },
           {
             "type": "speech",
             "speaker": "MARIANA",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "M",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Good morning, Omar. Yes, it was very comfortable, thank you. The coastal train arrived right on time yesterday evening."
           },
           {
             "type": "speech",
             "speaker": "OMAR",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "O",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Splendid. Did you explore the city yesterday?"
           },
           {
             "type": "speech",
             "speaker": "MARIANA",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "M",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Yes! Yesterday morning, I was at the Corniche near the Mediterranean Sea. I walked along the coast for an hour. Then, in the afternoon, I visited the historical museum. The ancient exhibits were magnificent."
           },
           {
             "type": "speech",
             "speaker": "OMAR",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "O",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Wonderful. Our modern library building opened in 2002. It honors the ancient Great Library, which was the world's greatest center of learning more than two thousand years ago."
           },
           {
             "type": "speech",
             "speaker": "MARIANA",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "M",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "The architecture is extraordinary. The granite exterior wall was designed with letters from ancient alphabets, right?"
           },
           {
             "type": "speech",
             "speaker": "OMAR",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "O",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Exactly. Architects from Norway and Egypt planned the circular form. Let’s walk to the main reading gallery.\n\n[SFX: Gentle footsteps echoing softly as they walk through the gallery]"
           }
@@ -1830,10 +1830,10 @@
           {
             "type": "speech",
             "speaker": "MATTEO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Urbanista / Curador",
+            "accent": "🇮🇹 Italian English",
             "avatar": "M",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Claire, how was your day yesterday? Were you at the Colosseum in the morning?"
           },
@@ -1850,10 +1850,10 @@
           {
             "type": "speech",
             "speaker": "MATTEO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Urbanista / Curador",
+            "accent": "🇮🇹 Italian English",
             "avatar": "M",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Was it very crowded?"
           },
@@ -1870,10 +1870,10 @@
           {
             "type": "speech",
             "speaker": "MATTEO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Urbanista / Curador",
+            "accent": "🇮🇹 Italian English",
             "avatar": "M",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "And did you explore the Roman Forum as well?"
           },
@@ -1890,10 +1890,10 @@
           {
             "type": "speech",
             "speaker": "MATTEO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Urbanista / Curador",
+            "accent": "🇮🇹 Italian English",
             "avatar": "M",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Rome really is an open-air museum. What was your favorite monument?"
           },
@@ -1953,10 +1953,10 @@
           {
             "type": "speech",
             "speaker": "TIAGO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "T",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Yes, Elena. Most of these houses were constructed between seventeen fifty and eighteen hundred. My family lived in this historic district for four generations."
           },
@@ -1973,10 +1973,10 @@
           {
             "type": "speech",
             "speaker": "TIAGO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "T",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "In the eighteenth century, Paraty was the main port for gold from Minas Gerais. But when a new road opened directly to Rio, the gold trade moved away. Economic activity stopped, and the colonial center was preserved in time."
           },
@@ -1993,10 +1993,10 @@
           {
             "type": "speech",
             "speaker": "TIAGO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "T",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Precisely. In 2019, UNESCO inscribed Paraty as a World Heritage Site. Yesterday, our municipality finished restoring the Santa Rita church facade."
           },
@@ -2183,10 +2183,10 @@
           {
             "type": "speech",
             "speaker": "GUSTAVO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "G",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Watch it on television? No, Chloe, I was at the Maracanã Stadium! I bought my ticket two weeks ago."
           },
@@ -2203,10 +2203,10 @@
           {
             "type": "speech",
             "speaker": "GUSTAVO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "G",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "I went by metro! The train was packed with singing supporters wearing team jerseys. It was completely safe and direct."
           },
@@ -2223,10 +2223,10 @@
           {
             "type": "speech",
             "speaker": "GUSTAVO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "G",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Yes, they won two to one in the eighty-eighth minute! When our striker scored the winning goal, seventy thousand fans jumped and shouted together. The stadium literally vibrated."
           },
@@ -2243,10 +2243,10 @@
           {
             "type": "speech",
             "speaker": "GUSTAVO",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "G",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Yes, I took dozens of short videos on my phone. Look at this one!"
           }
@@ -2797,18 +2797,14 @@
         "rawScript": "In continuous connected speech, auxiliary was and were are unstressed with a schwa sound. Listen and repeat: I was walking along the river. We were waiting for the evening train. She was living in Santiago when the transit reform began. They were discussing the design brief when the power failed.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "In continuous connected speech, auxiliary was and were are unstressed with a schwa sound."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "I was walking along the river. We were waiting for the evening train. She was living in Santiago when the transit reform began. They were discussing the design brief when the power failed."
+            "text": "In continuous connected speech, auxiliary was and were are unstressed with a schwa sound. Listen and repeat: I was walking along the river. We were waiting for the evening train. She was living in Santiago when the transit reform began. They were discussing the design brief when the power failed."
           }
         ]
       }
@@ -2904,17 +2900,13 @@
         "rawScript": "Practice the natural contraction of auxiliary have and has in present perfect statements. Listen and repeat: I've worked here for five years. She's traveled across three continents. We've already finalized the quarterly budget. They've never experienced an earthquake tremor.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "Practice the natural contraction of auxiliary have and has in present perfect statements."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Practice the natural contraction of auxiliary have and has in present perfect statements. Listen and repeat:",
             "text": "I've worked here for five years. She's traveled across three continents. We've already finalized the quarterly budget. They've never experienced an earthquake tremor."
           }
         ]
@@ -2958,10 +2950,10 @@
           {
             "type": "speech",
             "speaker": "Mariana",
-            "role": "Diplomata / Especialista",
-            "accent": "🇫🇷 French English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "M",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "The bicycle infrastructure is vastly superior. In Copenhagen, cycling lanes are physically separated from automobile traffic and painted blue at intersections."
           },
@@ -2978,10 +2970,10 @@
           {
             "type": "speech",
             "speaker": "Mariana",
-            "role": "Diplomata / Especialista",
-            "accent": "🇫🇷 French English",
+            "role": "Profissional Convidado",
+            "accent": "🇧🇷 Brazilian English",
             "avatar": "M",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "During morning rush hour, cycling is often as fast as taking the commuter train, and significantly cheaper. It reduces metropolitan noise and cleans the air."
           }
@@ -3001,28 +2993,14 @@
         "rawScript": "Notice the weak unstressed schwa ending in comparative adjectives. Listen and repeat: cleaner, quieter, faster, wider, healthier. Now in sentences: Copenhagen is greener than other capitals. Cycling is cheaper than driving during rush hour.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "Notice the weak unstressed schwa ending in comparative adjectives."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Diplomata / Especialista",
-            "accent": "🇫🇷 French English",
-            "avatar": "L",
-            "theme": "speaker-theme-2",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "cleaner, quieter, faster, wider, healthier."
-          },
-          {
-            "type": "speech",
-            "speaker": "Now in sentences",
-            "role": "Diplomata / Especialista",
-            "accent": "🇫🇷 French English",
-            "avatar": "N",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Copenhagen is greener than other capitals. Cycling is cheaper than driving during rush hour."
+            "text": "Notice the weak unstressed schwa ending in comparative adjectives. Listen and repeat: cleaner, quieter, faster, wider, healthier. Now in sentences: Copenhagen is greener than other capitals. Cycling is cheaper than driving during rush hour."
           }
         ]
       }
@@ -3098,17 +3076,13 @@
         "rawScript": "Practice adverbs of manner without adding extra Brazilian vowel sounds. Listen and repeat: comfortably, gently, easily, carefully, automatically. Avoid saying gentle-lee or easy-lee with extra stress on the final syllable.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "Practice adverbs of manner without adding extra Brazilian vowel sounds."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Practice adverbs of manner without adding extra Brazilian vowel sounds. Listen and repeat:",
             "text": "comfortably, gently, easily, carefully, automatically. Avoid saying gentle-lee or easy-lee with extra stress on the final syllable."
           }
         ]
@@ -3195,18 +3169,14 @@
         "rawScript": "Notice how modals of possibility connect smoothly with following verbs. Listen and repeat: It might rain soon. The temple must be very old. That bridge can't be modern. A cup of green tea may help you unwind.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "Notice how modals of possibility connect smoothly with following verbs."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "It might rain soon. The temple must be very old. That bridge can't be modern. A cup of green tea may help you unwind."
+            "text": "Notice how modals of possibility connect smoothly with following verbs. Listen and repeat: It might rain soon. The temple must be very old. That bridge can't be modern. A cup of green tea may help you unwind."
           }
         ]
       }
@@ -3282,17 +3252,13 @@
         "rawScript": "Practice linking the auxiliary verb to the past participle in passive constructions. Listen and repeat: The match is watched worldwide. A yellow card was shown. Rules were established in eighteen ninety-six. Medical checks are conducted before the race.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "Practice linking the auxiliary verb to the past participle in passive constructions."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Practice linking the auxiliary verb to the past participle in passive constructions. Listen and repeat:",
             "text": "The match is watched worldwide. A yellow card was shown. Rules were established in eighteen ninety-six. Medical checks are conducted before the race."
           }
         ]
@@ -3389,18 +3355,14 @@
         "rawScript": "Notice the rising intonation on the condition clause and falling intonation on the result clause. Listen and repeat: If you hydrate properly, you will experience fewer headaches. If you stretch your calf muscles, you won't feel stiff tomorrow.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "Notice the rising intonation on the condition clause and falling intonation on the result clause."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "If you hydrate properly, you will experience fewer headaches. If you stretch your calf muscles, you won't feel stiff tomorrow."
+            "text": "Notice the rising intonation on the condition clause and falling intonation on the result clause. Listen and repeat: If you hydrate properly, you will experience fewer headaches. If you stretch your calf muscles, you won't feel stiff tomorrow."
           }
         ]
       }
@@ -3496,18 +3458,14 @@
         "rawScript": "Listen to the natural spoken reduction of going to in conversational English. Listen and repeat: I'm going to start a new course. We're going to move next Saturday. Contrast with spontaneous will: The phone is ringing; I'll answer it.",
         "turns": [
           {
-            "type": "sfx",
-            "text": "Listen to the natural spoken reduction of going to in conversational English."
-          },
-          {
             "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "I'm going to start a new course. We're going to move next Saturday. Contrast with spontaneous will: The phone is ringing; I'll answer it."
+            "text": "Listen to the natural spoken reduction of going to in conversational English. Listen and repeat: I'm going to start a new course. We're going to move next Saturday. Contrast with spontaneous will: The phone is ringing; I'll answer it."
           }
         ]
       }
@@ -3670,17 +3628,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four. We have overcome many linguistic obstacles."
-          },
-          {
-            "type": "speech",
-            "speaker": "Listen and repeat",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "We've overcome many linguistic obstacles."
+            "text": "Number four. We have overcome many linguistic obstacles. Listen and repeat: We've overcome many linguistic obstacles."
           }
         ]
       }
@@ -3813,17 +3761,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one. By nine o'clock, the agency had already rewritten the brief."
-          },
-          {
-            "type": "speech",
-            "speaker": "In natural speech",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "I",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "the agency'd already rewritten the brief."
+            "text": "Number one. By nine o'clock, the agency had already rewritten the brief. In natural speech: the agency'd already rewritten the brief."
           },
           {
             "type": "speech",
@@ -3976,17 +3914,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one. If I had more time, I would restore this house."
-          },
-          {
-            "type": "speech",
-            "speaker": "Listen to the contraction",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "If I had more time, I'd restore this house."
+            "text": "Number one. If I had more time, I would restore this house. Listen to the contraction: If I had more time, I'd restore this house."
           },
           {
             "type": "speech",
@@ -4059,10 +3987,10 @@
           {
             "type": "speech",
             "speaker": "Tariq",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "T",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Elena, Captain Tariq here. Left tank quantity is down twenty percent, but fuel flow to Engine 1 is normal."
           },
@@ -4079,10 +4007,10 @@
           {
             "type": "speech",
             "speaker": "Tariq",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "T",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Agreed. However, Zurich Airport reports freezing rain and crosswinds gusting to forty knots. If we hold for twenty minutes, we might burn into our mandatory reserve fuel."
           },
@@ -4099,10 +4027,10 @@
           {
             "type": "speech",
             "speaker": "Tariq",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "T",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Geneva makes sense. We are executing the diversion checklist now. Confirm with Swiss ATC."
           }
@@ -4123,53 +4051,43 @@
         "turns": [
           {
             "type": "speech",
-            "speaker": "Drill 1",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 1:",
             "text": "It must be a sensor error. Notice how the /t/ in must disappears before the /b/ sound: /ɪt ˈmʌs.bi ə ˈsen.sər ˈer.ər/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 2",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 2:",
             "text": "That can't be the correct reading. In connected speech, avoid adding an extra vowel: /ðæt ˈkæn.bi ðə kəˈrekt ˈriː.dɪŋ/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 3",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 3:",
             "text": "The generator might be overheating. Keep the /t/ soft and transition smoothly: /ðə ˈdʒen.ə.reɪ.tər ˈmaɪt bi ˌoʊ.vərˈhiː.tɪŋ/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 4",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
-            "text": "They are bound to arrive on time."
-          },
-          {
-            "type": "speech",
-            "speaker": "Stress bound and time",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "S",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "/ðeɪ ɑːr ˈbaʊnd tu əˈraɪv ɑːn ˈtaɪm/."
+            "stageDirection": "Drill 4:",
+            "text": "They are bound to arrive on time. Stress bound and time: /ðeɪ ɑːr ˈbaʊnd tu əˈraɪv ɑːn ˈtaɪm/."
           }
         ]
       }
@@ -4212,8 +4130,8 @@
           {
             "type": "speech",
             "speaker": "Soren",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "S",
             "theme": "speaker-theme-2",
             "stageDirection": "",
@@ -4232,8 +4150,8 @@
           {
             "type": "speech",
             "speaker": "Soren",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "S",
             "theme": "speaker-theme-2",
             "stageDirection": "",
@@ -4252,8 +4170,8 @@
           {
             "type": "speech",
             "speaker": "Soren",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "S",
             "theme": "speaker-theme-2",
             "stageDirection": "",
@@ -4272,8 +4190,8 @@
           {
             "type": "speech",
             "speaker": "Soren",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "S",
             "theme": "speaker-theme-2",
             "stageDirection": "",
@@ -4296,52 +4214,42 @@
         "turns": [
           {
             "type": "speech",
-            "speaker": "Drill 1",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 1:",
             "text": "The director said that the port was open. Notice the short open vowel in said: /ðə dəˈrek.tər ˈsed ðət ðə ˈpɔːrt wəz ˈoʊ.pən/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 2",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
-            "text": "She told me that the shipment had arrived."
+            "stageDirection": "Drill 2:",
+            "text": "She told me that the shipment had arrived. Contrast said with told: /ʃi ˈtoʊld mi ðət ðə ˈʃɪp.mənt həd əˈraɪvd/."
           },
           {
             "type": "speech",
-            "speaker": "Contrast said with told",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "/ʃi ˈtoʊld mi ðət ðə ˈʃɪp.mənt həd əˈraɪvd/."
-          },
-          {
-            "type": "speech",
-            "speaker": "Drill 3",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 3:",
             "text": "The captain asked if the channel was clear. Notice the smooth link between asked and if: /ðə ˈkæp.tɪn ˈæskt ɪf ðə ˈtʃæn.əl wəz ˈklɪr/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 4",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 4:",
             "text": "They confirmed that the cable was working. Keep the stress on the second syllable of confirmed: /ðeɪ kənˈfɜːrmd ðæt ðə ˈkeɪ.bəl wəz ˈwɜːr.kɪŋ/."
           }
         ]
@@ -4459,42 +4367,42 @@
         "turns": [
           {
             "type": "speech",
-            "speaker": "Drill 1",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 1:",
             "text": "Remember examining the blood culture. Focus on the final /ŋ/ in examining without a hard g sound: /rɪˈmem.bər ɪɡˈzæm.ɪ.nɪŋ ðə ˈblʌd ˈkʌl.tʃər/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 2",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 2:",
             "text": "The team stopped prescribing ineffective medication. Contrast stopped with the smooth -ing: /ðə ˈtiːm ˈstɑːpt prɪˈskraɪ.bɪŋ ˌɪn.ɪˈfek.tɪv ˌmed.əˈkeɪ.ʃən/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 3",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 3:",
             "text": "She tried isolating the pathogen. Avoid an extra vowel at the end: /ʃi ˈtraɪd ˈaɪ.sə.leɪ.tɪŋ ðə ˈpæθ.ə.dʒən/."
           },
           {
             "type": "speech",
-            "speaker": "Drill 4",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
             "theme": "speaker-theme-narrator",
-            "stageDirection": "",
+            "stageDirection": "Drill 4:",
             "text": "Dr. Alabi, who works in Johannesburg, made the diagnosis. Practice the pause for the comma: /ˈdɑːk.tər əˈlɑː.bi | huː ˈwɜːrks ɪn dʒoʊˈhæn.ɪs.bɜːrɡ | ˈmeɪd ðə ˌdaɪ.əɡˈnoʊ.sɪs/."
           }
         ]
@@ -4611,57 +4519,63 @@
         "rawScript": "Listen and repeat the contrasting rhythm between completed and continuous passive forms.\nOne: The file has been verified. The file has been verified.\nTwo: The file is being verified. The file is being verified.\nThree: New reports have been released. New reports have been released.\nFour: New reports are being released. New reports are being released.\nFive: The eyewitness has been interviewed. The eyewitness is being interviewed.",
         "turns": [
           {
-            "type": "sfx",
+            "type": "speech",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "",
             "text": "Listen and repeat the contrasting rhythm between completed and continuous passive forms."
           },
           {
             "type": "speech",
-            "speaker": "One",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "O",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "One:",
             "text": "The file has been verified. The file has been verified."
           },
           {
             "type": "speech",
-            "speaker": "Two",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Two:",
             "text": "The file is being verified. The file is being verified."
           },
           {
             "type": "speech",
-            "speaker": "Three",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Three:",
             "text": "New reports have been released. New reports have been released."
           },
           {
             "type": "speech",
-            "speaker": "Four",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Four:",
             "text": "New reports are being released. New reports are being released."
           },
           {
             "type": "speech",
-            "speaker": "Five",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Five:",
             "text": "The eyewitness has been interviewed. The eyewitness is being interviewed."
           }
         ]
@@ -4778,67 +4692,73 @@
         "rawScript": "Listen and repeat, paying attention to the pitch rise on the concession clause and the stress on causative verbs.\nOne: Although the workload was heavy, the team remained calm.\nTwo: Despite the tight deadline, we delivered on time.\nThree: In spite of the setback, our client supported the decision.\nFour: The manager made us pause the rollout.\nFive: She let the engineers redesign the database.\nSix: We had the security protocol verified by auditors.",
         "turns": [
           {
-            "type": "sfx",
+            "type": "speech",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "",
             "text": "Listen and repeat, paying attention to the pitch rise on the concession clause and the stress on causative verbs."
           },
           {
             "type": "speech",
-            "speaker": "One",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "O",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "One:",
             "text": "Although the workload was heavy, the team remained calm."
           },
           {
             "type": "speech",
-            "speaker": "Two",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Two:",
             "text": "Despite the tight deadline, we delivered on time."
           },
           {
             "type": "speech",
-            "speaker": "Three",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Three:",
             "text": "In spite of the setback, our client supported the decision."
           },
           {
             "type": "speech",
-            "speaker": "Four",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Four:",
             "text": "The manager made us pause the rollout."
           },
           {
             "type": "speech",
-            "speaker": "Five",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Five:",
             "text": "She let the engineers redesign the database."
           },
           {
             "type": "speech",
-            "speaker": "Six",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "S",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Six:",
             "text": "We had the security protocol verified by auditors."
           }
         ]
@@ -4945,57 +4865,63 @@
         "rawScript": "Listen and repeat, practicing natural vowel reduction in past modal auxiliaries.\nOne: If they had known, they would have preserved the harvest. They would've preserved the harvest.\nTwo: Regulators should have supported the farmers. Regulators should've supported the farmers.\nThree: We could have protected the orchard. We could've protected the orchard.\nFour: The heirloom seeds might have died out. The seeds might've died out.\nFive: We shouldn't have used synthetic fertilizers. We shouldn't have used them.",
         "turns": [
           {
-            "type": "sfx",
+            "type": "speech",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "",
             "text": "Listen and repeat, practicing natural vowel reduction in past modal auxiliaries."
           },
           {
             "type": "speech",
-            "speaker": "One",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "O",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "One:",
             "text": "If they had known, they would have preserved the harvest. They would've preserved the harvest."
           },
           {
             "type": "speech",
-            "speaker": "Two",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Two:",
             "text": "Regulators should have supported the farmers. Regulators should've supported the farmers."
           },
           {
             "type": "speech",
-            "speaker": "Three",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Three:",
             "text": "We could have protected the orchard. We could've protected the orchard."
           },
           {
             "type": "speech",
-            "speaker": "Four",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Four:",
             "text": "The heirloom seeds might have died out. The seeds might've died out."
           },
           {
             "type": "speech",
-            "speaker": "Five",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
+            "speaker": "Phonetics Coach",
+            "role": "Instrução & Prática Auditiva",
+            "accent": "🎯 Fonética Aplicada",
+            "avatar": "🎯",
+            "theme": "speaker-theme-narrator",
+            "stageDirection": "Five:",
             "text": "We shouldn't have used synthetic fertilizers. We shouldn't have used them."
           }
         ]
@@ -5029,10 +4955,10 @@
           {
             "type": "speech",
             "speaker": "Priya",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "P",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Lucas, will you be attending the engineering sync this afternoon?"
           },
@@ -5049,10 +4975,10 @@
           {
             "type": "speech",
             "speaker": "Priya",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "P",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Excellent. By the end of this quarter, our team will have migrated all routine data checks to the new platform."
           },
@@ -5069,10 +4995,10 @@
           {
             "type": "speech",
             "speaker": "Priya",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "P",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "We will be supervising the automated agents, but we will not be checking every line by hand. The system will handle standard syntax errors."
           },
@@ -5089,10 +5015,10 @@
           {
             "type": "speech",
             "speaker": "Priya",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "P",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Exactly. By December, our developers will have completed their training modules on the new interface."
           },
@@ -5588,17 +5514,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two. Contrast the habitual would with hypothetical would: In those days, engineers would test components day and night."
-          },
-          {
-            "type": "speech",
-            "speaker": "The contracted form",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Engineers'd test components day and night."
+            "text": "Number two. Contrast the habitual would with hypothetical would: In those days, engineers would test components day and night. The contracted form: Engineers'd test components day and night."
           },
           {
             "type": "speech",
@@ -5618,17 +5534,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Practice the sentence rhythm",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Had governing councils acted earlier, independent teams wouldn't have disappeared."
+            "text": "Number four. Practice the sentence rhythm: Had governing councils acted earlier, independent teams wouldn't have disappeared."
           }
         ]
       }
@@ -5661,10 +5567,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Weber",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Community Manager / Gestor",
+            "accent": "🇩🇪 German English",
             "avatar": "D",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Welcome, colleagues, to this symposium on twentieth-century European turning points. When we analyze November 1989, we must ask: how contingent was the peaceful collapse of the Berlin Wall?"
           },
@@ -5681,10 +5587,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Weber",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Community Manager / Gestor",
+            "accent": "🇩🇪 German English",
             "avatar": "D",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Exactly. Had border guards received strict military orders to seal the Bornholmer Straße checkpoint by force, the outcome could have been catastrophic."
           },
@@ -5701,10 +5607,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Weber",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Community Manager / Gestor",
+            "accent": "🇩🇪 German English",
             "avatar": "D",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Yet counterfactual historians often wonder: what if the reformists within the party had acted three years earlier? Might an orderly confederation have evolved?"
           },
@@ -5741,17 +5647,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Unit 2 Pronunciation Clinic."
-          },
-          {
-            "type": "speech",
-            "speaker": "Past modals of deduction",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "must have, could have, and might have in connected discourse."
+            "text": "Unit 2 Pronunciation Clinic. Past modals of deduction: must have, could have, and might have in connected discourse."
           },
           {
             "type": "speech",
@@ -5771,17 +5667,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Could have done",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "The guards could have used force becomes /ðə ɡɑːrdz kəd əv juːzd fɔːrs/."
+            "text": "Number two. Could have done: The guards could have used force becomes /ðə ɡɑːrdz kəd əv juːzd fɔːrs/."
           },
           {
             "type": "speech",
@@ -5801,17 +5687,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Listen and shadow",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Had the officers received explicit orders, they might have reacted entirely differently."
+            "text": "Number four. Listen and shadow: Had the officers received explicit orders, they might have reacted entirely differently."
           }
         ]
       }
@@ -5854,10 +5730,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Alvarez",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Especialista",
+            "accent": "🇲🇽 Latin American English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Dr. Chen, the results are compelling. If our clinical network had not deployed the algorithmic triage tool six months ago, hundreds of critical intracranial hemorrhage cases wouldn't have received surgical consultation within the golden thirty-minute window."
           },
@@ -5874,10 +5750,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Alvarez",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Especialista",
+            "accent": "🇲🇽 Latin American English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Precisely. That is why our clinical governance charter mandates that every algorithm remain strictly assistive. Had prospective trials not demonstrated algorithmic drift under changing scanner calibrations, we might have expanded autonomous screening prematurely."
           },
@@ -5987,10 +5863,10 @@
           {
             "type": "speech",
             "speaker": "Marloes",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "M",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Welcome to Rotterdam's Water Plaza, Governor Basuki. Having retrofitted our nineteenth-century canal networks into multi-tiered retention basins, our municipal engineers managed to eliminate storm surge flooding across low-lying port districts."
           },
@@ -6007,10 +5883,10 @@
           {
             "type": "speech",
             "speaker": "Marloes",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "M",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Being situated largely below sea level ourselves, the Dutch have learned that attempting to hold back water through concrete dykes alone is ultimately unsustainable. Having embraced the Room for the River philosophy, we allow natural floodplains to absorb peak discharges."
           },
@@ -6027,10 +5903,10 @@
           {
             "type": "speech",
             "speaker": "Marloes",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "M",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Combining civil engineering with ecological restoration is the only viable path for coastal megacities toward 2050."
           }
@@ -6067,17 +5943,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Perfect participle active",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Having completed the environmental audit, the municipality authorized the project."
+            "text": "Number one. Perfect participle active: Having completed the environmental audit, the municipality authorized the project."
           },
           {
             "type": "speech",
@@ -6087,17 +5953,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Passive participle with being",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Being situated below sea level, coastal districts require continuous mechanical drainage."
+            "text": "Number two. Passive participle with being: Being situated below sea level, coastal districts require continuous mechanical drainage."
           },
           {
             "type": "speech",
@@ -6107,17 +5963,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Negative participle clauses",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "N",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Not having anticipated the typhoon's intensity, the flood gates were closed thirty minutes late."
+            "text": "Number three. Negative participle clauses: Not having anticipated the typhoon's intensity, the flood gates were closed thirty minutes late."
           },
           {
             "type": "speech",
@@ -6127,17 +5973,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Practice smooth clausal flow",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Having retrofitted the old industrial canals, the municipal planners transformed urban runoff into fresh recreational green space."
+            "text": "Number four. Practice smooth clausal flow: Having retrofitted the old industrial canals, the municipal planners transformed urban runoff into fresh recreational green space."
           }
         ]
       }
@@ -6250,17 +6086,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Wh-cleft for emphatic focus",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "W",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "What strikes the viewer most is the stark contrast between silence and orchestral music."
+            "text": "Number one. Wh-cleft for emphatic focus: What strikes the viewer most is the stark contrast between silence and orchestral music."
           },
           {
             "type": "speech",
@@ -6280,17 +6106,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Contrastive nuclear stress",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "It was not the dialogue that faltered, but the hurried pacing of the final scene."
+            "text": "Number three. Contrastive nuclear stress: It was not the dialogue that faltered, but the hurried pacing of the final scene."
           },
           {
             "type": "speech",
@@ -6300,17 +6116,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Listen and practice",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "What makes this novel unforgettable is the author's relentless psychological honesty."
+            "text": "Number four. Listen and practice: What makes this novel unforgettable is the author's relentless psychological honesty."
           }
         ]
       }
@@ -6343,10 +6149,10 @@
           {
             "type": "speech",
             "speaker": "Prof. Rossi",
-            "role": "Urbanista / Curador",
-            "accent": "🇮🇹 Italian English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "P",
-            "theme": "speaker-theme-3",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "In Book Ten of his Confessions, Augustine marveled at the vast palaces of memory, describing it as an inner sanctuary where past impressions are mysteriously stored and revived. Dr. Mercer, how does contemporary cognitive neuroscience view this ancient metaphor?"
           },
@@ -6363,10 +6169,10 @@
           {
             "type": "speech",
             "speaker": "Prof. Rossi",
-            "role": "Urbanista / Curador",
-            "accent": "🇮🇹 Italian English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "P",
-            "theme": "speaker-theme-3",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Which explains why Augustine dreaded misremembering his own spiritual motives. The more deeply we investigate our past decisions, the more complex their moral ambiguity appears."
           },
@@ -6383,10 +6189,10 @@
           {
             "type": "speech",
             "speaker": "Prof. Rossi",
-            "role": "Urbanista / Curador",
-            "accent": "🇮🇹 Italian English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "P",
-            "theme": "speaker-theme-3",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "In that sense, our personal identity is not a static museum, but an ongoing narrative dialogue between the person who acted and the self who remembers."
           }
@@ -6433,17 +6239,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Regret patterns",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "R",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "We regret to inform you of the delay. She regretted speaking so harshly during the committee debate."
+            "text": "Number two. Regret patterns: We regret to inform you of the delay. She regretted speaking so harshly during the committee debate."
           },
           {
             "type": "speech",
@@ -6463,17 +6259,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Practice the balanced cadence",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "The more we scrutinize our memories, the more conscious of cognitive bias we become."
+            "text": "Number four. Practice the balanced cadence: The more we scrutinize our memories, the more conscious of cognitive bias we become."
           }
         ]
       }
@@ -6586,17 +6372,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Unreal past with it's time",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "U",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "It's time we finalized the contractual terms."
+            "text": "Number one. Unreal past with it's time: It's time we finalized the contractual terms."
           },
           {
             "type": "speech",
@@ -6669,10 +6445,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Gomez",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Especialista",
+            "accent": "🇲🇽 Latin American English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Behavioral research demonstrates that when pension enrollment is structured as an automatic default with an active opt-out clause, participation rates surge from forty percent to over eighty-five percent. Traditional economists had claimed that rational agents would always optimize their retirement portfolios regardless of application layout."
           },
@@ -6689,10 +6465,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Gomez",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Pesquisador / Especialista",
+            "accent": "🇲🇽 Latin American English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-1",
             "stageDirection": "",
             "text": "Exactly. Proponents of libertarian paternalism acknowledge that choice architecture is never completely neutral. Since every form must have a default setting, designing that default to serve long-term human welfare is a moral obligation."
           }
@@ -6739,17 +6515,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Urge someone to do",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "U",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Consumer advocacy groups urged the ministry to prohibit predatory loan defaults."
+            "text": "Number two. Urge someone to do: Consumer advocacy groups urged the ministry to prohibit predatory loan defaults."
           },
           {
             "type": "speech",
@@ -6759,17 +6525,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Impersonal passive reporting",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "I",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "It is widely acknowledged that default settings exert profound influence over consumer behavior."
+            "text": "Number three. Impersonal passive reporting: It is widely acknowledged that default settings exert profound influence over consumer behavior."
           },
           {
             "type": "speech",
@@ -6779,17 +6535,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Practice reporting rhythm",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The advisory council urged commercial banks to adopt ethical default architecture across all retail accounts."
+            "text": "Number four. Practice reporting rhythm: The advisory council urged commercial banks to adopt ethical default architecture across all retail accounts."
           }
         ]
       }
@@ -6932,17 +6678,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Practice formal cadence",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Notwithstanding bureaucratic obstacles, the investigative journalists corroborated every single corporate transaction."
+            "text": "Number four. Practice formal cadence: Notwithstanding bureaucratic obstacles, the investigative journalists corroborated every single corporate transaction."
           }
         ]
       }
@@ -6975,10 +6711,10 @@
           {
             "type": "speech",
             "speaker": "Amina",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "A",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Jambo and welcome to the Nairobi Human-Centered Design Studio. Over the past three weeks, our multidisciplinary team has been conducting immersive field ethnography with community health workers across Kibera and Machakos."
           },
@@ -6986,7 +6722,7 @@
             "type": "speech",
             "speaker": "Kwame",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "K",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -6995,10 +6731,10 @@
           {
             "type": "speech",
             "speaker": "Amina",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "A",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Which completely disregarded the reality of daily clinic operations. Community health promoters do not need cumbersome, cloud-dependent desktop dashboards; they require lightweight, offline-first mobile transaction protocols that work seamlessly on entry-level Android devices."
           },
@@ -7006,7 +6742,7 @@
             "type": "speech",
             "speaker": "Kwame",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "K",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -7015,10 +6751,10 @@
           {
             "type": "speech",
             "speaker": "Amina",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "A",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "That is the essence of authentic design thinking. True innovation emerges not from imposing Silicon Valley assumptions, but from listening with humility to the human beings on the frontlines."
           }
@@ -7065,17 +6801,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Pre-modified nominal strings",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "lightweight offline-first diagnostic interfaces."
+            "text": "Number two. Pre-modified nominal strings: lightweight offline-first diagnostic interfaces."
           },
           {
             "type": "speech",
@@ -7128,10 +6854,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Nair",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "D",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "For decades, international language pedagogy treated British Received Pronunciation and General American as the sole legitimate arbiters of linguistic correctness. Dr. Adeyemi, how has the World Englishes paradigm transformed this outdated dogma?"
           },
@@ -7139,7 +6865,7 @@
             "type": "speech",
             "speaker": "Dr. Adeyemi",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "D",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -7148,10 +6874,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Nair",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "D",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Yet many adult learners in Latin America and Asia still suffer from accent anxiety, feeling inadequate if their spoken vowels do not replicate BBC broadcasters."
           },
@@ -7159,7 +6885,7 @@
             "type": "speech",
             "speaker": "Dr. Adeyemi",
             "role": "Pesquisador / Oficial",
-            "accent": "🇰🇪 Kenyan English",
+            "accent": "🇰🇪 Kenyan / Pan-African English",
             "avatar": "D",
             "theme": "speaker-theme-3",
             "stageDirection": "",
@@ -7228,17 +6954,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Listen and practice",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "L",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Linguistic diversity enriches the global English community and empowers multilingual professionals everywhere."
+            "text": "Number four. Listen and practice: Linguistic diversity enriches the global English community and empowers multilingual professionals everywhere."
           }
         ]
       }
@@ -7351,17 +7067,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Balanced antithesis",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "B",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "It is not the volume of information that enlightens us, but the depth of our critical understanding."
+            "text": "Number two. Balanced antithesis: It is not the volume of information that enlightens us, but the depth of our critical understanding."
           },
           {
             "type": "speech",
@@ -7381,17 +7087,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master the concluding cadence",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Let our language reflect the richness of our culture, the clarity of our intellect, and the strength of our convictions."
+            "text": "Number four. Master the concluding cadence: Let our language reflect the richness of our culture, the clarity of our intellect, and the strength of our convictions."
           }
         ]
       }
@@ -7567,10 +7263,10 @@
           {
             "type": "speech",
             "speaker": "Justice Al-Mansoor",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "J",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Welcome to this colloquium on international constitutional jurisprudence. When confronting conflicts between state security imperatives and individual fundamental rights, judges must exercise extreme epistemic precision. Advocate Dupont, how should the court weigh preventative detention statutes?"
           },
@@ -7587,10 +7283,10 @@
           {
             "type": "speech",
             "speaker": "Justice Al-Mansoor",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "J",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "The government counsel contended that exceptional circumstances necessitated derogation from statutory procedural safeguards."
           },
@@ -7607,10 +7303,10 @@
           {
             "type": "speech",
             "speaker": "Justice Al-Mansoor",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "J",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Quite so. The rule of law requires that emergency measures remain strictly temporal, judicially reviewable, and demonstrably necessary in a democratic society."
           }
@@ -7647,17 +7343,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Hedging with modal adverbs",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "H",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The evidence arguably indicates that the procedural irregularities affected the final verdict."
+            "text": "Number one. Hedging with modal adverbs: The evidence arguably indicates that the procedural irregularities affected the final verdict."
           },
           {
             "type": "speech",
@@ -7800,17 +7486,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Mandative subjunctive",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The board demanded that the chief executive resign immediately."
+            "text": "Number one. Mandative subjunctive: The board demanded that the chief executive resign immediately."
           },
           {
             "type": "speech",
@@ -7820,17 +7496,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Essential that",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "E",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "It is imperative that every legal counsel be present during the deposition."
+            "text": "Number two. Essential that: It is imperative that every legal counsel be present during the deposition."
           },
           {
             "type": "speech",
@@ -7850,17 +7516,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Come what may",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Come what may, our commitment to fundamental human dignity remains non-negotiable."
+            "text": "Number four. Come what may: Come what may, our commitment to fundamental human dignity remains non-negotiable."
           }
         ]
       }
@@ -7893,50 +7549,50 @@
           {
             "type": "speech",
             "speaker": "Superintendent Weber",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Community Manager / Gestor",
+            "accent": "🇩🇪 German English",
             "avatar": "S",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "The collapse of liquidity at Horizon Capital was not precipitated merely by macroeconomic shocks. Rather, the systematic obfuscation of counterparty exposure, combined with the aggressive capitalization of speculative derivatives, undermined institutional credibility."
           },
           {
             "type": "speech",
             "speaker": "Director Rossi",
-            "role": "Urbanista / Curador",
-            "accent": "🇮🇹 Italian English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "D",
-            "theme": "speaker-theme-3",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Superintendent, our internal forensic audit corroborated those exact vulnerabilities. The deceleration of regulatory reporting, alongside the proliferation of off-balance-sheet special purpose vehicles, rendered traditional solvency metrics obsolete."
           },
           {
             "type": "speech",
             "speaker": "Superintendent Weber",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Community Manager / Gestor",
+            "accent": "🇩🇪 German English",
             "avatar": "S",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "What alarms the supervisory committee is the institution's persistent utilization of euphemistic corporate phraseology. Describing a catastrophic capital shortfall as an unexpected collateral rebalancing represents a deliberate dissimulation of systemic distress."
           },
           {
             "type": "speech",
             "speaker": "Director Rossi",
-            "role": "Urbanista / Curador",
-            "accent": "🇮🇹 Italian English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "D",
-            "theme": "speaker-theme-3",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "We concur unreservedly. The remediation strategy requires the total overhaul of risk governance, the immediate recapitalization of tier-one reserves, and the institutionalization of mandatory whistleblower protections across all international subsidiaries."
           },
           {
             "type": "speech",
             "speaker": "Superintendent Weber",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Community Manager / Gestor",
+            "accent": "🇩🇪 German English",
             "avatar": "S",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Nothing short of radical, verifiable transparency will restore market confidence in your institution."
           }
@@ -7973,17 +7629,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Verb to nominalization",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "V",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "obliterate becomes obliteration; obfuscate becomes obfuscation; deteriorate becomes deterioration."
+            "text": "Number one. Verb to nominalization: obliterate becomes obliteration; obfuscate becomes obfuscation; deteriorate becomes deterioration."
           },
           {
             "type": "speech",
@@ -8013,17 +7659,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Practice rhythmic density",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "The systematic obfuscation of toxic derivative exposures accelerated the institution's financial collapse."
+            "text": "Number four. Practice rhythmic density: The systematic obfuscation of toxic derivative exposures accelerated the institution's financial collapse."
           }
         ]
       }
@@ -8066,10 +7702,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Bhatnagar",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Unquestionably, Dr. Thorne. For over seventy years, classical computation has operated within the deterministic von Neumann paradigm. However, with the demonstration of quantum error correction and topological qubits, the classical conceptual architecture is being superseded."
           },
@@ -8086,10 +7722,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Bhatnagar",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Engenheiro / Consultor",
+            "accent": "🇮🇳 Indian English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "While decoherence challenges cannot be dismissed lightly, historical precedents illustrate that anomalies which initially appear intractable often catalyzed the very theoretical breakthroughs that established the new paradigm."
           },
@@ -8136,17 +7772,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Ergative alternation",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "E",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The cryogenic coolant vaporized instantly. The laboratory technicians vaporized the cryogenic coolant."
+            "text": "Number one. Ergative alternation: The cryogenic coolant vaporized instantly. The laboratory technicians vaporized the cryogenic coolant."
           },
           {
             "type": "speech",
@@ -8176,17 +7802,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Practice academic rhythm",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "The anomalous particle trajectories were analyzed, replicated under stringent laboratory conditions, and published in the proceedings."
+            "text": "Number four. Practice academic rhythm: The anomalous particle trajectories were analyzed, replicated under stringent laboratory conditions, and published in the proceedings."
           }
         ]
       }
@@ -8219,40 +7835,40 @@
           {
             "type": "speech",
             "speaker": "Curator Lindqvist",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "C",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Hans Scharoun's visionary architecture for the Berlin Philharmonie placed the orchestra at the absolute center of a terraced amphitheater, demolishing the traditional hierarchical division between the performer on an elevated proscenium and a passive audience in darkened stalls. Maestro Sato, how does this spatial configuration alter the acoustic experience?"
           },
           {
             "type": "speech",
             "speaker": "Maestro Sato",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Designer / Especialista",
+            "accent": "🇯🇵 Japanese English",
             "avatar": "M",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "The acoustic space becomes a living, reciprocal instrument. In conventional shoe-box halls, sound propagates along a rigid linear trajectory. In Scharoun's vineyard terraces, by contrast, orchestral resonance envelops the listener in multidirectional waves, dissolving psychological detachment."
           },
           {
             "type": "speech",
             "speaker": "Curator Lindqvist",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Conselheiro / Analista",
+            "accent": "🇪🇺 European English",
             "avatar": "C",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "The physical curves of the Douglas fir paneling reflect high frequencies with crystalline warmth, balancing monumental volume with chamber-music intimacy."
           },
           {
             "type": "speech",
             "speaker": "Maestro Sato",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Designer / Especialista",
+            "accent": "🇯🇵 Japanese English",
             "avatar": "M",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Exactly. Architecture is frozen music, and sound is liquid space. When physical structure and acoustic physics achieve perfect alignment, listening ceases to be an intellectual exercise and becomes a transcendent encounter."
           }
@@ -8289,17 +7905,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "End-weight principle",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "E",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Short subject, followed by elaborate acoustic description: The strings entered, carrying a shimmering veil of harmonic dissonance that settled gently across the hall."
+            "text": "Number one. End-weight principle: Short subject, followed by elaborate acoustic description: The strings entered, carrying a shimmering veil of harmonic dissonance that settled gently across the hall."
           },
           {
             "type": "speech",
@@ -8432,17 +8038,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Ellipsis of shared predicates",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "E",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Some diplomats advocated immediate unilateral sanctions; others, measured multilateral dialogue."
+            "text": "Number one. Ellipsis of shared predicates: Some diplomats advocated immediate unilateral sanctions; others, measured multilateral dialogue."
           },
           {
             "type": "speech",
@@ -8462,17 +8058,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Parallel syntactic structures",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "P",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Not because it is expedient, but because it is just; not for temporary applause, but for enduring peace."
+            "text": "Number three. Parallel syntactic structures: Not because it is expedient, but because it is just; not for temporary applause, but for enduring peace."
           },
           {
             "type": "speech",
@@ -8482,17 +8068,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master rhetorical parallelism",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "To recognize human vulnerability, to uphold fundamental treaties, and to champion universal justice is the sacred duty of modern statecraft."
+            "text": "Number four. Master rhetorical parallelism: To recognize human vulnerability, to uphold fundamental treaties, and to champion universal justice is the sacred duty of modern statecraft."
           }
         ]
       }
@@ -8615,17 +8191,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Diplomatic understatement",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "D",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The ambassador expressed mild reservations regarding the proposed treaty clause, meaning the clause is entirely unacceptable."
+            "text": "Number three. Diplomatic understatement: The ambassador expressed mild reservations regarding the proposed treaty clause, meaning the clause is entirely unacceptable."
           },
           {
             "type": "speech",
@@ -8748,17 +8314,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Compound technical stress",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "distributed consensus protocol, Byzantine fault tolerance, asynchronous remote procedure call."
+            "text": "Number two. Compound technical stress: distributed consensus protocol, Byzantine fault tolerance, asynchronous remote procedure call."
           },
           {
             "type": "speech",
@@ -8778,17 +8334,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master technical cadence",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "The distributed storage cluster guarantees linearizable read operations provided that network partitioning does not exceed the consensus threshold."
+            "text": "Number four. Master technical cadence: The distributed storage cluster guarantees linearizable read operations provided that network partitioning does not exceed the consensus threshold."
           }
         ]
       }
@@ -8901,17 +8447,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Fronted participle phrase",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Exhausted by months of corporate deposition, she hesitated before answering the prosecutor's question."
+            "text": "Number two. Fronted participle phrase: Exhausted by months of corporate deposition, she hesitated before answering the prosecutor's question."
           },
           {
             "type": "speech",
@@ -8921,17 +8457,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Fronted negative adverbial",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Never had the courtroom heard such devastating testimony."
+            "text": "Number three. Fronted negative adverbial: Never had the courtroom heard such devastating testimony."
           },
           {
             "type": "speech",
@@ -8999,17 +8525,7 @@
             "avatar": "C",
             "theme": "speaker-theme-2",
             "stageDirection": "",
-            "text": "Short-term dividend optimization that mortgages our technological relevance is not stewardship; it is institutional suicide."
-          },
-          {
-            "type": "speech",
-            "speaker": "We must choose",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "W",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "do we cling to sunset assets for transient quarterly gains, or do we lead the technological transition that will define the next half-century of industrial excellence? The board shall not waver. We urge your decisive endorsement of the future."
+            "text": "Short-term dividend optimization that mortgages our technological relevance is not stewardship; it is institutional suicide. We must choose: do we cling to sunset assets for transient quarterly gains, or do we lead the technological transition that will define the next half-century of industrial excellence? The board shall not waver. We urge your decisive endorsement of the future."
           }
         ]
       },
@@ -9034,17 +8550,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Unit 11 Pronunciation Clinic."
-          },
-          {
-            "type": "speech",
-            "speaker": "High executive oratory",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "H",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "rhetorical tricolon, chiasmus, and the formal imperative shall."
+            "text": "Unit 11 Pronunciation Clinic. High executive oratory: rhetorical tricolon, chiasmus, and the formal imperative shall."
           },
           {
             "type": "speech",
@@ -9177,17 +8683,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Unit 12 Pronunciation Clinic."
-          },
-          {
-            "type": "speech",
-            "speaker": "The Mature Style",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "T",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "clausal synthesis, architectural rhythm, and rhetorical gravitas."
+            "text": "Unit 12 Pronunciation Clinic. The Mature Style: clausal synthesis, architectural rhythm, and rhetorical gravitas."
           },
           {
             "type": "speech",
@@ -9227,17 +8723,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master the Mature Style",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "With clarity of mind, with eloquence of expression, and with reverence for the long arc of human achievement, we bring our journey to its triumphant fulfillment."
+            "text": "Number four. Master the Mature Style: With clarity of mind, with eloquence of expression, and with reverence for the long arc of human achievement, we bring our journey to its triumphant fulfillment."
           }
         ]
       }
@@ -9275,17 +8761,7 @@
             "avatar": "D",
             "theme": "speaker-theme-2",
             "stageDirection": "",
-            "text": "Welcome, colleagues. The epistemological crux before this panel can be framed with Tractarian precision: when a state-of-the-art transformer predicts the next token with ninety-nine percent statistical coherence, does that output constitute a proposition capable of truth-value, or is it an elaborate semantic illusion?"
-          },
-          {
-            "type": "speech",
-            "speaker": "My position is unequivocal",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "absent intentionality, the system produces mere acoustic or typographic marks. It cannot but remain a closed syntactic loop."
+            "text": "Welcome, colleagues. The epistemological crux before this panel can be framed with Tractarian precision: when a state-of-the-art transformer predicts the next token with ninety-nine percent statistical coherence, does that output constitute a proposition capable of truth-value, or is it an elaborate semantic illusion? My position is unequivocal: absent intentionality, the system produces mere acoustic or typographic marks. It cannot but remain a closed syntactic loop."
           },
           {
             "type": "speech",
@@ -9293,7 +8769,7 @@
             "role": "Interlocutor",
             "accent": "🌐 International English",
             "avatar": "D",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "With respect, Alistair, that austere atomism reflects a century-old philosophical prejudice. While it stands to reason that initial layers compute token distributions, high-dimensional latent space representations tell a fundamentally different story. When we probe these internal activations, we discover structured topological manifolds that map directly onto physical and temporal relationships in reality. That empirical convergence warrants the inference that the network has constructed a functional model of the world."
           },
@@ -9313,7 +8789,7 @@
             "role": "Interlocutor",
             "accent": "🌐 International English",
             "avatar": "D",
-            "theme": "speaker-theme-1",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "You are demanding biological embodiment as an arbitrary prerequisite for meaning. If an artificial intelligence can navigate complex counterfactual scenarios and arbitrate legal precedents, one is hard-pressed to deny that it participates in our linguistic games."
           }
@@ -9350,17 +8826,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one. Dogmatic assertion versus epistemic distance: The empirical model proves that machine understanding has been achieved."
-          },
-          {
-            "type": "speech",
-            "speaker": "Contrast with",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The empirical model purports to demonstrate that machine understanding has been achieved."
+            "text": "Number one. Dogmatic assertion versus epistemic distance: The empirical model proves that machine understanding has been achieved. Contrast with: The empirical model purports to demonstrate that machine understanding has been achieved."
           },
           {
             "type": "speech",
@@ -9370,17 +8836,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Subordinated hedge cadence",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "S",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "That empirical convergence warrants the tentative working hypothesis that functional representation has occurred."
+            "text": "Number two. Subordinated hedge cadence: That empirical convergence warrants the tentative working hypothesis that functional representation has occurred."
           },
           {
             "type": "speech",
@@ -9390,17 +8846,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Apodictic modal restraint",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "A",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Absent intentional directedness, the architecture cannot but remain a closed syntactic mechanism."
+            "text": "Number three. Apodictic modal restraint: Absent intentional directedness, the architecture cannot but remain a closed syntactic mechanism."
           },
           {
             "type": "speech",
@@ -9410,17 +8856,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master assertoric graduation",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "One is hard-pressed to deny that the system navigates propositional truth-conditions with remarkable cognitive agility."
+            "text": "Number four. Master assertoric graduation: One is hard-pressed to deny that the system navigates propositional truth-conditions with remarkable cognitive agility."
           }
         ]
       }
@@ -9463,10 +8899,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Tariq Al-Mansoor",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Ambassador, Delegation Alpha cannot initial any clause that fails to guarantee our air sovereignty. If Beta’s surveillance drones continue to violate our southern corridor, we shall consider it an intolerable provocation. Lest our national defense be compromised, we must insist that all reconnaissance flights cease immediately."
           },
@@ -9493,10 +8929,10 @@
           {
             "type": "speech",
             "speaker": "Dr. Tariq Al-Mansoor",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
             "avatar": "D",
-            "theme": "speaker-theme-2",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
             "text": "Provided the inspection team includes neutral observers... Alpha can sign."
           },
@@ -9543,17 +8979,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Formal optative subjunctive",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "F",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Be it resolved that the High Contracting Parties disengage all frontline divisions."
+            "text": "Number one. Formal optative subjunctive: Be it resolved that the High Contracting Parties disengage all frontline divisions."
           },
           {
             "type": "speech",
@@ -9583,17 +9009,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Non-prejudice formula",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "N",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "We sign this temporary protocol without prejudice to our ultimate sovereign territorial rights."
+            "text": "Number four. Non-prejudice formula: We sign this temporary protocol without prejudice to our ultimate sovereign territorial rights."
           }
         ]
       }
@@ -9686,17 +9102,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Suspended participial opening",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "S",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The treasury having been depleted by reckless extravagance, and the border legions having mutinied along the Rhine, Rome surrendered to her conquerors."
+            "text": "Number one. Suspended participial opening: The treasury having been depleted by reckless extravagance, and the border legions having mutinied along the Rhine, Rome surrendered to her conquerors."
           },
           {
             "type": "speech",
@@ -9839,17 +9245,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "It-cleft with tonic focus",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "I",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "It is precisely the heritability of the genomic alteration that warrants an absolute moratorium."
+            "text": "Number one. It-cleft with tonic focus: It is precisely the heritability of the genomic alteration that warrants an absolute moratorium."
           },
           {
             "type": "speech",
@@ -9869,17 +9265,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Reversed all-cleft",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "R",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "The definitive eradication of hereditary neurodegenerative pathology is all that our clinical trial seeks to accomplish."
+            "text": "Number three. Reversed all-cleft: The definitive eradication of hereditary neurodegenerative pathology is all that our clinical trial seeks to accomplish."
           },
           {
             "type": "speech",
@@ -9937,17 +9323,7 @@
             "avatar": "M",
             "theme": "speaker-theme-2",
             "stageDirection": "",
-            "text": "Thank you, Dr. Vance."
-          },
-          {
-            "type": "speech",
-            "speaker": "At 04",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "A",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "12 GMT, the engine was operating at maximum continuous thrust. Our digital engine control unit logged a 0.8-millimeter vibrational spike at twelve hundred hertz. In retrospect, having reviewed the metallurgical wreckage, we recognize that this acoustic harmonic was the signature of Stage 2 turbine blade delamination."
+            "text": "Thank you, Dr. Vance. At 04:12 GMT, the engine was operating at maximum continuous thrust. Our digital engine control unit logged a 0.8-millimeter vibrational spike at twelve hundred hertz. In retrospect, having reviewed the metallurgical wreckage, we recognize that this acoustic harmonic was the signature of Stage 2 turbine blade delamination."
           },
           {
             "type": "speech",
@@ -10012,17 +9388,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number one."
-          },
-          {
-            "type": "speech",
-            "speaker": "Chained conditional inversion",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Were the blade clearance to degrade by fifty microns, acoustic resonance would escalate, thereby initiating micro-fissuring across the turbine shroud."
+            "text": "Number one. Chained conditional inversion: Were the blade clearance to degrade by fifty microns, acoustic resonance would escalate, thereby initiating micro-fissuring across the turbine shroud."
           },
           {
             "type": "speech",
@@ -10095,8 +9461,8 @@
           {
             "type": "speech",
             "speaker": "Sir Geoffrey Finch",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "S",
             "theme": "speaker-theme-2",
             "stageDirection": "",
@@ -10175,17 +9541,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Recital marker whereas",
-            "role": "Anfitrião / Especialista",
-            "accent": "🇬🇧 British RP",
-            "avatar": "R",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Whereas the parties desire to settle all outstanding claims amicably, it is hereby mutually covenanted as follows."
+            "text": "Number two. Recital marker whereas: Whereas the parties desire to settle all outstanding claims amicably, it is hereby mutually covenanted as follows."
           },
           {
             "type": "speech",
@@ -10195,17 +9551,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Relational operator whereby",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "R",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "The consortium entered into a binding joint venture agreement whereby intellectual property rights were transferred in perpetuity."
+            "text": "Number three. Relational operator whereby: The consortium entered into a binding joint venture agreement whereby intellectual property rights were transferred in perpetuity."
           },
           {
             "type": "speech",
@@ -10215,17 +9561,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master judicial delivery",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "May it please the Tribunal, notwithstanding the appellant's submissions, the plain grammatical meaning of the indemnity covenant compels a verdict in favor of the respondent."
+            "text": "Number four. Master judicial delivery: May it please the Tribunal, notwithstanding the appellant's submissions, the plain grammatical meaning of the indemnity covenant compels a verdict in favor of the respondent."
           }
         ]
       }
@@ -10338,17 +9674,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Causative operator ipso facto",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "C",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "An autonomous system lacks conscious intentionality and is ipso facto incapable of incurring moral liability or criminal guilt."
+            "text": "Number two. Causative operator ipso facto: An autonomous system lacks conscious intentionality and is ipso facto incapable of incurring moral liability or criminal guilt."
           },
           {
             "type": "speech",
@@ -10358,17 +9684,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number three."
-          },
-          {
-            "type": "speech",
-            "speaker": "Axiological imperative",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "A",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "It is categorically incumbent upon sovereign legislators that autonomous weapons remain subordinate to meaningful human control."
+            "text": "Number three. Axiological imperative: It is categorically incumbent upon sovereign legislators that autonomous weapons remain subordinate to meaningful human control."
           },
           {
             "type": "speech",
@@ -10378,17 +9694,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master deductive intonation",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "Insofar as moral agency requires empathetic conscience, and algorithms possess only statistical heuristics, whence it follows deductively that life-or-death authority must remain irrevocably human."
+            "text": "Number four. Master deductive intonation: Insofar as moral agency requires empathetic conscience, and algorithms possess only statistical heuristics, whence it follows deductively that life-or-death authority must remain irrevocably human."
           }
         ]
       }
@@ -10511,17 +9817,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two."
-          },
-          {
-            "type": "speech",
-            "speaker": "Odds-on probability",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "O",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "The supervisory committee is odds-on to implement counter-cyclical capital buffers before the fiscal quarter concludes."
+            "text": "Number two. Odds-on probability: The supervisory committee is odds-on to implement counter-cyclical capital buffers before the fiscal quarter concludes."
           },
           {
             "type": "speech",
@@ -10707,10 +10003,10 @@
           {
             "type": "speech",
             "speaker": "Professor Marcella Rossi",
-            "role": "Urbanista / Curador",
-            "accent": "🇮🇹 Italian English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "P",
-            "theme": "speaker-theme-3",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "Welcome, colleagues. In 'After Babel', George Steiner famously asserted that to understand is to translate. When a proficient mind operates between two rich linguistic universes—such as Brazilian Portuguese and International English—translation is never a mechanical substitution of dictionary tokens. Dr. Eduardo Ramos, how does Eugene Nida's distinction between formal correspondence and dynamic functional equivalence resolve cultural untranslatability?"
           },
@@ -10727,10 +10023,10 @@
           {
             "type": "speech",
             "speaker": "Professor Marcella Rossi",
-            "role": "Urbanista / Curador",
-            "accent": "🇮🇹 Italian English",
+            "role": "Anfitrião / Especialista",
+            "accent": "🇬🇧 British RP",
             "avatar": "P",
-            "theme": "speaker-theme-3",
+            "theme": "speaker-theme-2",
             "stageDirection": "",
             "text": "And yet, Steiner warns against what he calls 'restitutive overcompensation', where the translator embellishes the original with artificial eloquence."
           },
@@ -10787,17 +10083,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number two. Eliminating prepositional interference: Avoid 'He discussed about the treaty'."
-          },
-          {
-            "type": "speech",
-            "speaker": "Say with effortless precision",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "S",
-            "theme": "speaker-theme-1",
-            "stageDirection": "",
-            "text": "'He discussed the treaty with consummate authority.'"
+            "text": "Number two. Eliminating prepositional interference: Avoid 'He discussed about the treaty'. Say with effortless precision: 'He discussed the treaty with consummate authority.'"
           },
           {
             "type": "speech",
@@ -10817,17 +10103,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master translingual elegance",
-            "role": "Interlocutor",
-            "accent": "🌐 International English",
-            "avatar": "M",
-            "theme": "speaker-theme-2",
-            "stageDirection": "",
-            "text": "Moving seamlessly between linguistic frameworks, the sovereign speaker bridges divergent cultures without leaving a trace of grammatical friction."
+            "text": "Number four. Master translingual elegance: Moving seamlessly between linguistic frameworks, the sovereign speaker bridges divergent cultures without leaving a trace of grammatical friction."
           }
         ]
       }
@@ -10859,13 +10135,13 @@
         "turns": [
           {
             "type": "speech",
-            "speaker": "Phonetics Coach",
-            "role": "Instrução & Prática Auditiva",
-            "accent": "🎯 Fonética Aplicada",
-            "avatar": "🎯",
-            "theme": "speaker-theme-narrator",
+            "speaker": "Secretary-General Amira Al-Hassan",
+            "role": "Oficial / Delegado",
+            "accent": "🇦🇪 Middle Eastern English",
+            "avatar": "S",
+            "theme": "speaker-theme-3",
             "stageDirection": "",
-            "text": "Secretary-General Amira Al-Hassan: Prime ministers, chief executives, and delegates of the World Economic Forum. We assemble in Davos not to celebrate our past prosperity, but to confront an existential test of global stewardship. Look beyond these snow-capped mountains: our planetary climate is destabilizing, our technological breakthroughs risk fracturing into rival geopolitical silos, and the bonds of multilateral trust are fraying at the seams. What the world demands of this plenary is not another hollow corporate communique, but courageous, coordinated, and non-negotiable leadership. Let us never negotiate out of fear, but let us never fear to negotiate. We have diagnosed our crises with clarity; we have developed our solutions with precision; and now we shall execute our commitments with unwavering moral courage. Let our legacy be not the wealth we accumulated in isolation, but the civilization we preserved in solidarity. History will judge us not by the promises we made upon this stage, but by the tangible hope we deliver to humanity tomorrow."
+            "text": "Prime ministers, chief executives, and delegates of the World Economic Forum. We assemble in Davos not to celebrate our past prosperity, but to confront an existential test of global stewardship. Look beyond these snow-capped mountains: our planetary climate is destabilizing, our technological breakthroughs risk fracturing into rival geopolitical silos, and the bonds of multilateral trust are fraying at the seams. What the world demands of this plenary is not another hollow corporate communique, but courageous, coordinated, and non-negotiable leadership. Let us never negotiate out of fear, but let us never fear to negotiate. We have diagnosed our crises with clarity; we have developed our solutions with precision; and now we shall execute our commitments with unwavering moral courage. Let our legacy be not the wealth we accumulated in isolation, but the civilization we preserved in solidarity. History will judge us not by the promises we made upon this stage, but by the tangible hope we deliver to humanity tomorrow."
           }
         ]
       },
@@ -11033,17 +10309,7 @@
             "avatar": "🎙️",
             "theme": "speaker-theme-narrator",
             "stageDirection": "",
-            "text": "Number four."
-          },
-          {
-            "type": "speech",
-            "speaker": "Master the sovereign voice",
-            "role": "Oficina Fonética",
-            "accent": "🎙️ Áudio Guia • Dual-Anchor",
-            "avatar": "🎙️",
-            "theme": "speaker-theme-narrator",
-            "stageDirection": "",
-            "text": "With lucidity of mind, with mastery of language, and with profound respect for the human condition, we claim our place as architects of a shared global future."
+            "text": "Number four. Master the sovereign voice: With lucidity of mind, with mastery of language, and with profound respect for the human condition, we claim our place as architects of a shared global future."
           }
         ]
       }
