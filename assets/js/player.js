@@ -78,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Play / Pause toggle
     function togglePlay() {
+      delete audio.dataset.stopAt;
       if (audio.paused) {
         // Pause all other audios
         document.querySelectorAll('audio').forEach(a => {
@@ -99,12 +100,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Skip controls (-5s / +5s)
     if (skipBackBtn) {
       skipBackBtn.addEventListener('click', () => {
+        delete audio.dataset.stopAt;
         audio.currentTime = Math.max(0, audio.currentTime - 5);
       });
     }
 
     if (skipFwdBtn) {
       skipFwdBtn.addEventListener('click', () => {
+        delete audio.dataset.stopAt;
         audio.currentTime = Math.min(audio.duration || 9999, audio.currentTime + 5);
       });
     }
@@ -122,6 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     audio.addEventListener('ended', () => {
+      delete audio.dataset.stopAt;
       if (playBtn) playBtn.innerHTML = '▶';
       if (scrubber) scrubber.value = 0;
       if (curTimeSpan) curTimeSpan.textContent = '00:00';
@@ -140,6 +144,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     audio.addEventListener('timeupdate', () => {
+      if (audio.dataset.stopAt) {
+        const stopAt = parseFloat(audio.dataset.stopAt);
+        if (!isNaN(stopAt) && audio.currentTime >= stopAt) {
+          audio.pause();
+          delete audio.dataset.stopAt;
+        }
+      }
       if (scrubber && !scrubber.dragging) {
         scrubber.value = Math.floor(audio.currentTime);
         if (curTimeSpan) curTimeSpan.textContent = formatTime(audio.currentTime);
@@ -156,6 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const finishScrub = () => {
         if (scrubber.dragging) {
+          delete audio.dataset.stopAt;
           scrubber.dragging = false;
           audio.currentTime = parseFloat(scrubber.value);
           syncDockProgress();
@@ -258,6 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (dockPlayBtn) {
     dockPlayBtn.addEventListener('click', () => {
       if (!activeAudio) return;
+      delete activeAudio.dataset.stopAt;
       if (activeAudio.paused) {
         document.querySelectorAll('audio').forEach(a => {
           if (a !== activeAudio && !a.paused) a.pause();
@@ -272,6 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (dockReplayBtn) {
     dockReplayBtn.addEventListener('click', () => {
       if (!activeAudio) return;
+      delete activeAudio.dataset.stopAt;
       activeAudio.currentTime = Math.max(0, activeAudio.currentTime - 5);
     });
   }
@@ -279,6 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (dockForwardBtn) {
     dockForwardBtn.addEventListener('click', () => {
       if (!activeAudio) return;
+      delete activeAudio.dataset.stopAt;
       activeAudio.currentTime = Math.min(activeAudio.duration || 9999, activeAudio.currentTime + 5);
     });
   }
@@ -532,7 +547,34 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --------------------------------------------------------------------------
-  // 7. Interactive Controls: Karaoke, Roleplay, Translation & Shadowing
+  // 7. Desktop Keyboard Shortcuts (Space for Play/Pause, Left/Right for Seek)
+  // --------------------------------------------------------------------------
+  document.addEventListener('keydown', (e) => {
+    if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) return;
+    if (!activeAudio) return;
+
+    if (e.code === 'Space') {
+      e.preventDefault();
+      delete activeAudio.dataset.stopAt;
+      if (activeAudio.paused) {
+        document.querySelectorAll('audio').forEach(a => { if (a !== activeAudio && !a.paused) a.pause(); });
+        activeAudio.play().catch(() => {});
+      } else {
+        activeAudio.pause();
+      }
+    } else if (e.code === 'ArrowLeft') {
+      e.preventDefault();
+      delete activeAudio.dataset.stopAt;
+      activeAudio.currentTime = Math.max(0, activeAudio.currentTime - 5);
+    } else if (e.code === 'ArrowRight') {
+      e.preventDefault();
+      delete activeAudio.dataset.stopAt;
+      activeAudio.currentTime = Math.min(activeAudio.duration || 9999, activeAudio.currentTime + 5);
+    }
+  });
+
+  // --------------------------------------------------------------------------
+  // 8. Interactive Controls: Karaoke, Roleplay, Translation & Shadowing
   // --------------------------------------------------------------------------
   initInteractiveFeatures();
 });
@@ -580,6 +622,13 @@ function initInteractiveFeatures() {
             turnCards.forEach(c => c.classList.remove('is-karaoke-active'));
             card.classList.add('is-karaoke-active');
 
+            // Smooth Auto-scroll to current speaking card if out of view
+            const rect = card.getBoundingClientRect();
+            const isOutOfView = rect.top < 90 || rect.bottom > (window.innerHeight - 90);
+            if (isOutOfView) {
+              card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
             // Roleplay check
             if (activeRole !== 'none' && speaker.startsWith(activeRole.toUpperCase()) && !waitingForRoleplay) {
               audio.pause();
@@ -599,6 +648,7 @@ function initInteractiveFeatures() {
                   banner.remove();
                   card.classList.remove('is-roleplay-waiting');
                   waitingForRoleplay = false;
+                  delete audio.dataset.stopAt;
                   audio.currentTime = end + 0.1;
                   audio.play().catch(() => {});
                 });
@@ -653,6 +703,7 @@ function initInteractiveFeatures() {
           // Pause other audios
           document.querySelectorAll('audio').forEach(a => { if (a !== audio && !a.paused) a.pause(); });
           audio.currentTime = start;
+          audio.dataset.stopAt = !isNaN(end) ? end : '';
           audio.play().catch(() => {});
         }
       }

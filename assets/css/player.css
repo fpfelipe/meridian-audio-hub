@@ -1344,6 +1344,37 @@ main.hub-main {
   transform: scale(1.05);
 }
 
+.volume-assess-wrap {
+  margin-top: 0.95rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--border-subtle);
+}
+
+.volume-assess-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  background: var(--bg-warm);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.85rem;
+  color: var(--cobalt);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.18s ease;
+  width: 100%;
+}
+
+.volume-assess-btn:hover {
+  background: var(--cobalt);
+  color: #FFFFFF;
+  border-color: var(--cobalt);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-1px);
+}
+
 /* Footer */
 footer.hub-footer {
   background: var(--bg-card);
