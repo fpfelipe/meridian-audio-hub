@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>MERIDIAN Audio Hub • The Architecture of Power (The Civics Desk)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=DM+Serif+Display&family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/player.css">
+  <style>
+    .dispatch-group { margin-bottom: 12mm; scroll-margin-top: 25mm; }
+    .dispatch-group-header { border-bottom: 2px solid #1E3A8A; padding-bottom: 3mm; margin-bottom: 6mm; }
+    .dispatch-tag-row { display: flex; align-items: center; gap: 2.5mm; margin-bottom: 1.5mm; }
+    .dispatch-badge { background: #1E3A8A; color: #FFF; font-size: 7.5pt; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; padding: 1.2mm 2.8mm; border-radius: 2pt; font-family: 'JetBrains Mono', monospace; }
+    .dispatch-kicker { font-size: 8pt; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.1em; }
+    .dispatch-group-title { font-family: 'DM Serif Display', Georgia, serif; font-size: 22pt; color: #17152C; line-height: 1.1; }
+    
+    .track-card { background: #FFFFFF; border: 1px solid #E2DFD8; border-radius: 4pt; padding: 5mm; margin-bottom: 4mm; box-shadow: 0 2px 6px rgba(0,0,0,0.04); }
+    .track-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.5mm; }
+    .track-meta-left { display: flex; align-items: center; gap: 2mm; flex-wrap: wrap; }
+    .track-num-badge { font-family: 'JetBrains Mono', monospace; font-size: 7pt; font-weight: 800; background: #F1F5F9; color: #334155; padding: 1mm 2mm; border-radius: 2pt; }
+    .track-type-badge { font-size: 7pt; font-weight: 700; padding: 1mm 2.5mm; border-radius: 2pt; text-transform: uppercase; letter-spacing: 0.06em; }
+    .badge-bulletin { background: #E0E7FF; color: #3730A3; }
+    .badge-debate { background: #FEF3C7; color: #92400E; }
+    .track-accent-badge { font-size: 6.8pt; font-weight: 700; color: #475569; background: #F8FAFC; border: 1px solid #E2E8F0; padding: 0.8mm 2mm; border-radius: 2pt; }
+    .track-timing { font-family: 'JetBrains Mono', monospace; font-size: 7pt; color: #64748B; font-weight: 700; display: flex; gap: 2.5mm; }
+    .track-title { font-family: 'DM Serif Display', Georgia, serif; font-size: 14pt; color: #17152C; margin-bottom: 1.5mm; }
+    .track-scenario { font-size: 8pt; color: #64748B; margin-bottom: 3.5mm; }
+    
+    .audio-player-wrapper audio { width: 100%; height: 38px; border-radius: 3pt; outline: none; }
+    .track-transcript-toggle { margin-top: 3.5mm; border-top: 1px solid #F1F5F9; padding-top: 2.5mm; }
+    .btn-toggle-transcript { background: none; border: none; color: #1E3A8A; font-family: 'Manrope', sans-serif; font-size: 7.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; display: flex; align-items: center; gap: 1.5mm; padding: 1mm 0; }
+    .transcript-drawer { display: none; margin-top: 3mm; padding: 3.5mm; background: #F8FAFC; border-radius: 3pt; border-left: 3px solid #1E3A8A; }
+    .transcript-drawer.is-open { display: block; }
+    .turn-card { margin-bottom: 3mm; font-size: 8.5pt; line-height: 1.45; }
+    .turn-card:last-child { margin-bottom: 0; }
+    .turn-speaker-badge { font-size: 7pt; font-weight: 800; text-transform: uppercase; color: #1E3A8A; margin-bottom: 0.5mm; display: flex; gap: 1.5mm; align-items: center; }
+    .speaker-accent { color: #64748B; font-weight: 600; font-size: 6.5pt; }
+    .turn-text { color: #334155; margin: 0; }
+
+    .jump-nav-bar { display: flex; gap: 2mm; overflow-x: auto; padding: 3mm 0; margin-bottom: 6mm; border-bottom: 1px solid #E2DFD8; }
+    .jump-pill { font-size: 7.5pt; font-weight: 700; text-decoration: none; color: #1E3A8A; background: #FFFFFF; border: 1px solid #CBD5E1; padding: 1.5mm 3.5mm; border-radius: 20pt; white-space: nowrap; transition: all 0.2s; }
+    .jump-pill:hover { background: #1E3A8A; color: #FFFFFF; }
+  </style>
+</head>
+<body>
+
+  <header class="hub-header">
+    <div class="header-inner">
+      <a href="../../index.html" class="brand-wrap">
+        <span class="brand-title">MERIDIAN</span>
+        <span class="brand-badge">Audio Hub</span>
+      </a>
+      <nav class="header-nav">
+        <a href="../../index.html">← Índice de Volumes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hub-main" style="max-width: 900px; margin: 0 auto; padding: 8mm 4mm;">
+    
+    <div class="hero-box" style="background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 100%); color: #FFF; padding: 8mm 7mm; border-radius: 4pt; margin-bottom: 8mm;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 3mm;">
+        <span style="background: #D97706; color: #FFF; font-size: 7.2pt; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; padding: 1mm 2.8mm; border-radius: 1.5pt;">MERIDIAN COMPANION SERIES • SPECIAL ISSUE NO. 01</span>
+        <span style="font-family: 'JetBrains Mono', monospace; font-size: 7.5pt; font-weight: 700; color: #93C5FD;">CEFR A2 → B1 BRIDGE</span>
+      </div>
+      <h1 style="font-family: 'DM Serif Display', Georgia, serif; font-size: 32pt; margin: 0 0 2mm 0; line-height: 1.05; color: #FFFFFF;">The Architecture of Power</h1>
+      <p style="font-size: 10pt; line-height: 1.45; color: #E2E8F0; margin: 0 0 5mm 0; max-width: 750px;">
+        12 Faixas de Áudio Oficiais com locutores nativos em três sotaques autênticos (Americano, Britânico e Brasileiro fluente). Pratique o ritmo do jornalismo falado factual em duas cadências didáticas: <strong>Boletim de Rádio (110–115 WPM)</strong> e <strong>Debate de Estúdio (125–135 WPM)</strong>.
+      </p>
+      <div style="display: flex; gap: 3mm; flex-wrap: wrap; font-size: 7.5pt; font-weight: 700;">
+        <span style="background: rgba(255,255,255,0.15); padding: 1.2mm 3mm; border-radius: 2pt;">🎙️ 12 Faixas Estúdio MP3</span>
+        <span style="background: rgba(255,255,255,0.15); padding: 1.2mm 3mm; border-radius: 2pt;">🌐 Sotaques US / UK / BR</span>
+        <span style="background: rgba(255,255,255,0.15); padding: 1.2mm 3mm; border-radius: 2pt;">📱 Sincronizado via QR Code</span>
+      </div>
+    </div>
+
+    <!-- Quick Jump Nav Bar -->
+    <nav class="jump-nav-bar" aria-label="Navegação rápida de despachos">
+      <a href="#dispatch-01" class="jump-pill">Despacho 01: Transition of Power</a>
+      <a href="#dispatch-02" class="jump-pill">Despacho 02: Election Night Drama</a>
+      <a href="#dispatch-03" class="jump-pill">Despacho 03: The People's Houses</a>
+      <a href="#dispatch-04" class="jump-pill">Despacho 04: Courts of Last Resort</a>
+      <a href="#dispatch-05" class="jump-pill">Despacho 05: Power of the Street</a>
+      <a href="#dispatch-06" class="jump-pill">Despacho 06: Green Politics</a>
+    </nav>
+
+    <!-- Dispatches List -->
+    
+  <section class="dispatch-group" id="dispatch-01">
+    <div class="dispatch-group-header">
+      <div class="dispatch-tag-row">
+        <span class="dispatch-badge">Despacho 01</span>
+        <span class="dispatch-kicker">Washington • London • Brasília</span>
+      </div>
+      <h2 class="dispatch-group-title">The Transition of Power</h2>
+    </div>
+    <div class="tracks-list">
+      
+    <article class="track-card" id="audio_civics_d01_trka" data-track-id="AUDIO_CIVICS_D01_TRKA">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 01</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">UK (Neutral RP)</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">132.5 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Flash Wire Radio Bulletin: The Moment Power Moves</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D01_TRKA.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    <article class="track-card" id="audio_civics_d01_trkb" data-track-id="AUDIO_CIVICS_D01_TRKB">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 02</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">null</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">135.4 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Newsroom Desk Debate: The Speed and Symbolism of Moving In</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D01_TRKB.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    </div>
+  </section>
+
+  <section class="dispatch-group" id="dispatch-02">
+    <div class="dispatch-group-header">
+      <div class="dispatch-tag-row">
+        <span class="dispatch-badge">Despacho 02</span>
+        <span class="dispatch-kicker">Speed, Paper, and Modern Machines</span>
+      </div>
+      <h2 class="dispatch-group-title">Election Night Drama</h2>
+    </div>
+    <div class="tracks-list">
+      
+    <article class="track-card" id="audio_civics_d02_trka" data-track-id="AUDIO_CIVICS_D02_TRKA">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 03</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">UK (Neutral RP)</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">135.5 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Flash Wire Radio Bulletin: Counting the World's Ballots</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D02_TRKA.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    <article class="track-card" id="audio_civics_d02_trkb" data-track-id="AUDIO_CIVICS_D02_TRKB">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 04</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">null</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">139.3 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Newsroom Desk Debate: The Urna vs The Pencil</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D02_TRKB.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    </div>
+  </section>
+
+  <section class="dispatch-group" id="dispatch-03">
+    <div class="dispatch-group-header">
+      <div class="dispatch-tag-row">
+        <span class="dispatch-badge">Despacho 03</span>
+        <span class="dispatch-kicker">Inside the Parliaments & Congresses</span>
+      </div>
+      <h2 class="dispatch-group-title">The People's Houses</h2>
+    </div>
+    <div class="tracks-list">
+      
+    <article class="track-card" id="audio_civics_d03_trka" data-track-id="AUDIO_CIVICS_D03_TRKA">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 05</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">UK (Neutral RP)</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">134.3 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Flash Wire Radio Bulletin: Where Laws Are Born</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D03_TRKA.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    <article class="track-card" id="audio_civics_d03_trkb" data-track-id="AUDIO_CIVICS_D03_TRKB">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 06</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">null</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">142.1 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Newsroom Desk Debate: Green Benches, Niemeyer Domes, and Capitol Rotundas</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D03_TRKB.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    </div>
+  </section>
+
+  <section class="dispatch-group" id="dispatch-04">
+    <div class="dispatch-group-header">
+      <div class="dispatch-tag-row">
+        <span class="dispatch-badge">Despacho 04</span>
+        <span class="dispatch-kicker">Cameras, Gowns, and Precedents</span>
+      </div>
+      <h2 class="dispatch-group-title">The Courts of Last Resort</h2>
+    </div>
+    <div class="tracks-list">
+      
+    <article class="track-card" id="audio_civics_d04_trka" data-track-id="AUDIO_CIVICS_D04_TRKA">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 07</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">US (General American)</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">128.4 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Flash Wire Radio Bulletin: Supreme Courts and Open Doors</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D04_TRKA.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    <article class="track-card" id="audio_civics_d04_trkb" data-track-id="AUDIO_CIVICS_D04_TRKB">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 08</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">null</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">134.3 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Newsroom Desk Studio Debate: Cameras, Gowns, and Precedents</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D04_TRKB.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    </div>
+  </section>
+
+  <section class="dispatch-group" id="dispatch-05">
+    <div class="dispatch-group-header">
+      <div class="dispatch-tag-row">
+        <span class="dispatch-badge">Despacho 05</span>
+        <span class="dispatch-kicker">Petitions, Marches, and the Press</span>
+      </div>
+      <h2 class="dispatch-group-title">The Power of the Street</h2>
+    </div>
+    <div class="tracks-list">
+      
+    <article class="track-card" id="audio_civics_d05_trka" data-track-id="AUDIO_CIVICS_D05_TRKA">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 09</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">US (General American)</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">118.3 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Flash Wire Radio Bulletin: Citizens on the March</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D05_TRKA.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    <article class="track-card" id="audio_civics_d05_trkb" data-track-id="AUDIO_CIVICS_D05_TRKB">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 10</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">null</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">138.8 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Newsroom Desk Studio Debate: Petitions, Marches, and the Free Press</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D05_TRKB.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    </div>
+  </section>
+
+  <section class="dispatch-group" id="dispatch-06">
+    <div class="dispatch-group-header">
+      <div class="dispatch-tag-row">
+        <span class="dispatch-badge">Despacho 06</span>
+        <span class="dispatch-kicker">Leaders at the Summit & Climate Accords</span>
+      </div>
+      <h2 class="dispatch-group-title">Green Politics & The Global Stage</h2>
+    </div>
+    <div class="tracks-list">
+      
+    <article class="track-card" id="audio_civics_d06_trka" data-track-id="AUDIO_CIVICS_D06_TRKA">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 11</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">US (General American)</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">123.2 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Flash Wire Radio Bulletin: Presidents, Prime Ministers, and the Planet</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D06_TRKA.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    <article class="track-card" id="audio_civics_d06_trkb" data-track-id="AUDIO_CIVICS_D06_TRKB">
+      <div class="track-card-header">
+        <div class="track-meta-left">
+          <span class="track-num-badge">Faixa 12</span>
+          <span class="track-type-badge badge-debate">
+            🎙️ Debate no Estúdio
+          </span>
+          <span class="track-accent-badge">null</span>
+        </div>
+        <div class="track-timing">
+          <span class="track-duration">undefined</span>
+          <span class="track-wpm">129.2 WPM WPM</span>
+        </div>
+      </div>
+
+      <h3 class="track-title">Newsroom Desk Studio Debate: Summits, Treaties, and Climate Accords</h3>
+      <p class="track-scenario"><em>undefined</em></p>
+
+      <div class="audio-player-wrapper">
+        <audio controls preload="metadata" class="native-audio" src="../../tracks/companions/civics/AUDIO_CIVICS_D06_TRKB.mp3">
+          Seu navegador não suporta reprodução direta de áudio.
+        </audio>
+      </div>
+
+      <div class="track-transcript-toggle">
+        <button type="button" class="btn-toggle-transcript" onclick="this.nextElementSibling.classList.toggle('is-open')">
+          <span>Ver Transcrição com Marcação de Fala</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="transcript-drawer">
+          
+        </div>
+      </div>
+    </article>
+  
+    </div>
+  </section>
+
+
+  </main>
+
+  <footer style="text-align: center; padding: 8mm 4mm; border-top: 1px solid #E2DFD8; color: #64748B; font-size: 8pt; margin-top: 12mm;">
+    <p><strong>MERIDIAN Press • Audio Distribution Hub</strong></p>
+    <p style="margin-top: 1mm;">Hospedado via GitHub Pages • Áudio estéreo 128 kbps (CBR 44.1 kHz)</p>
+  </footer>
+
+</body>
+</html>

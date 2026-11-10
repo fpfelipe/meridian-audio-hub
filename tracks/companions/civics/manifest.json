@@ -1,0 +1,738 @@
+[
+  {
+    "trackNum": 1,
+    "trackId": "AUDIO_CIVICS_D01_TRKA",
+    "aliasIds": [
+      "AUDIO_CIVICS_D01_TA"
+    ],
+    "dispatchNum": "01",
+    "dispatchSlug": "dispatch-01",
+    "dispatchTitle": "The Transition of Power",
+    "title": "Flash Wire Radio Bulletin: The Moment Power Moves",
+    "type": "Radio News Bulletin",
+    "kind": "bulletin",
+    "level": "A2 Core",
+    "speaker": "Alastair Finch",
+    "accent": "UK (Neutral RP)",
+    "words": 132,
+    "durationSeconds": 59.79,
+    "wpm": "132.5 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D01_TRKA.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Alastair Finch",
+        "accent": "UK",
+        "start": 0.45,
+        "end": 59.34,
+        "text": "Good morning. This is The Meridian Flash Wire with your civics briefing. In a constitutional democracy, an election is only the first step. The true test of national stability is the transition of power. When a leader leaves office, executive authority moves peacefully to the next chosen government. In the United States, this transition happens on January 20th at exactly twelve noon. The new president recites a short oath at the Capitol in Washington. In the United Kingdom, the process is extremely fast. After the general election in July 2024, the new prime minister entered 10 Downing Street within twenty-four hours. In Brazil, the president climbs the wide ramp of the Planalto Palace and receives the green-and-yellow sash before thousands of citizens. Three nations, three distinct ceremonies, but one shared democratic rule."
+      }
+    ]
+  },
+  {
+    "trackNum": 2,
+    "trackId": "AUDIO_CIVICS_D01_TRKB",
+    "aliasIds": [
+      "AUDIO_CIVICS_D01_TB"
+    ],
+    "dispatchNum": "01",
+    "dispatchSlug": "dispatch-01",
+    "dispatchTitle": "The Transition of Power",
+    "title": "Newsroom Desk Debate: The Speed and Symbolism of Moving In",
+    "type": "Studio Correspondent Debate",
+    "kind": "dialogue",
+    "level": "A2+ -> B1 Bridge",
+    "speaker": null,
+    "accent": null,
+    "words": 282,
+    "durationSeconds": 124.97,
+    "wpm": "135.4 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D01_TRKB.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 0.4,
+        "end": 26.99,
+        "text": "Welcome to The Newsroom Desk. Today, Gabriela and I are looking at how three democratic capitals handle moving day. In London, the transition happens almost instantly. On July 5th, 2024, Rishi Sunak conceded defeat at dawn, visited the King, and Sir Keir Starmer walked into Number 10 before lunchtime. Gabriela, isn't that dizzying compared to Brasília?"
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Gabriela Rossi",
+        "accent": "BR",
+        "start": 27.44,
+        "end": 50.41,
+        "text": "It certainly is, Marcus! In Brazil, we have a two-month transition period. The incoming administration sets up a transition team with hundreds of policy experts. We believe the new president needs time to prepare cabinet appointments. And the ceremony itself is a huge public celebration on the Esplanada dos Ministérios."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 50.86,
+        "end": 72.77,
+        "text": "That sounds very similar to Washington. In the United States, the president-elect waits about ten weeks until January 20th. However, their moving day is intense! The permanent White House staff has only five hours to move the outgoing family out and the incoming family in, while the president takes the oath of office at the Capitol."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Gabriela Rossi",
+        "accent": "BR",
+        "start": 73.22,
+        "end": 95.25,
+        "text": "Five hours is incredible pressure! But in Brasília, the big visual moment is when the president walks up the marble ramp of the Palácio do Planalto. In 2023, President Lula walked up the ramp surrounded by ordinary citizens representing Brazilian society. That visual symbol proves that the government belongs to the people."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 95.7,
+        "end": 115.19,
+        "text": "Exactly. In Britain, we do not have a written constitution, so we rely on royal audience rituals and removal vans parked on Downing Street. But despite these huge cultural differences, every system demonstrates the same fundamental principle: power belongs to the office, never to the person."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Gabriela Rossi",
+        "accent": "BR",
+        "start": 115.64,
+        "end": 125.1,
+        "text": "That is the real beauty of democratic transitions. Speed in London, pageantry in Washington, and civic unity on the ramp in Brasília."
+      }
+    ]
+  },
+  {
+    "trackNum": 3,
+    "trackId": "AUDIO_CIVICS_D02_TRKA",
+    "aliasIds": [
+      "AUDIO_CIVICS_D02_TA"
+    ],
+    "dispatchNum": "02",
+    "dispatchSlug": "dispatch-02",
+    "dispatchTitle": "Election Night Drama",
+    "title": "Flash Wire Radio Bulletin: Counting the World's Ballots",
+    "type": "Radio News Bulletin",
+    "kind": "bulletin",
+    "level": "A2 Core",
+    "speaker": "Eleanor Vance",
+    "accent": "UK (Neutral RP)",
+    "words": 127,
+    "durationSeconds": 56.24,
+    "wpm": "135.5 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D02_TRKA.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Eleanor Vance",
+        "accent": "UK",
+        "start": 0.45,
+        "end": 55.79,
+        "text": "Good evening from The Meridian Newsroom. Tonight we examine the mechanics of election night. Every election ends with a simple question: who won? However, the speed of the answer depends on technology and history. In Brazil, more than one hundred and twenty million people vote on a single Sunday. By eight o'clock in the evening, the electronic machines deliver clear national results. The entire country knows the outcome in less than three hours. In the United Kingdom, tradition rules the night. Citizens mark paper ballots with wooden pencils, and volunteer teams count every slip by hand. In the United States, fifty states use different systems. Because millions of voters use mail-in ballots, counting can take several days before networks confirm the winner. Speed, paper, and public trust."
+      }
+    ]
+  },
+  {
+    "trackNum": 4,
+    "trackId": "AUDIO_CIVICS_D02_TRKB",
+    "aliasIds": [
+      "AUDIO_CIVICS_D02_TB"
+    ],
+    "dispatchNum": "02",
+    "dispatchSlug": "dispatch-02",
+    "dispatchTitle": "Election Night Drama",
+    "title": "Newsroom Desk Debate: The Urna vs The Pencil",
+    "type": "Studio Correspondent Debate",
+    "kind": "dialogue",
+    "level": "A2+ -> B1 Bridge",
+    "speaker": null,
+    "accent": null,
+    "words": 279,
+    "durationSeconds": 120.19,
+    "wpm": "139.3 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D02_TRKB.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "David Chen",
+        "accent": "US",
+        "start": 0.4,
+        "end": 24.78,
+        "text": "Welcome to our Election Tech Special. Beatriz, whenever election night arrives in the United States, our reporters prepare for a marathon. In 2020 and 2024, counting mail-in ballots took days in swing states like Pennsylvania and Arizona. Meanwhile, in Brazil, you finish counting across a whole continent in three hours! How is that possible?"
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Beatriz Silva",
+        "accent": "BR",
+        "start": 25.23,
+        "end": 52.25,
+        "text": "It all comes down to the urna eletrônica, David. Brazil introduced electronic voting back in 1996. Today, we deploy more than 570,000 machines across 5,500 municipalities, even in remote villages in the Amazon. Every machine is completely air-gapped, meaning it has zero connection to the internet or Wi-Fi. That eliminates outside hacking."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "David Chen",
+        "accent": "US",
+        "start": 52.7,
+        "end": 72.98,
+        "text": "That is fascinating. In the US, many voters are suspicious of purely digital systems. They want a physical paper trail that can be recounted by hand if the contest is close. Also, our election rules are decentralized across three thousand counties, which naturally slows down the national tally."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Beatriz Silva",
+        "accent": "BR",
+        "start": 73.43,
+        "end": 93.71,
+        "text": "I understand the paper preference, but Brazil prints a physical tally sheet called the Boletim de Urna the second voting ends. It is posted directly on the door of the voting room for any citizen to inspect. Furthermore, universities and federal police test the source code months in advance during public security tests."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "David Chen",
+        "accent": "US",
+        "start": 94.16,
+        "end": 106.93,
+        "text": "And then you have Britain, where they still mark paper ballots with a pencil tied to a piece of string! Yet, British cities like Sunderland race to count tens of thousands of paper slips in under ninety minutes on Thursday night."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Beatriz Silva",
+        "accent": "BR",
+        "start": 107.38,
+        "end": 120.34,
+        "text": "That shows an important truth: whether you use biometrics and microchips or paper slips and pencils, the most crucial ingredient in any election is not technology—it is public transparency and trust."
+      }
+    ]
+  },
+  {
+    "trackNum": 5,
+    "trackId": "AUDIO_CIVICS_D03_TRKA",
+    "aliasIds": [
+      "AUDIO_CIVICS_D03_TA"
+    ],
+    "dispatchNum": "03",
+    "dispatchSlug": "dispatch-03",
+    "dispatchTitle": "The People's Houses",
+    "title": "Flash Wire Radio Bulletin: Where Laws Are Born",
+    "type": "Radio News Bulletin",
+    "kind": "bulletin",
+    "level": "A2 Core",
+    "speaker": "Julian Sterling",
+    "accent": "UK (Neutral RP)",
+    "words": 131,
+    "durationSeconds": 58.51,
+    "wpm": "134.3 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D03_TRKA.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Julian Sterling",
+        "accent": "UK",
+        "start": 0.45,
+        "end": 58.06,
+        "text": "From London, this is The Meridian Civics Desk. In every representative democracy, parliament is the house of the people. This is where elected representatives debate national problems, question ministers, and pass laws. In London, the House of Commons is famous for intense drama. The chamber has green leather benches that face each other. There are only four hundred and twenty-seven seats for six hundred and fifty members, so politicians must stand during major debates. In Brasília, the National Congress rises over the central savannah. Architect Oscar Niemeyer designed two iconic bowls: one open to the sky for the deputies, and one closed for the senators. In Washington, the United States Congress meets inside the massive Capitol, where powerful committees hold televised hearings on new bills. Architecture and power, side by side."
+      }
+    ]
+  },
+  {
+    "trackNum": 6,
+    "trackId": "AUDIO_CIVICS_D03_TRKB",
+    "aliasIds": [
+      "AUDIO_CIVICS_D03_TB"
+    ],
+    "dispatchNum": "03",
+    "dispatchSlug": "dispatch-03",
+    "dispatchTitle": "The People's Houses",
+    "title": "Newsroom Desk Debate: Green Benches, Niemeyer Domes, and Capitol Rotundas",
+    "type": "Studio Correspondent Debate",
+    "kind": "dialogue",
+    "level": "A2+ -> B1 Bridge",
+    "speaker": null,
+    "accent": null,
+    "words": 289,
+    "durationSeconds": 122.04,
+    "wpm": "142.1 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D03_TRKB.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Eleanor Brooks",
+        "accent": "UK",
+        "start": 0.4,
+        "end": 22.53,
+        "text": "Marcus, welcome to The People's Houses debate. As someone who reports from Westminster every day, I am always struck by how intimate and adversarial our House of Commons is. MPs sit just two sword lengths apart on green leather benches. During Prime Minister's Questions on Wednesday noon, the shouting is loud enough to shake the glass windows!"
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Marcus Cole",
+        "accent": "UK",
+        "start": 22.98,
+        "end": 47.34,
+        "text": "It looks like a stadium duel on television, Eleanor! On Capitol Hill in Washington, the atmosphere is very different. Both the House of Representatives and the Senate sit in wide semicircles. Debate on the floor is strictly regulated by the Speaker's gavel. Most of the real dramatic work happens in committee rooms, where senators cross-examine witnesses under oath."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Eleanor Brooks",
+        "accent": "UK",
+        "start": 47.79,
+        "end": 69.46,
+        "text": "And what about Brasília? The Brazilian National Congress is an architectural masterpiece. Oscar Niemeyer designed the plenary of the Chamber of Deputies as a wide modern hemicycle. But the symbolism of the exterior is extraordinary: the bowl of the deputies opens upward to welcome the people, while the Senate bowl turns downward for reflection."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Marcus Cole",
+        "accent": "UK",
+        "start": 69.91,
+        "end": 92.54,
+        "text": "That architecture reflects Brazilian politics. Because Brazil has so many political parties, a president cannot govern from an adversarial trench like Westminster. They must build broad coalitions in that semicircle to pass a bill or override a presidential veto. Electronic voting panels record every deputy's biometric vote in seconds."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Eleanor Brooks",
+        "accent": "UK",
+        "start": 92.99,
+        "end": 108.16,
+        "text": "Whereas at Westminster, MPs still physically walk through the 'Aye' or 'No' division lobbies to be counted by hand! It takes fifteen minutes to register a single vote, but lawmakers use that time to whisper and negotiate directly with ministers."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Marcus Cole",
+        "accent": "UK",
+        "start": 108.61,
+        "end": 122.19,
+        "text": "Whether it is green benches in London, marble committee rooms in Washington, or Niemeyer's modernist domes in Brasília, parliamentary architecture reflects one fundamental democratic truth: power must answer to the people."
+      }
+    ]
+  },
+  {
+    "trackNum": 7,
+    "trackId": "AUDIO_CIVICS_D04_TRKA",
+    "aliasIds": [
+      "AUDIO_CIVICS_D04_TA"
+    ],
+    "dispatchNum": "04",
+    "dispatchSlug": "dispatch-04",
+    "dispatchTitle": "The Courts of Last Resort",
+    "title": "Flash Wire Radio Bulletin: Supreme Courts and Open Doors",
+    "type": "Radio News Bulletin",
+    "kind": "bulletin",
+    "level": "A2 Core",
+    "speaker": "Sarah Jenkins",
+    "accent": "US (General American)",
+    "words": 145,
+    "durationSeconds": 67.74,
+    "wpm": "128.4 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D04_TRKA.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 0.3,
+        "end": 6.71,
+        "text": "Good evening. This is The Meridian Newsroom with the Flash Wire on global justice."
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 7.51,
+        "end": 23.45,
+        "text": "The highest courts in Brazil, the United States, and the United Kingdom protect national constitutions and resolve major legal disputes. However, each country treats public cameras and judicial secrecy in a completely different way."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 24.25,
+        "end": 37.57,
+        "text": "In Brasília, the Supreme Federal Court broadcasts its debates live on national television and YouTube. Brazilian citizens watch the eleven ministers vote and argue in real time on TV Justiça."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 38.37,
+        "end": 52.65,
+        "text": "In Washington, D.C., the United States Supreme Court strictly bans television cameras inside its courtroom. The nine justices listen to arguments in a quiet chamber, allowing only courtroom sketch drawings."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 53.45,
+        "end": 64.83,
+        "text": "In London, the Supreme Court of the United Kingdom opened in 2009. The twelve justices do not wear wigs, and anyone can watch their live hearings online."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 65.63,
+        "end": 68.13,
+        "text": "This is The Newsroom Desk."
+      }
+    ]
+  },
+  {
+    "trackNum": 8,
+    "trackId": "AUDIO_CIVICS_D04_TRKB",
+    "aliasIds": [
+      "AUDIO_CIVICS_D04_TB"
+    ],
+    "dispatchNum": "04",
+    "dispatchSlug": "dispatch-04",
+    "dispatchTitle": "The Courts of Last Resort",
+    "title": "Newsroom Desk Studio Debate: Cameras, Gowns, and Precedents",
+    "type": "Studio Correspondent Debate",
+    "kind": "dialogue",
+    "level": "A2+ -> B1 Bridge",
+    "speaker": null,
+    "accent": null,
+    "words": 262,
+    "durationSeconds": 117.03,
+    "wpm": "134.3 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D04_TRKB.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Fiona Campbell",
+        "accent": "UK",
+        "start": 0.4,
+        "end": 13.7,
+        "text": "Welcome to The Newsroom Desk. Today we are looking at the highest courts in our three nations. Carlos, in Brazil, you can turn on your TV right now and watch Supreme Court ministers debate, can't you?"
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Carlos Mendes",
+        "accent": "BR",
+        "start": 14.15,
+        "end": 32.73,
+        "text": "Yes, Fiona! Since 2002, TV Justiça has broadcast every plenary session live. You see the eleven ministers in their black robes, reading their votes and debating constitutional articles in real time. For Brazilian citizens, it is very familiar."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Fiona Campbell",
+        "accent": "UK",
+        "start": 33.18,
+        "end": 50.46,
+        "text": "That is astonishing from an American or British perspective. In Washington, the US Supreme Court has banned cameras for decades! The American justices argue that television cameras would turn serious legal arguments into political theater for television news clips."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Carlos Mendes",
+        "accent": "BR",
+        "start": 50.91,
+        "end": 66.82,
+        "text": "That is an interesting concern. But in Brazil, supporters say that cameras prevent secret deals. When the public watches the arguments, everyone understands why a law was upheld or overturned. What about London, Fiona?"
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Fiona Campbell",
+        "accent": "UK",
+        "start": 67.27,
+        "end": 88.56,
+        "text": "In the UK, we created our Supreme Court in October 2009. Before that, our highest judges sat inside the House of Lords. Today, our twelve justices sit in Middlesex Guildhall without powdered wigs, and their sessions are streamed live on the court's website. So we have cameras, but the style is very calm."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Carlos Mendes",
+        "accent": "BR",
+        "start": 89.01,
+        "end": 95.61,
+        "text": "A listener asks: 'Are supreme court judges elected by voters?' What should we tell them?"
+      },
+      {
+        "turnIdx": 7,
+        "speaker": "Fiona Campbell",
+        "accent": "UK",
+        "start": 96.06,
+        "end": 117.2,
+        "text": "The answer is definitely no! In all three countries, judges are appointed, not elected. In Brazil and the US, the President nominates and the Senate confirms. In the UK, an independent commission chooses them. This ensures they interpret the constitution without worrying about winning the next election."
+      }
+    ]
+  },
+  {
+    "trackNum": 9,
+    "trackId": "AUDIO_CIVICS_D05_TRKA",
+    "aliasIds": [
+      "AUDIO_CIVICS_D05_TA"
+    ],
+    "dispatchNum": "05",
+    "dispatchSlug": "dispatch-05",
+    "dispatchTitle": "The Power of the Street",
+    "title": "Flash Wire Radio Bulletin: Citizens on the March",
+    "type": "Radio News Bulletin",
+    "kind": "bulletin",
+    "level": "A2 Core",
+    "speaker": "Sarah Jenkins",
+    "accent": "US (General American)",
+    "words": 145,
+    "durationSeconds": 73.56,
+    "wpm": "118.3 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D05_TRKA.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 0.3,
+        "end": 7.45,
+        "text": "Good morning. From the Meridian Civic Desk, this is the Flash Wire on citizen action."
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 8.25,
+        "end": 24.19,
+        "text": "In democratic countries, citizens have the constitutional right to gather peacefully, express grievances, and petition their leaders. Across London, Washington, and Brasília, historic street marches have changed national laws."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 24.99,
+        "end": 40.33,
+        "text": "In the United States, the 1963 March on Washington drew over 250,000 people to hear Martin Luther King Jr. demand equal civil rights, leading directly to the historic Civil Rights Act of 1964."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 41.13,
+        "end": 54.83,
+        "text": "In Brazil, millions of citizens dressed in yellow and green during the Diretas Já campaign of 1984, demanding direct democratic elections and inspiring the 1988 Citizen Constitution."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 55.63,
+        "end": 70.65,
+        "text": "In the United Kingdom, citizens use parliamentary petitions and assemble in Trafalgar Square or Hyde Park. When an online petition reaches 100,000 signatures, lawmakers in Parliament must consider it for debate."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 71.45,
+        "end": 73.95,
+        "text": "This is The Newsroom Desk."
+      }
+    ]
+  },
+  {
+    "trackNum": 10,
+    "trackId": "AUDIO_CIVICS_D05_TRKB",
+    "aliasIds": [
+      "AUDIO_CIVICS_D05_TB"
+    ],
+    "dispatchNum": "05",
+    "dispatchSlug": "dispatch-05",
+    "dispatchTitle": "The Power of the Street",
+    "title": "Newsroom Desk Studio Debate: Petitions, Marches, and the Free Press",
+    "type": "Studio Correspondent Debate",
+    "kind": "dialogue",
+    "level": "A2+ -> B1 Bridge",
+    "speaker": null,
+    "accent": null,
+    "words": 258,
+    "durationSeconds": 111.52,
+    "wpm": "138.8 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D05_TRKB.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 0.4,
+        "end": 14.56,
+        "text": "Welcome back to The Newsroom Desk. We often say democracy is about voting. But what happens between election days? Fiona, London has a very long tradition of public protest, doesn't it?"
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Fiona Campbell",
+        "accent": "UK",
+        "start": 15.01,
+        "end": 38.82,
+        "text": "It certainly does, Marcus. Since the nineteenth century, people have gathered at Speakers' Corner in Hyde Park to debate freely. And today, British citizens use official digital petitions. If you gather 10,000 signatures, the government must write an answer. If you reach 100,000, MPs consider the petition for a full debate in Parliament."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 39.27,
+        "end": 59.89,
+        "text": "That is an effective civic tool. In the United States, peaceful assembly is protected by our First Amendment. Think of the 1963 March on Washington. A quarter of a million citizens marched peacefully with Martin Luther King Jr., and that direct pressure forced Congress to pass the Civil Rights Act."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Fiona Campbell",
+        "accent": "UK",
+        "start": 60.34,
+        "end": 78.22,
+        "text": "And the same happened in Brazil during the Diretas Já movement in 1984! Over a million people filled the streets of São Paulo and Rio de Janeiro wearing yellow and green, demanding the right to elect their president. That peaceful street power helped restore civilian democracy."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 78.67,
+        "end": 96.21,
+        "text": "Exactly. But we must also remember the essential role of independent journalists. The press is often called the 'Fourth Estate'. When citizens march, investigative reporters document the facts, check police conduct, and hold politicians to account."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Fiona Campbell",
+        "accent": "UK",
+        "start": 96.66,
+        "end": 111.66,
+        "text": "Quite right. Without a free press and the right to assemble, governments could operate in total secrecy. As the old slogan says: a ballot gives you a vote once every four years, but peaceful civic action gives you a voice every day."
+      }
+    ]
+  },
+  {
+    "trackNum": 11,
+    "trackId": "AUDIO_CIVICS_D06_TRKA",
+    "aliasIds": [
+      "AUDIO_CIVICS_D06_TA"
+    ],
+    "dispatchNum": "06",
+    "dispatchSlug": "dispatch-06",
+    "dispatchTitle": "Green Politics & Summits",
+    "title": "Flash Wire Radio Bulletin: Presidents, Prime Ministers, and the Planet",
+    "type": "Radio News Bulletin",
+    "kind": "bulletin",
+    "level": "A2 Core",
+    "speaker": "Sarah Jenkins",
+    "accent": "US (General American)",
+    "words": 136,
+    "durationSeconds": 66.25,
+    "wpm": "123.2 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D06_TRKA.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 0.3,
+        "end": 7.31,
+        "text": "Good evening. From the Global Desk, this is the Flash Wire on international diplomacy."
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 8.11,
+        "end": 18.19,
+        "text": "Every year, heads of state travel to global summits to confront common challenges like climate change, economic stability, and international peace."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 18.99,
+        "end": 32.09,
+        "text": "By long-standing tradition established in 1947, Brazil always delivers the opening speech at the United Nations General Assembly in New York, followed immediately by the United States President."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 32.89,
+        "end": 45.2,
+        "text": "In November 2024, Brazil hosted the historic G20 Leaders Summit in Rio de Janeiro, welcoming presidents and prime ministers representing eighty-five percent of global wealth."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 46,
+        "end": 63.33,
+        "text": "Now, international attention turns to Belém do Pará, in the Brazilian Amazon, where thousands of world diplomats gather for the COP30 climate summit. Meanwhile, the UK and US debate clean energy transition plans to reach Net Zero emissions."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Sarah Jenkins",
+        "accent": "US",
+        "start": 64.13,
+        "end": 66.63,
+        "text": "This is The Newsroom Desk."
+      }
+    ]
+  },
+  {
+    "trackNum": 12,
+    "trackId": "AUDIO_CIVICS_D06_TRKB",
+    "aliasIds": [
+      "AUDIO_CIVICS_D06_TB"
+    ],
+    "dispatchNum": "06",
+    "dispatchSlug": "dispatch-06",
+    "dispatchTitle": "Green Politics & Summits",
+    "title": "Newsroom Desk Studio Debate: Summits, Treaties, and Climate Accords",
+    "type": "Studio Correspondent Debate",
+    "kind": "dialogue",
+    "level": "A2+ -> B1 Bridge",
+    "speaker": null,
+    "accent": null,
+    "words": 265,
+    "durationSeconds": 123.09,
+    "wpm": "129.2 WPM",
+    "fileUrl": "tracks/companions/civics/AUDIO_CIVICS_D06_TRKB.mp3",
+    "turns": [
+      {
+        "turnIdx": 1,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 0.4,
+        "end": 18.38,
+        "text": "Welcome to The Newsroom Desk. Carlos, environmental diplomacy is at the center of the world stage right now. Brazil has just hosted the G20 in Rio, and next is COP30 in Belém do Pará. That is a massive diplomatic achievement, isn't it?"
+      },
+      {
+        "turnIdx": 2,
+        "speaker": "Carlos Mendes",
+        "accent": "BR",
+        "start": 18.83,
+        "end": 39.61,
+        "text": "It certainly is, Marcus! Hosting COP30 right in the heart of the Amazon rainforest sends a powerful message. It brings presidents, indigenous leaders, and scientists to the front line of tropical conservation. Brazil wants the world to understand that climate finance is an urgent global responsibility."
+      },
+      {
+        "turnIdx": 3,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 40.06,
+        "end": 59.6,
+        "text": "And the transatlantic contrast in energy policy is striking. In the United Kingdom, they closed their very last coal power station in September 2024, becoming the first G7 economy to end coal electricity completely. They are moving rapidly toward their 2050 Net Zero target."
+      },
+      {
+        "turnIdx": 4,
+        "speaker": "Carlos Mendes",
+        "accent": "BR",
+        "start": 60.05,
+        "end": 69.48,
+        "text": "What about the United States, Marcus? Sometimes it seems that American climate policy changes every time there is a presidential election."
+      },
+      {
+        "turnIdx": 5,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 69.93,
+        "end": 93.16,
+        "text": "You are absolutely right, Carlos. Under US constitutional rules, formal treaties require a two-thirds majority in the Senate, which is extremely difficult to achieve. So presidents often sign executive agreements instead, like the Paris Accord. But when a new president takes office, they can withdraw from or rejoin those agreements quickly."
+      },
+      {
+        "turnIdx": 6,
+        "speaker": "Carlos Mendes",
+        "accent": "BR",
+        "start": 93.61,
+        "end": 106.45,
+        "text": "That shows how domestic politics directly shapes foreign policy! A listener asks: 'Are resolutions passed by the UN General Assembly legally binding?' What is the legal fact?"
+      },
+      {
+        "turnIdx": 7,
+        "speaker": "Marcus Vance",
+        "accent": "UK",
+        "start": 106.9,
+        "end": 123.29,
+        "text": "The answer is false! UN General Assembly resolutions carry enormous moral authority, but they are recommendations. Only resolutions passed by the 15-member UN Security Council under Chapter VII are legally binding on all countries."
+      }
+    ]
+  }
+]
