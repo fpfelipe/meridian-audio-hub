@@ -1,0 +1,558 @@
+[
+  {
+    "id": "AUDIO_MOTORSPORT_D01_TRKA",
+    "dispatchId": "D01",
+    "dispatchNum": 1,
+    "title": "Inside the 1.9-Second Pit Stop",
+    "accent": "British English (RP / Motorsport Paddock)",
+    "rate": "-32%",
+    "durationSec": 42.19,
+    "words": 67,
+    "wpm": 95.3,
+    "lines": [
+      {
+        "speaker": "Chief Mechanic",
+        "voice": "en-GB-RyanNeural",
+        "start": 0,
+        "end": 9.86,
+        "en": "Welcome to the pit lane. Today, twenty mechanics work on one car at the same time.",
+        "pt": "Bem-vindo ao pit lane. Hoje, vinte mecânicos trabalham em um carro ao mesmo tempo."
+      },
+      {
+        "speaker": "Trainee",
+        "voice": "en-GB-SoniaNeural",
+        "start": 10.21,
+        "end": 18.23,
+        "en": "Twenty people? That is very fast. How long does a pit stop take?",
+        "pt": "Vinte pessoas? Isso é muito rápido. Quanto tempo dura um pit stop?"
+      },
+      {
+        "speaker": "Chief Mechanic",
+        "voice": "en-GB-RyanNeural",
+        "start": 18.58,
+        "end": 28.32,
+        "en": "A great stop takes under two seconds. Sometimes it takes 1.9 seconds.",
+        "pt": "Uma ótima parada leva menos de dois segundos. Às vezes leva 1,9 segundo."
+      },
+      {
+        "speaker": "Trainee",
+        "voice": "en-GB-SoniaNeural",
+        "start": 28.67,
+        "end": 32.41,
+        "en": "What is my job at the front of the car?",
+        "pt": "Qual é o meu trabalho na frente do carro?"
+      },
+      {
+        "speaker": "Chief Mechanic",
+        "voice": "en-GB-RyanNeural",
+        "start": 32.76,
+        "end": 42.12,
+        "en": "Hold the front jack. Lift the car, wait for the green light, and drop it fast.",
+        "pt": "Segure o macaco dianteiro. Levante o carro, espere a luz verde e abaixe rápido."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D01_TRKB",
+    "dispatchId": "D01",
+    "dispatchNum": 1,
+    "title": "Tire Change Commands",
+    "accent": "International English (European Paddock)",
+    "rate": "-15%",
+    "durationSec": 34.66,
+    "words": 55,
+    "wpm": 95.2,
+    "lines": [
+      {
+        "speaker": "Coordinator",
+        "voice": "en-GB-RyanNeural",
+        "start": 0,
+        "end": 8.28,
+        "en": "Listen carefully. The car enters the pit box now. Ready on all four corners!",
+        "pt": "Ouçam com atenção. O carro entra no box agora. Prontos nos quatro cantos!"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "en-GB-RyanNeural",
+        "start": 8.63,
+        "end": 17.44,
+        "en": "Front jack up! Gunner, open the wheel nut. Carrier, pull the old tire off.",
+        "pt": "Macaco dianteiro acima! Operador de pistola, abra a porca da roda. Carregador, tire o pneu velho."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "en-GB-RyanNeural",
+        "start": 17.79,
+        "end": 25.76,
+        "en": "Push the new tire onto the axle. Do not hesitate. Tighten the nut now!",
+        "pt": "Empurre o pneu novo para o eixo. Não hesite. Aperte a porca agora!"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "en-GB-RyanNeural",
+        "start": 26.11,
+        "end": 34.61,
+        "en": "All four mechanics raise your hands. Green light is on. Go, go, go!",
+        "pt": "Todos os quatro mecânicos levantem as mãos. Luz verde acesa. Vai, vai, vai!"
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D02_TRKA",
+    "dispatchId": "D02",
+    "dispatchNum": 2,
+    "title": "Welcome to Woking",
+    "accent": "British English (Surrey / Southern UK)",
+    "rate": "-32%",
+    "durationSec": 43.44,
+    "words": 68,
+    "wpm": 93.9,
+    "lines": [
+      {
+        "speaker": "Guide",
+        "voice": "en-GB-SoniaNeural",
+        "start": 0,
+        "end": 9.6,
+        "en": "Welcome to the McLaren Technology Centre in Woking. Look at the bright papaya cars on the floor.",
+        "pt": "Bem-vindos ao McLaren Technology Centre em Woking. Olhem para os carros laranja-papaia brilhantes no salão."
+      },
+      {
+        "speaker": "Visitor",
+        "voice": "en-US-AndrewNeural",
+        "start": 9.95,
+        "end": 15.42,
+        "en": "That red and white car is famous! Is it Ayrton Senna's car?",
+        "pt": "Aquele carro vermelho e branco é famoso! É o carro de Ayrton Senna?"
+      },
+      {
+        "speaker": "Guide",
+        "voice": "en-GB-SoniaNeural",
+        "start": 15.77,
+        "end": 29.21,
+        "en": "Yes. Ayrton Senna is a three-time Formula 1 World Champion with McLaren: 1988, 1990, and 1991.",
+        "pt": "Sim. Ayrton Senna é tricampeão mundial de Fórmula 1 com a McLaren: 1988, 1990 e 1991."
+      },
+      {
+        "speaker": "Visitor",
+        "voice": "en-US-AndrewNeural",
+        "start": 29.56,
+        "end": 32.56,
+        "en": "Who drives the papaya cars today?",
+        "pt": "Quem pilota os carros papaia hoje?"
+      },
+      {
+        "speaker": "Guide",
+        "voice": "en-GB-SoniaNeural",
+        "start": 32.91,
+        "end": 43.37,
+        "en": "Lando Norris and Oscar Piastri drive for the team. Both drivers work closely with our engineers here.",
+        "pt": "Lando Norris e Oscar Piastri pilotam para a equipe. Ambos os pilotos trabalham de perto com nossos engenheiros aqui."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D02_TRKB",
+    "dispatchId": "D02",
+    "dispatchNum": 2,
+    "title": "Inside the Papaya Cockpit",
+    "accent": "Australian / British Paddock Mix",
+    "rate": "-32%",
+    "durationSec": 37.22,
+    "words": 62,
+    "wpm": 99.9,
+    "lines": [
+      {
+        "speaker": "Engineer",
+        "voice": "en-AU-WilliamNeural",
+        "start": 0,
+        "end": 9.38,
+        "en": "Sit inside the cockpit. The chassis is pure carbon fiber. It is light and very strong.",
+        "pt": "Sente-se dentro do cockpit. O chassi é pura fibra de carbono. Ele é leve e muito resistente."
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-AU-WilliamNeural",
+        "start": 9.73,
+        "end": 17.46,
+        "en": "With the driver inside, the car has a minimum weight of 798 kilograms.",
+        "pt": "Com o piloto dentro, o carro tem um peso mínimo de 798 quilogramas."
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-AU-WilliamNeural",
+        "start": 17.81,
+        "end": 26.88,
+        "en": "Look above your head. That curved bar is the titanium halo. It protects the driver.",
+        "pt": "Olhe acima da sua cabeça. Aquela barra curva é o halo de titânio. Ele protege o piloto."
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-AU-WilliamNeural",
+        "start": 27.23,
+        "end": 37.17,
+        "en": "Now hold the steering wheel. There are twenty-five colored buttons on this wheel for fuel, radio, and brakes.",
+        "pt": "Agora segure o volante. Há vinte e cinco botões coloridos neste volante para combustível, rádio e freios."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D03_TRKA",
+    "dispatchId": "D03",
+    "dispatchNum": 3,
+    "title": "Three Iconic Circuits",
+    "accent": "American & British Broadcast Duo",
+    "rate": "-32%",
+    "durationSec": 41.57,
+    "words": 67,
+    "wpm": 96.7,
+    "lines": [
+      {
+        "speaker": "Commentator 1",
+        "voice": "en-US-AndrewNeural",
+        "start": 0,
+        "end": 12.1,
+        "en": "This season takes us to three classic tracks: Interlagos in São Paulo, Silverstone in England, and Austin in Texas.",
+        "pt": "Esta temporada nos leva a três pistas clássicas: Interlagos em São Paulo, Silverstone na Inglaterra e Austin no Texas."
+      },
+      {
+        "speaker": "Commentator 2",
+        "voice": "en-GB-SoniaNeural",
+        "start": 12.45,
+        "end": 23.75,
+        "en": "At Interlagos, the track runs counter-clockwise. The Senna S corner drops down fast after the main straight.",
+        "pt": "Em Interlagos, a pista gira no sentido anti-horário. A curva S do Senna desce rápido depois da reta principal."
+      },
+      {
+        "speaker": "Commentator 1",
+        "voice": "en-US-AndrewNeural",
+        "start": 24.1,
+        "end": 32.91,
+        "en": "Silverstone is very fast, too. The wind and rain often change the grip in seconds.",
+        "pt": "Silverstone também é muito rápida. O vento e a chuva frequentemente mudam a aderência em segundos."
+      },
+      {
+        "speaker": "Commentator 2",
+        "voice": "en-GB-SoniaNeural",
+        "start": 33.26,
+        "end": 41.52,
+        "en": "And in Austin, the steep hill before Turn 1 gives drivers a dramatic start every Sunday.",
+        "pt": "E em Austin, a subida íngreme antes da Curva 1 dá aos pilotos uma largada dramática todo domingo."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D03_TRKB",
+    "dispatchId": "D03",
+    "dispatchNum": 3,
+    "title": "Weather on the Track",
+    "accent": "British English",
+    "rate": "-32%",
+    "durationSec": 33.89,
+    "words": 52,
+    "wpm": 92.1,
+    "lines": [
+      {
+        "speaker": "Officer",
+        "voice": "en-GB-SoniaNeural",
+        "start": 0,
+        "end": 9.29,
+        "en": "Good afternoon from São Paulo. Dark clouds sit behind the grandstand at Interlagos.",
+        "pt": "Boa tarde de São Paulo. Nuvens escuras ficam atrás da arquibancada em Interlagos."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "en-GB-SoniaNeural",
+        "start": 9.64,
+        "end": 18.52,
+        "en": "The air temperature is twenty-two degrees Celsius, and the track surface is thirty-five degrees.",
+        "pt": "A temperatura do ar é vinte e dois graus Celsius, e a superfície da pista está a trinta e cinco graus."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "en-GB-SoniaNeural",
+        "start": 18.87,
+        "end": 26,
+        "en": "Light rain starts at Turn 4, while Turn 12 stays completely dry.",
+        "pt": "Chuva leve começa na Curva 4, enquanto a Curva 12 continua completamente seca."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "en-GB-SoniaNeural",
+        "start": 26.35,
+        "end": 33.84,
+        "en": "Drivers cannot push at 100 percent on slick tires in these wet corners.",
+        "pt": "Os pilotos não podem acelerar a 100 por cento com pneus slick nessas curvas molhadas."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D04_TRKA",
+    "dispatchId": "D04",
+    "dispatchNum": 4,
+    "title": "The Wingless Hypercar",
+    "accent": "French-accented English & British English",
+    "rate": "-28%",
+    "durationSec": 36.02,
+    "words": 57,
+    "wpm": 94.9,
+    "lines": [
+      {
+        "speaker": "Journalist",
+        "voice": "en-US-AriaNeural",
+        "start": 0,
+        "end": 7.66,
+        "en": "Look at the Peugeot 9X8 Hypercar. Where is the big rear wing?",
+        "pt": "Olhe para o hipercarro Peugeot 9X8. Onde está a grande asa traseira?"
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-GB-RyanNeural",
+        "start": 8.01,
+        "end": 18.28,
+        "en": "This car uses radical wingless ground-effect aerodynamics. Air flows fast under the flat floor.",
+        "pt": "Este carro usa aerodinâmica radical sem asa com efeito solo. O ar flui rápido sob o assoalho plano."
+      },
+      {
+        "speaker": "Journalist",
+        "voice": "en-US-AriaNeural",
+        "start": 18.63,
+        "end": 24.44,
+        "en": "Where does Team Peugeot TotalEnergies race this hypercar?",
+        "pt": "Onde a Team Peugeot TotalEnergies corre com este hipercarro?"
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-GB-RyanNeural",
+        "start": 24.79,
+        "end": 35.97,
+        "en": "We race in the World Endurance Championship, including the 24 Hours of Le Mans and the 6 Hours of São Paulo at Interlagos.",
+        "pt": "Nós corremos no Campeonato Mundial de Endurance, incluindo as 24 Horas de Le Mans e as 6 Horas de São Paulo em Interlagos."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D04_TRKB",
+    "dispatchId": "D04",
+    "dispatchNum": 4,
+    "title": "Three Drivers, One Car",
+    "accent": "International English",
+    "rate": "-32%",
+    "durationSec": 37.13,
+    "words": 57,
+    "wpm": 92.1,
+    "lines": [
+      {
+        "speaker": "Strategist",
+        "voice": "en-US-AriaNeural",
+        "start": 0,
+        "end": 8.4,
+        "en": "In endurance racing, three drivers share one car through day, night, and rain.",
+        "pt": "Nas corridas de endurance, três pilotos compartilham um carro durante o dia, a noite e a chuva."
+      },
+      {
+        "speaker": "Strategist",
+        "voice": "en-US-AriaNeural",
+        "start": 8.75,
+        "end": 18.66,
+        "en": "Inside the Peugeot 9X8, there is a 2.6-liter V6 biturbo engine at the rear.",
+        "pt": "Dentro do Peugeot 9X8, há um motor V6 biturbo de 2,6 litros na traseira."
+      },
+      {
+        "speaker": "Strategist",
+        "voice": "en-US-AriaNeural",
+        "start": 19.01,
+        "end": 27.99,
+        "en": "There is also an electric motor at the front. Together, they create all-wheel drive.",
+        "pt": "Há também um motor elétrico na frente. Juntos, eles criam tração integral nas quatro rodas."
+      },
+      {
+        "speaker": "Strategist",
+        "voice": "en-US-AriaNeural",
+        "start": 28.34,
+        "end": 37.08,
+        "en": "At 3:00 a.m. in Le Mans, one driver rests while another driver pushes through the dark.",
+        "pt": "Às 3h da manhã em Le Mans, um piloto descansa enquanto outro piloto acelera na escuridão."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D05_TRKA",
+    "dispatchId": "D05",
+    "dispatchNum": 5,
+    "title": "Pit-Wall Radio Live",
+    "accent": "British English",
+    "rate": "-17%",
+    "durationSec": 30.38,
+    "words": 48,
+    "wpm": 94.8,
+    "lines": [
+      {
+        "speaker": "Engineer",
+        "voice": "en-GB-RyanNeural",
+        "start": 0,
+        "end": 8.52,
+        "en": "Radio check. We see a small gap behind the leader. Confirm Plan B.",
+        "pt": "Teste de rádio. Vemos uma pequena diferença atrás do líder. Confirme o Plano B."
+      },
+      {
+        "speaker": "Driver",
+        "voice": "en-GB-ThomasNeural",
+        "start": 8.87,
+        "end": 14.85,
+        "en": "Copy, Plan B. How are my lap times right now?",
+        "pt": "Copiado, Plano B. Como estão meus tempos de volta agora?"
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-GB-RyanNeural",
+        "start": 15.2,
+        "end": 23.24,
+        "en": "Delta is positive by two tenths. Push hard for two more laps, then box this lap.",
+        "pt": "O delta está positivo em dois décimos. Force forte por mais duas voltas, depois entre nos boxes nesta volta."
+      },
+      {
+        "speaker": "Driver",
+        "voice": "en-GB-ThomasNeural",
+        "start": 23.59,
+        "end": 30.33,
+        "en": "Understood. Tires feel good. I am ready to box.",
+        "pt": "Entendido. Os pneus parecem bons. Estou pronto para entrar nos boxes."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D05_TRKB",
+    "dispatchId": "D05",
+    "dispatchNum": 5,
+    "title": "Save Fuel, Stay Out",
+    "accent": "American English",
+    "rate": "-39%",
+    "durationSec": 36.96,
+    "words": 59,
+    "wpm": 95.8,
+    "lines": [
+      {
+        "speaker": "Engineer",
+        "voice": "en-US-AndrewNeural",
+        "start": 0,
+        "end": 7.39,
+        "en": "Look at the fuel sensor on your dash. Fuel is tight for the last ten laps.",
+        "pt": "Olhe para o sensor de combustível no seu painel. O combustível está apertado para as últimas dez voltas."
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-US-AndrewNeural",
+        "start": 7.74,
+        "end": 16.57,
+        "en": "Stay out on track. Do not pit. Lift and coast before Turn 1 and Turn 4.",
+        "pt": "Fique na pista. Não entre nos boxes. Tire o pé e deixe rolar antes da Curva 1 e da Curva 4."
+      },
+      {
+        "speaker": "Driver",
+        "voice": "en-US-AriaNeural",
+        "start": 16.92,
+        "end": 27.62,
+        "en": "Copy. Lift and coast. Can I use full power on the main straight?",
+        "pt": "Copiado. Tirar o pé e deixar rolar. Posso usar potência máxima na reta principal?"
+      },
+      {
+        "speaker": "Engineer",
+        "voice": "en-US-AndrewNeural",
+        "start": 27.97,
+        "end": 36.9,
+        "en": "Yes, use full power after the apex, then save energy before the braking zone.",
+        "pt": "Sim, use potência máxima depois do ápice e depois economize energia antes da zona de frenagem."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D06_TRKA",
+    "dispatchId": "D06",
+    "dispatchNum": 6,
+    "title": "The Six Race Flags",
+    "accent": "British English",
+    "rate": "-32%",
+    "durationSec": 41.33,
+    "words": 64,
+    "wpm": 92.9,
+    "lines": [
+      {
+        "speaker": "Marshal",
+        "voice": "en-GB-RyanNeural",
+        "start": 0,
+        "end": 10.9,
+        "en": "Every marshal on the track knows six essential flags. First, the green flag means the track is clear.",
+        "pt": "Todo fiscal na pista conhece seis bandeiras essenciais. Primeiro, a bandeira verde significa que a pista está livre."
+      },
+      {
+        "speaker": "Marshal",
+        "voice": "en-GB-RyanNeural",
+        "start": 11.25,
+        "end": 20.23,
+        "en": "A yellow flag warns of danger ahead. Drivers slow down and cannot overtake.",
+        "pt": "Uma bandeira amarela alerta para perigo à frente. Os pilotos reduzem e não podem ultrapassar."
+      },
+      {
+        "speaker": "Marshal",
+        "voice": "en-GB-RyanNeural",
+        "start": 20.58,
+        "end": 29.32,
+        "en": "A red flag stops the session immediately. Everyone returns to the pit lane.",
+        "pt": "Uma bandeira vermelha para a sessão imediatamente. Todos retornam ao pit lane."
+      },
+      {
+        "speaker": "Marshal",
+        "voice": "en-GB-RyanNeural",
+        "start": 29.67,
+        "end": 41.29,
+        "en": "Blue tells a slow car to let a faster car pass. Black disqualifies a car, and checkered ends the race.",
+        "pt": "Azul diz a um carro lento para deixar um mais rápido passar. Preta desclassifica um carro, e quadriculada encerra a corrida."
+      }
+    ]
+  },
+  {
+    "id": "AUDIO_MOTORSPORT_D06_TRKB",
+    "dispatchId": "D06",
+    "dispatchNum": 6,
+    "title": "Sunday Podium Protocol",
+    "accent": "International English",
+    "rate": "-32%",
+    "durationSec": 31.25,
+    "words": 48,
+    "wpm": 92.2,
+    "lines": [
+      {
+        "speaker": "Coordinator",
+        "voice": "en-US-AriaNeural",
+        "start": 0,
+        "end": 8.18,
+        "en": "The checkered flag waves! All finishers drive slowly to parc fermé.",
+        "pt": "A bandeira quadriculada tremula! Todos os que terminam dirigem devagar até o parque fechado."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "en-US-AriaNeural",
+        "start": 8.53,
+        "end": 16.83,
+        "en": "The top three drivers park behind the P1, P2, and P3 boards.",
+        "pt": "Os três primeiros pilotos estacionam atrás das placas P1, P2 e P3."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "en-US-AriaNeural",
+        "start": 17.18,
+        "end": 22.84,
+        "en": "Step onto the scales first for the official weight check.",
+        "pt": "Subam na balança primeiro para a verificação oficial de peso."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "en-US-AriaNeural",
+        "start": 23.19,
+        "end": 31.18,
+        "en": "Then walk up to the podium, hear the national anthem, and celebrate with the crowd!",
+        "pt": "Depois subam ao pódio, ouçam o hino nacional e celebrem com a torcida!"
+      }
+    ]
+  }
+]
